@@ -1,0 +1,17 @@
+{% extends 'viewcourse/base.html' %}
+
+{% block content %}
+    <div class="row">
+      <div class="col m6">
+
+        <h5>Course Detail:</h5>
+        <p style="padding-top:5px;"></p>
+        <div class="detail">
+          <p>{{ detail.subject }}</p>
+          <p>{{ detail.courseid }}</p>
+          <p>Professor: {{ detail.prof }}</p>
+          <p>Average Grade: {{ detail.grade }}</p>
+        </div>
+      </div>
+    </div>
+{% endblock content %}

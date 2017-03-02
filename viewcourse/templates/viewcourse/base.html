@@ -1,0 +1,50 @@
+<html>
+<head>
+<!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css using the same CDN as index.html-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <nav class="purple darken-3">
+    <div class="nav-wrapper container">
+      <a href="http://127.0.0.1:8000/" class="brand-logo">View Courses</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="container" style="margin-top:40px;">
+        {% block content %}
+        {% endblock %}
+  </div>
+
+
+
+  <footer class="page-footer purple darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Course Review Web Application</h5>
+              <p class="grey-text text-lighten-4"></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          WJDD
+          </div>
+        </div>
+  </footer>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+    $(".button-collapse").sideNav();
+  });
+</script>
+</html>
