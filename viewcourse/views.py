@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 from .models import addcourse
-from .forms import PostForm
+from .forms import PostForm, CommentForm
 from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
@@ -23,6 +23,20 @@ def course_new(request):
     else:
         form = PostForm()
     return render(request, 'viewcourse/post_edit.html', {'form': form})
+
+def comment_new(request, pk):
+    post = get_object_or_404(addcourse, pk=pk)
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.published_date = timezone.now()
+            comment.save()
+            return redirect('viewcourse/course_detail', pk=post.pk)
+    else:
+        form = CommentForm()
+    return render(request, 'viewcourse/new_comment.html', {'form': form})
 
 def deliver(request):
     dada = "dadada"

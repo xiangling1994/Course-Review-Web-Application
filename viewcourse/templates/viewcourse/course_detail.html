@@ -11,8 +11,6 @@
           <p>{{ detail.courseid }}</p>
           <p>Professor: {{ detail.prof }}</p>
           <p>Average Grade: {{ detail.grade }}</p>
-
-
         </div>
       </div>
       <div class="col m6">
@@ -23,11 +21,13 @@
           <div class="date">{{ comment.published_date }}</div>
           <strong>{{ comment.user }}</strong>
           <p>{{ comment.commenttext|linebreaks }}</p>
+          <hr>
         </div>
         {% empty %}
         <p>No comments here yet :(</p>
         <p style="padding-top:5px;"></p>
         {% endfor %}
+        <a class="btn btn-default" href="{% url 'comment_new' pk=detail.pk %}">Add comment</a>
       </div>
     </div>
 {% endblock content %}
