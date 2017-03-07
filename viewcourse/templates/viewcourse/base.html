@@ -1,3 +1,5 @@
+{% load static %}
+
 <html>
 <head>
 <!--Import Google Icon Font-->
@@ -11,7 +13,7 @@
 <body>
   <nav class="purple darken-3">
     <div class="nav-wrapper container">
-      <a href="http://127.0.0.1:8000/" class="brand-logo">View Courses</a>
+      <a href="{% url 'course_list' %}" class="brand-logo">View Courses</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
@@ -33,7 +35,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          WJDD
+          CR
           </div>
         </div>
   </footer>

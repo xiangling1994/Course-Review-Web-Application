@@ -25,5 +25,5 @@ def course_new(request):
     return render(request, 'viewcourse/post_edit.html', {'form': form})
 
 def deliver(request):
-    string = "dadada"
-    return render(request, 'viewcourse/course_list.html', {'string': string})
+    dada = "dadada"
+    return render(request, 'viewcourse/course_list.html', {'dada': dada,})

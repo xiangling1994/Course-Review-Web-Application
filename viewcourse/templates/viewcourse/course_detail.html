@@ -11,7 +11,23 @@
           <p>{{ detail.courseid }}</p>
           <p>Professor: {{ detail.prof }}</p>
           <p>Average Grade: {{ detail.grade }}</p>
+
+
         </div>
+      </div>
+      <div class="col m6">
+        <h5>Comments: </h5>
+        <p style="padding-top:5px;"></p>
+        {% for comment in detail.comments.all %}
+        <div class="comment">
+          <div class="date">{{ comment.published_date }}</div>
+          <strong>{{ comment.user }}</strong>
+          <p>{{ comment.commenttext|linebreaks }}</p>
+        </div>
+        {% empty %}
+        <p>No comments here yet :(</p>
+        <p style="padding-top:5px;"></p>
+        {% endfor %}
       </div>
     </div>
 {% endblock content %}

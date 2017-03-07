@@ -5,13 +5,14 @@
       <div class="col m6">
 
         <h5>Course List:</h5>
-        <p style="padding-top:5px;">   </p>
+        <p style="padding-top:5px;"></p>
         {% for add in adds %}
           <!--<p>Subject: {{ addcourse.subject }}</p>-->
           <p><a href="{% url 'course_detail' pk=add.pk %}">{{ add.courseid }}</a></p>
         {% endfor %}
       </div>
       <div class="col m6">
+        <p>{{ dada }}</p>
         <p style="padding-top:5px;"></p>
         <a href="{% url 'course_new' %}" class="waves-effect waves-light btn">Add Course</a>
         <p>{{ string }}</p>
