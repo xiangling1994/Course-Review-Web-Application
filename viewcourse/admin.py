@@ -5,7 +5,7 @@ from .models import addcourse, comment, professor
 class CommentInline(admin.TabularInline):
     model = comment
     extra = 1
-	
+
 class ProfessorInline(admin.TabularInline):
     model = professor
     extra = 1
@@ -14,7 +14,6 @@ class CourseAdmin(admin.ModelAdmin):
     fieldsets = [
         (None, {'fields': ['subject']}),
         (None, {'fields': ['courseid']}),
-        (None, {'fields': ['prof']}),
         (None, {'fields': ['grade']}),
 
     ]
@@ -23,6 +22,6 @@ class CourseAdmin(admin.ModelAdmin):
     list_filter = ['courseid']
     ordering = ('courseid',)
     search_fields = ['courseid']
-	
+
 
 admin.site.register(addcourse, CourseAdmin)

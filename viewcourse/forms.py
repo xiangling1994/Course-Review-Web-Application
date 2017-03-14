@@ -6,7 +6,7 @@ class PostForm(forms.ModelForm):
 
     class Meta:
         model = addcourse
-        fields = ('subject', 'courseid','prof', 'grade')
+        fields = ('subject', 'courseid', 'grade')
 
 class CommentForm(forms.ModelForm):
 

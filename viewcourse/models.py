@@ -3,7 +3,6 @@ from django.db import models
 class addcourse(models.Model):
     subject = models.CharField(max_length=30)
     courseid = models.CharField(max_length=10)
-    prof = models.CharField(max_length=20)
     grade = models.CharField(max_length=10)
 
     def publish(self):
@@ -25,7 +24,7 @@ class comment(models.Model):
 
     def __str__(self):
         return self.user
-		
+
 
 class professor(models.Model):
     course = models.ForeignKey(addcourse, related_name='professors')
@@ -35,4 +34,3 @@ class professor(models.Model):
         self.save()
     def __str__(self):
         return self.full_name
-    
