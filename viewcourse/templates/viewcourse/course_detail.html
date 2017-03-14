@@ -30,4 +30,33 @@
         <a class="btn btn-default" href="{% url 'comment_new' pk=detail.pk %}">Add comment</a>
       </div>
     </div>
+	<div class="row" style="margin-top:100px;">
+		<div class="col m6">
+
+        <h5>Professors:</h5>
+        <p style="padding-top:5px;"></p>
+		{% for professor in detail.professors.all %}
+        <div class="detail">
+          <p>{{ professor.full_name }}</p>
+        </div>
+		{% empty %}
+		<p>The list of professors is unknown :(</p>
+        <p style="padding-top:5px;"></p>
+        {% endfor %}
+      </div>
+	  
+	  <div class="col m6">
+
+        <h5>Rating:</h5>
+        <p style="padding-top:5px;"></p>
+		{% for professor in detail.professors.all %}
+        <div class="detail">
+          <p>{{ professor.rating }}</p>
+        </div>
+		{% empty %}
+		<p>The list of ratings is unknown :(</p>
+        <p style="padding-top:5px;"></p>
+        {% endfor %}
+      </div>
+	</div>
 {% endblock content %}

@@ -22,8 +22,8 @@ class Migration(migrations.Migration):
                 ('commenttext', models.CharField(max_length=200)),
                 ('course', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='viewcourse.addcourse')),
             ],
-            options={
-                'indexes': [],
-            },
+            #options={
+            #    'indexes': [],
+            #},
         ),
     ]

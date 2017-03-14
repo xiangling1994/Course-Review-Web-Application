@@ -25,3 +25,14 @@ class comment(models.Model):
 
     def __str__(self):
         return self.user
+		
+
+class professor(models.Model):
+    course = models.ForeignKey(addcourse, related_name='professors')
+    full_name = models.CharField(max_length=20)
+    rating = models.DecimalField(max_digits=3, decimal_places=2)
+    def publish(self):
+        self.save()
+    def __str__(self):
+        return self.full_name
+    
