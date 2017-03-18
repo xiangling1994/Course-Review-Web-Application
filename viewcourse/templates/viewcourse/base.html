@@ -1,4 +1,4 @@
-{% load static %}
+{% load staticfiles %}
 
 <html>
 <head>
@@ -6,21 +6,25 @@
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css using the same CDN as index.html-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  <!--<link rel="stylesheet" type="text/css" href="assets/style.css"/>-->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+  <header>
   <nav class="purple darken-3">
     <div class="nav-wrapper container">
       <a href="{% url 'course_list' %}" class="brand-logo">View Courses</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <!--<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>-->
     </div>
   </nav>
+</header>
+<main>
   <div class="container" style="margin-top:40px;">
         {% block content %}
         {% endblock %}
   </div>
+</main>
 
 
 
@@ -35,7 +39,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          CR
+          {{username}}
           </div>
         </div>
   </footer>

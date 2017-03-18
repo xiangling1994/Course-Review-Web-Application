@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import addcourse, comment
+from .models import addcourse, comment, user
 
 class PostForm(forms.ModelForm):
 
@@ -12,4 +12,10 @@ class CommentForm(forms.ModelForm):
 
     class Meta:
         model = comment
-        fields = ('user', 'commenttext')
+        fields = ('commenttext',)
+
+class UserForm(forms.ModelForm):
+
+    class Meta:
+        model = user
+        fields = ('username', 'password')

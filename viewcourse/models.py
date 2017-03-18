@@ -13,8 +13,7 @@ class addcourse(models.Model):
 
 class comment(models.Model):
     course = models.ForeignKey(addcourse, related_name='comments')
-    published_date = models.DateTimeField(
-            blank=True, null=True)
+    published_date = models.DateTimeField(blank=True, null=True)
     user = models.CharField(max_length=30)
     commenttext = models.TextField(max_length=200)
 
@@ -30,7 +29,16 @@ class professor(models.Model):
     course = models.ForeignKey(addcourse, related_name='professors')
     full_name = models.CharField(max_length=20)
     rating = models.DecimalField(max_digits=3, decimal_places=2)
+
     def publish(self):
         self.save()
     def __str__(self):
         return self.full_name
+
+
+class user(models.Model):
+    username = models.CharField(max_length=20)
+    password = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.username

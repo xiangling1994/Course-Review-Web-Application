@@ -1,0 +1,16 @@
+{% extends 'viewcourse/base.html' %}
+
+{% block content %}
+    <div class="row">
+      <div class="col m6">
+
+        <h5>Personal Information</h5>
+        <p style="padding-top:5px;"></p>
+        <h5>Welcome {{username}} !</h5>
+        <p style="padding-top:5px;"></p>
+        <a href="{% url 'course_list' %}" class="waves-effect waves-light btn">Home page</a>
+        <p style="padding-top:5px;"></p>
+        <a href="{% url 'logout' %}" class="waves-effect waves-light btn">Log out</a>
+      </div>
+    </div>
+{% endblock content %}
