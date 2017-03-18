@@ -1,10 +1,13 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
+
 from .models import addcourse, comment, user
 from .forms import PostForm, CommentForm, UserForm
 from django.shortcuts import render, get_object_or_404
 from datetime import timedelta as tdelta
 from django.utils import timezone
+
+
 
 # Create your views here.
 def course_list(request):
@@ -49,10 +52,10 @@ def regist(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
-            #获得表单数据
+            #get form data
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
-            #添加到数据库
+            #add them to the database
             user.objects.create(username= username, password=password)
             response = redirect('course_list')
             response.set_cookie('username',username,3600)
@@ -66,19 +69,19 @@ def login(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
-            #获取表单用户密码
+            #retrieve data
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
-            #获取的表单数据与数据库进行比较
+            #compare with forms
             u = user.objects.filter(username__exact = username, password__exact = password)
             if u:
-                #比较成功，跳转index
+                #success
                 response = redirect('index')
-                #将username写入浏览器cookie,失效时间为3600
+                #add cookie
                 response.set_cookie('username',username,3600)
                 return response
             else:
-                #比较失败，还在login
+                #fail
                 return redirect('login')
     else:
         form = UserForm()
@@ -92,7 +95,7 @@ def index(request):
 
 def logout(request):
     response = redirect('login')
-    #清理cookie里保存username
+    #clear cookie
     response.delete_cookie('username')
     return response
 
