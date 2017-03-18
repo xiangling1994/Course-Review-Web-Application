@@ -9,15 +9,23 @@
   <!--<link rel="stylesheet" type="text/css" href="assets/style.css"/>-->
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 </head>
 <body>
   <nav class="purple darken-3">
     <div class="nav-wrapper container">
       <a href="{% url 'course_list' %}" class="brand-logo">View Courses</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>{% if user.is_authenticated %}
+                            Hello, {{ user.username }}.
+                            {%  else %}Hi, Anonymous{% endif %}</li>
+            {% if user.is_authenticated %}<li><a href="#">Profile</a></li>
+            {% else %}<li><a href="{%  url 'loginview' %}">LOG IN</a>{% endif %}
+        </ul>
     </div>
   </nav>
   <div class="container" style="margin-top:40px;">
+
         {% block content %}
         {% endblock %}
   </div>
@@ -35,7 +43,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          CR
+
           </div>
         </div>
   </footer>
@@ -48,5 +56,34 @@
     $('.modal').modal();
     $(".button-collapse").sideNav();
   });
+
+
+      document.getElementById('toggle-button').addEventListener('click', function () {
+    toggle(document.querySelectorAll('.target'));
+});
+
+function toggle (elements, specifiedDisplay) {
+  var element, index;
+
+  elements = elements.length ? elements : [elements];
+  for (index = 0; index < elements.length; index++) {
+    element = elements[index];
+
+    if (isElementHidden(element)) {
+      element.style.display = '';
+
+      // If the element is still hidden after removing the inline display
+      if (isElementHidden(element)) {
+        element.style.display = specifiedDisplay || 'block';
+      }
+    } else {
+
+      element.style.display = 'none';
+    }
+  }
+  function isElementHidden (element) {
+    return window.getComputedStyle(element, null).getPropertyValue('display') === 'none';
+  }
+}
 </script>
 </html>
