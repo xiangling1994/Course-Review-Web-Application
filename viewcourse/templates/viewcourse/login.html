@@ -1,17 +1,62 @@
 {% extends 'viewcourse/base.html' %}
 
 {% block content %}
-    <div class="row">
-      <div class="col m6">
+<div class="row">
+  <div class="col m4">
+  </div>
 
-        <h5>Login</h5>
+  <div class="col m4">
+    <p style="padding-top:50px;"></p>
+<ul class="collapsible popout" data-collapsible="accordion">
+   <li>
+     <div class="collapsible-header active center bold">Login</div>
+     <div class="collapsible-body">
+       <form method="POST" class="post-form center-align">
+       {% csrf_token %}
+       {{ form.as_p }}
+     <button type="submit" class="save btn btn-default">Submit</button>
+   </form>
+
+
+ <div class="center-btn">
+  <a href="{% url 'regist' %}" class="center waves-effect waves-light btn">Register</a>
+   </div>
+  </div>
+   </li>
+ </ul>
+   </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div class="row">
+      <h5 class = "center-align">Login</h5>
+      <div class="col m4">
+      </div>
+      <div class="col m4">
         <p style="padding-top:5px;"></p>
-          <form method="POST" class="post-form">
+
+          <form method="POST" class="post-form center-align">
             {% csrf_token %}
             {{ form.as_p }}
           <button type="submit" class="save btn btn-default">Submit</button>
         </form>
-        <a href="{% url 'regist' %}" class="waves-effect waves-light btn">Register</a>
+        <a href="{% url 'regist' %}" class="center-align waves-effect waves-light btn">Register</a>
       </div>
-    </div>
+
+    </div>-->
 {% endblock content %}

@@ -17,9 +17,11 @@ def course_list(request):
 
 def course_detail(request, pk):
     detail = get_object_or_404(addcourse, pk=pk)
-    return render(request, 'viewcourse/course_detail.html', {'detail':detail})
+    username = request.COOKIES.get('username','')
+    return render(request, 'viewcourse/course_detail.html', {'detail':detail, 'username':username})
 
 def course_new(request):
+    username = request.COOKIES.get('username','')
     if request.method == "POST":
         form = PostForm(request.POST)
         if form.is_valid():
@@ -28,7 +30,7 @@ def course_new(request):
             return redirect('course_detail', pk=post.pk)
     else:
         form = PostForm()
-    return render(request, 'viewcourse/post_edit.html', {'form': form})
+    return render(request, 'viewcourse/post_edit.html', {'form': form, 'username':username})
 
 def comment_new(request, pk):
     course = get_object_or_404(addcourse, pk=pk)
@@ -44,11 +46,12 @@ def comment_new(request, pk):
             return redirect('course_detail', pk=course.pk)
     else:
         form = CommentForm()
-    return render(request, 'viewcourse/new_comment.html', {'form': form})
+    return render(request, 'viewcourse/new_comment.html', {'form': form, 'username':username})
 
 
 
 def regist(request):
+    username = request.COOKIES.get('username','')
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
@@ -62,10 +65,11 @@ def regist(request):
             return response
     else:
         form = UserForm()
-    return render(request, 'viewcourse/regist.html',{'form':form})
+    return render(request, 'viewcourse/regist.html',{'form':form, 'username':username})
 
 
 def login(request):
+    username = request.COOKIES.get('username','')
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
@@ -85,7 +89,7 @@ def login(request):
                 return redirect('login')
     else:
         form = UserForm()
-    return render(request, 'viewcourse/login.html',{'form':form})
+    return render(request, 'viewcourse/login.html',{'form':form, 'username':username})
 
 
 def index(request):

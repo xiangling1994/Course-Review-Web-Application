@@ -14,7 +14,16 @@
   <header>
   <nav class="purple darken-3">
     <div class="nav-wrapper container">
-      <a href="{% url 'course_list' %}" class="brand-logo">View Courses</a>
+
+      <a href="{% url 'course_list' %}" class="brand-logo center">View Courses</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!--<a href="{% url 'index' %}" class="waves-effect waves-light btn">{{username}}</a>-->
+          {% if request.COOKIES.username %}
+          <li><a href="{% url 'index' %}">{{username}}</a></li>
+          {% else %}
+          <li><a href="{%  url 'login' %}">Log In</a></li>
+          {% endif  %}
+      </ul>
       <!--<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>-->
     </div>
   </nav>
@@ -39,7 +48,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          {{username}}
+
           </div>
         </div>
   </footer>
@@ -51,6 +60,15 @@
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
     $(".button-collapse").sideNav();
+
   });
+
+  $(document).ready(function(){
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+   });
+
+
+
+
 </script>
 </html>

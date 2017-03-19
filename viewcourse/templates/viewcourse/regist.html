@@ -1,16 +1,28 @@
 {% extends 'viewcourse/base.html' %}
 
 {% block content %}
-    <div class="row">
-      <div class="col m6">
+<div class="row">
+  <div class="col m4">
+  </div>
+  <div class="col m4">
+    <p style="padding-top:50px;"></p>
+    <ul class="collapsible popout" data-collapsible="accordion">
+       <li>
+         <div class="collapsible-header active center bold">Register</div>
+         <div class="collapsible-body">
+           <form method="POST" class="post-form center-align">
+           {% csrf_token %}
+           {{ form.as_p }}
+         <button type="submit" class="save btn btn-default">Submit</button>
+       </form>
 
-        <h5>Register</h5>
-        <p style="padding-top:5px;"></p>
-          <form method="POST" class="post-form">
-            {% csrf_token %}
-            {{ form.as_p }}
-          <button type="submit" class="save btn btn-default">Submit</button>
-        </form>
+
+     <div class="center-btn">
+       </div>
       </div>
-    </div>
+       </li>
+     </ul>
+
+</div>
+</div>
 {% endblock content %}
