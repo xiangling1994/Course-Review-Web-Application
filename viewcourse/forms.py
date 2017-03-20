@@ -1,5 +1,5 @@
 from django import forms
-
+from django.forms import CharField, Form, PasswordInput
 from .models import addcourse, comment, user
 
 class PostForm(forms.ModelForm):
@@ -15,7 +15,7 @@ class CommentForm(forms.ModelForm):
         fields = ('commenttext',)
 
 class UserForm(forms.ModelForm):
-
+    password = CharField(widget=PasswordInput())
     class Meta:
         model = user
         fields = ('username', 'password', 'email')
