@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 
 from .models import addcourse, comment, user
-from .forms import PostForm, CommentForm, UserForm
+from .forms import PostForm, CommentForm, UserForm, LoginForm
 from django.shortcuts import render, get_object_or_404
 from datetime import timedelta as tdelta
 from django.utils import timezone
@@ -71,7 +71,7 @@ def regist(request):
 def login(request):
     username = request.COOKIES.get('username','')
     if request.method == 'POST':
-        form = UserForm(request.POST)
+        form = LoginForm(request.POST)
         if form.is_valid():
             #retrieve data
             username = form.cleaned_data['username']
@@ -88,7 +88,7 @@ def login(request):
                 #fail
                 return redirect('login')
     else:
-        form = UserForm()
+        form = LoginForm()
     return render(request, 'viewcourse/login.html',{'form':form, 'username':username})
 
 
