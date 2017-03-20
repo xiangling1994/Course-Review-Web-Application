@@ -15,13 +15,14 @@ class CommentForm(forms.ModelForm):
         fields = ('commenttext',)
 
 class UserForm(forms.ModelForm):
-    password = CharField(widget=PasswordInput())
+
     class Meta:
         model = user
         fields = ('username', 'password', 'email')
 
 class LoginForm(forms.ModelForm):
-    #password = forms.CharField(widget=forms.PasswordInput())
+    
+    password = CharField(widget=PasswordInput())
     class Meta:
         model = user
         fields = ('username', 'password')
