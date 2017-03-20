@@ -58,8 +58,9 @@ def regist(request):
             #get form data
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
+            email = form.cleaned_data['email']
             #add them to the database
-            user.objects.create(username= username, password=password)
+            user.objects.create(username= username, password=password, email = email)
             response = redirect('course_list')
             response.set_cookie('username',username,3600)
             return response
