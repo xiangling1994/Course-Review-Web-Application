@@ -43,3 +43,16 @@ class user(models.Model):
 
     def __str__(self):
         return self.username
+    
+class ratingCriteria(models.Model):
+    course = models.ForeignKey(addcourse,null=True, related_name='criterias')
+    prof = models.ForeignKey(professor, related_name='Criteria_Professor')
+    helpfulness = models.DecimalField(max_digits=3, decimal_places=2)
+    clarity = models.DecimalField(max_digits=3, decimal_places=2)
+    easiness = models.DecimalField(max_digits=3, decimal_places=2)
+    textbook = models.DecimalField(max_digits=3, decimal_places=2)
+    
+    def publish(self):
+        self.save()
+        
+

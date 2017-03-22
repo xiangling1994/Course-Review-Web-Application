@@ -43,7 +43,7 @@
         <p style="padding-top:5px;"></p>
 		    {% for professor in detail.professors.all %}
         <div class="detail">
-          <p>{{ professor.full_name }}</p>
+            <p><a href="{% url 'rating' pk=detail.pk profid=professor.id %}">{{ professor.full_name }}</a></p>
         </div>
 		    {% empty %}
 		    <p>The list of professors is unknown :(</p>

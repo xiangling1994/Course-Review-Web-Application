@@ -7,7 +7,7 @@
         <h5>New comment</h5>
         <p style="padding-top:5px;"></p>
           <form method="POST" class="post-form">{% csrf_token %}
-            {{ form.as_p }}
+            {{ form }}
           <button type="submit" class="save btn btn-default">Send</button>
         </form>
       </div>
