@@ -28,7 +28,7 @@ class comment(models.Model):
 class professor(models.Model):
     course = models.ForeignKey(addcourse, related_name='professors')
     full_name = models.CharField(max_length=20)
-    rating = models.DecimalField(max_digits=3, decimal_places=2)
+    rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
 
     def publish(self):
         self.save()
@@ -43,3 +43,16 @@ class user(models.Model):
 
     def __str__(self):
         return self.username
+
+
+class ratingCriteria(models.Model):
+    course = models.ForeignKey(addcourse,null=True, related_name='criterias')
+    prof = models.ForeignKey(professor, related_name='Criteria_Professor')
+    helpfulness = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
+    clarity = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
+    easiness = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
+    textbook = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
+    ratetimes = models.IntegerField(default=0)
+
+    def publish(self):
+        self.save()

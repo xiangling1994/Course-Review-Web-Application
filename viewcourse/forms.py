@@ -21,8 +21,24 @@ class UserForm(forms.ModelForm):
         fields = ('username', 'password', 'email')
 
 class LoginForm(forms.ModelForm):
-    
+
     password = CharField(widget=PasswordInput())
     class Meta:
         model = user
         fields = ('username', 'password')
+
+class RatingFormHelpfulness(forms.Form):
+    CHOICES = (('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'))
+    rating_field_helpfulness = forms.ChoiceField(widget=forms.RadioSelect, choices=CHOICES)
+
+class RatingFormClarity(forms.Form):
+    CHOICES = (('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'))
+    rating_field_clarity = forms.ChoiceField(widget=forms.RadioSelect, choices=CHOICES)
+
+class RatingFormEasiness(forms.Form):
+    CHOICES = (('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'))
+    rating_field_easiness = forms.ChoiceField(widget=forms.RadioSelect, choices=CHOICES)
+
+class RatingFormTextbook(forms.Form):
+    CHOICES = (('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'))
+    rating_field_textbook = forms.ChoiceField(widget=forms.RadioSelect, choices=CHOICES)

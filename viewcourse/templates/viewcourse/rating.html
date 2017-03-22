@@ -1,0 +1,85 @@
+{% extends 'viewcourse/base.html' %}
+
+{% block content %}
+<div class="row">
+    {% for prof in current_professor.all %}
+       <h5>Rate this professor: {{ prof.full_name }}</h5>
+   {% endfor %}
+ <div class="col m6">
+   <p style="padding-top:5px;"></p>
+
+           <div class="detail">
+               <h6><strong>Helpfulness</strong></h6>
+               <h6><strong>Clarity</strong></h6>
+               <h6><strong>Easiness</strong></h6>
+               <h6><strong>Textbook Use</strong></h6>
+           </div>
+
+ </div>
+
+ <div class="col m6">
+
+      <p style="padding-top:5px;"></p>
+
+         <div class="detail">
+
+               <form method="POST" class="post-form">{% csrf_token %}
+
+       <span >
+           {% for radio in form_helpfulness.rating_field_helpfulness %}
+               {{ radio.tag }}
+               <label for="{{ radio.id_for_label }}">
+                   {{ radio.choice_label }}
+               </label>
+           {% endfor %}
+       </span><br/>
+
+       <span>
+           {% for radio in form_clarity.rating_field_clarity %}
+               {{ radio.tag }}
+               <label for="{{ radio.id_for_label }}">
+                   {{ radio.choice_label }}
+               </label>
+           {% endfor %}
+       </span><br/>
+
+       <span>
+           {% for radio in form_easiness.rating_field_easiness %}
+               {{ radio.tag }}
+               <label for="{{ radio.id_for_label }}">
+                   {{ radio.choice_label }}
+               </label>
+           {% endfor %}
+       </span><br/>
+
+       <span>
+           {% for radio in form_textbook.rating_field_textbook %}
+               {{ radio.tag }}
+               <label for="{{ radio.id_for_label }}">
+                   {{ radio.choice_label }}
+               </label>
+           {% endfor %}
+       </span><br/>
+
+     <br/>
+     {% if request.COOKIES.username %}
+     <button style="margin-left:70px;" type="submit" class="save btn btn-default">Rate!</button>
+     {% else %}
+     <a class="btn btn-default" href="{% url 'login' %}">Log In and Rate</a>
+     {% endif  %}
+   </form>
+
+          </div>
+
+  </div>
+             <!--<p>Subject: {{ addcourse.subject }}</p>-->
+             <div class="criterias">
+             <p>Average Helpfulness: {{ criteria.helpfulness }}</p>
+             <p>Average Clarity: {{ criteria.clarity }}</p>
+             <p>Average Easiness: {{ criteria.easiness }}</p>
+             <p>Average Textbook: {{ criteria.textbook }}</p>
+             <p>Times Rated: {{ criteria.ratetimes }}</p>
+              </div>
+
+ </div>
+{% endblock content %}
