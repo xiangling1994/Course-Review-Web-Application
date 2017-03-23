@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import addcourse, comment, professor, user, ratingCriteria
+from .models import addcourse, comment, professor, user
 # Register your models here.
 
 class CommentInline(admin.TabularInline):
@@ -10,10 +10,6 @@ class ProfessorInline(admin.TabularInline):
     model = professor
     extra = 1
 
-class CriteriaInline(admin.TabularInline):
-    model = ratingCriteria
-    extra = 1
-
 class CourseAdmin(admin.ModelAdmin):
     fieldsets = [
         (None, {'fields': ['subject']}),
@@ -21,7 +17,7 @@ class CourseAdmin(admin.ModelAdmin):
         (None, {'fields': ['grade']}),
 
     ]
-    inlines = [CommentInline, ProfessorInline, CriteriaInline]
+    inlines = [CommentInline, ProfessorInline]
     list_display = ('courseid', 'subject')
     list_filter = ['courseid']
     ordering = ('courseid',)

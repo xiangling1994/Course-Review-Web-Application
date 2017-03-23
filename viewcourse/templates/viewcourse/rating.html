@@ -2,9 +2,9 @@
 
 {% block content %}
 <div class="row">
-    {% for prof in current_professor.all %}
-       <h5>Rate this professor: {{ prof.full_name }}</h5>
-   {% endfor %}
+
+       <h5>Rate this professor: {{ current_professor.full_name }}</h5>
+
  <div class="col m6">
    <p style="padding-top:5px;"></p>
 
@@ -73,12 +73,12 @@
 
   </div>
              <!--<p>Subject: {{ addcourse.subject }}</p>-->
-             <div class="criterias">
-             <p>Average Helpfulness: {{ criteria.helpfulness }}</p>
-             <p>Average Clarity: {{ criteria.clarity }}</p>
-             <p>Average Easiness: {{ criteria.easiness }}</p>
-             <p>Average Textbook: {{ criteria.textbook }}</p>
-             <p>Times Rated: {{ criteria.ratetimes }}</p>
+             <div class="current_professor">
+             <p>Average Helpfulness: {{ current_professor.helpfulness }}</p>
+             <p>Average Clarity: {{ current_professor.clarity }}</p>
+             <p>Average Easiness: {{ current_professor.easiness }}</p>
+             <p>Average Textbook: {{ current_professor.textbook }}</p>
+             <p>Times Rated: {{ current_professor.ratetimes }}</p>
               </div>
 
  </div>
