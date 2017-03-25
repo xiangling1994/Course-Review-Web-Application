@@ -1,11 +1,11 @@
 from django import forms
 from django.forms import CharField, Form, PasswordInput
-from .models import addcourse, comment, user
+from .models import course, comment, account
 
 class PostForm(forms.ModelForm):
 
     class Meta:
-        model = addcourse
+        model = course
         fields = ('subject', 'courseid', 'grade')
 
 class CommentForm(forms.ModelForm):
@@ -14,17 +14,17 @@ class CommentForm(forms.ModelForm):
         model = comment
         fields = ('commenttext',)
 
-class UserForm(forms.ModelForm):
+class AccountForm(forms.ModelForm):
 
     class Meta:
-        model = user
+        model = account
         fields = ('username', 'password', 'email')
 
 class LoginForm(forms.ModelForm):
 
     password = CharField(widget=PasswordInput())
     class Meta:
-        model = user
+        model = account
         fields = ('username', 'password')
 
 class RatingFormHelpfulness(forms.Form):

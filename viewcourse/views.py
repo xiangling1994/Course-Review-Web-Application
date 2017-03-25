@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 
-from .models import addcourse, comment, user, professor
-from .forms import PostForm, CommentForm, UserForm, LoginForm, RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook
+from .models import course, comment, account, professor
+from .forms import PostForm, CommentForm, AccountForm, LoginForm, RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook
 from django.shortcuts import render, get_object_or_404
 from datetime import timedelta as tdelta
 from django.utils import timezone
@@ -11,12 +11,12 @@ from django.utils import timezone
 
 # Create your views here.
 def course_list(request):
-    adds = addcourse.objects.order_by('courseid')
+    courses = course.objects.order_by('courseid')
     username = request.COOKIES.get('username','')
-    return render(request, 'viewcourse/course_list.html', {'adds':adds, 'username':username})
+    return render(request, 'viewcourse/course_list.html', {'courses':courses, 'username':username})
 
 def course_detail(request, pk):
-    detail = get_object_or_404(addcourse, pk=pk)
+    detail = get_object_or_404(course, pk=pk)
     username = request.COOKIES.get('username','')
     return render(request, 'viewcourse/course_detail.html', {'detail':detail, 'username':username})
 
@@ -33,17 +33,17 @@ def course_new(request):
     return render(request, 'viewcourse/post_edit.html', {'form': form, 'username':username})
 
 def comment_new(request, pk):
-    course = get_object_or_404(addcourse, pk=pk)
+    c = get_object_or_404(course, pk=pk)
     username = request.COOKIES.get('username','')
     if request.method == "POST":
         form = CommentForm(request.POST)
         if form.is_valid():
             comment = form.save(commit=False)
-            comment.course = course
+            comment.course = c
             comment.user = username
             comment.published_date = timezone.now()
             comment.save()
-            return redirect('course_detail', pk=course.pk)
+            return redirect('course_detail', pk=c.pk)
     else:
         form = CommentForm()
     return render(request, 'viewcourse/new_comment.html', {'form': form, 'username':username})
@@ -51,9 +51,9 @@ def comment_new(request, pk):
 
 def rating(request, pk, profid):
     username = request.COOKIES.get('username','')
-    course = get_object_or_404(addcourse, pk=pk)
+    c = get_object_or_404(course, pk=pk)
     #course_id = course.courseid
-    current_professor = course.professors.all().filter(id=profid)
+    current_professor = c.professors.all().filter(id=profid)
 
     #retrieve current overall rating for the professor
     overall_rating_db = current_professor[0].rating
@@ -101,7 +101,7 @@ def rating(request, pk, profid):
             #save new overall rating value to the database
             professor.objects. filter(course=current_professor[0].course).update(rating=overall_rating_new)
 
-            return redirect('course_detail', pk=course.pk)
+            return redirect('course_detail', pk=c.pk)
     else:
         form_helpfulness = RatingFormHelpfulness()
         form_clarity = RatingFormClarity()
@@ -128,12 +128,12 @@ def regist(request):
             password = form.cleaned_data['password']
             email = form.cleaned_data['email']
             #add them to the database
-            user.objects.create(username= username, password=password, email = email)
+            account.objects.create(username= username, password=password, email = email)
             response = redirect('course_list')
             response.set_cookie('username',username,3600)
             return response
     else:
-        form = UserForm()
+        form = AccountForm()
     return render(request, 'viewcourse/regist.html',{'form':form, 'username':username})
 
 
@@ -146,8 +146,8 @@ def login(request):
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             #compare with forms
-            u = user.objects.filter(username__exact = username, password__exact = password)
-            if u:
+            a = account.objects.filter(username__exact = username, password__exact = password)
+            if a:
                 #success
                 response = redirect('index')
                 #add cookie

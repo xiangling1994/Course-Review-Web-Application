@@ -1,6 +1,7 @@
 from django.db import models
+import hashlib
 
-class addcourse(models.Model):
+class course(models.Model):
     subject = models.CharField(max_length=30)
     courseid = models.CharField(max_length=10)
     grade = models.CharField(max_length=10)
@@ -12,7 +13,7 @@ class addcourse(models.Model):
         return courseid
 
 class comment(models.Model):
-    course = models.ForeignKey(addcourse, related_name='comments')
+    course = models.ForeignKey(course, related_name='comments')
     published_date = models.DateTimeField(blank=True, null=True)
     user = models.CharField(max_length=30)
     commenttext = models.TextField(max_length=200)
@@ -26,7 +27,7 @@ class comment(models.Model):
 
 
 class professor(models.Model):
-    course = models.ForeignKey(addcourse, related_name='professors')
+    course = models.ForeignKey(course, related_name='professors')
     full_name = models.CharField(max_length=20)
     rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
     helpfulness = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
@@ -41,10 +42,27 @@ class professor(models.Model):
         return self.full_name
 
 
-class user(models.Model):
-    username = models.CharField(max_length=20)
+class account(models.Model):
+    username = models.CharField(max_length=20, unique=True)
     password = models.CharField(max_length=20)
-    email = models.EmailField(max_length=30, default='')
+    email = models.EmailField(max_length=30, default='', unique=True)
 
-    def __str__(self):
+    def __unicode__(self):
         return self.username
+
+ '''def hashed_password(self,password=None):
+        if not password:
+            return self.password
+        else:
+            #生成password的md5码，hexdigest()即为取得哈希码的16进制字符串
+            return hashlib.md5(password).hexdigest()
+
+    def is_authenticated(self):
+        return True
+
+    def check_password(self,password):
+        if self.hashed_password(password) == self.password:
+            return True
+        else:
+            return False
+'''

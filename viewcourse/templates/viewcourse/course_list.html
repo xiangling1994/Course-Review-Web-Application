@@ -6,9 +6,9 @@
 
         <h5>Course List:</h5>
         <p style="padding-top:5px;"></p>
-        {% for add in adds %}
+        {% for course in courses %}
           <!--<p>Subject: {{ addcourse.subject }}</p>-->
-          <p><a href="{% url 'course_detail' pk=add.pk %}">{{ add.courseid }}</a></p>
+          <p><a href="{% url 'course_detail' pk=course.pk %}">{{ course.courseid }}</a></p>
         {% endfor %}
       </div>
       <div class="col m6">
