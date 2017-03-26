@@ -62,7 +62,7 @@
        </span><br/>
 
      <br/>
-     {% if request.COOKIES.username %}
+     {% if request.session.account_un %}
      <button style="margin-left:70px;" type="submit" class="save btn btn-default">Rate!</button>
      {% else %}
      <a class="btn btn-default" href="{% url 'login' %}">Log In and Rate</a>

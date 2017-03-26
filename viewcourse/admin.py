@@ -17,7 +17,7 @@ class CourseAdmin(admin.ModelAdmin):
         (None, {'fields': ['grade']}),
 
     ]
-    inlines = [CommentInline, ProfessorInline]
+    inlines = [ProfessorInline, CommentInline]
     list_display = ('courseid', 'subject')
     list_filter = ['courseid']
     ordering = ('courseid',)

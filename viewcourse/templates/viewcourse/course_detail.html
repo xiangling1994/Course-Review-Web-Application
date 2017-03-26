@@ -27,7 +27,7 @@
         <p style="padding-top:5px;"></p>
         {% endfor %}
         <p style="padding-top:5px;"></p>
-        {% if request.COOKIES.username %}
+        {% if request.session.account_un %}
         <a class="btn btn-default" href="{% url 'comment_new' pk=detail.pk %}">Add comment</a>
         {% else %}
         <!--<li><a href="{%  url 'login' %}">Log In and Comment</a></li>-->

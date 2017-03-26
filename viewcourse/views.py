@@ -6,22 +6,20 @@ from .forms import PostForm, CommentForm, AccountForm, LoginForm, RatingFormHelp
 from django.shortcuts import render, get_object_or_404
 from datetime import timedelta as tdelta
 from django.utils import timezone
+from django.contrib.auth.hashers import make_password, check_password
 
 
 
 # Create your views here.
 def course_list(request):
     courses = course.objects.order_by('courseid')
-    username = request.COOKIES.get('username','')
-    return render(request, 'viewcourse/course_list.html', {'courses':courses, 'username':username})
+    return render(request, 'viewcourse/course_list.html', {'courses':courses})
 
 def course_detail(request, pk):
     detail = get_object_or_404(course, pk=pk)
-    username = request.COOKIES.get('username','')
-    return render(request, 'viewcourse/course_detail.html', {'detail':detail, 'username':username})
+    return render(request, 'viewcourse/course_detail.html', {'detail':detail})
 
 def course_new(request):
-    username = request.COOKIES.get('username','')
     if request.method == "POST":
         form = PostForm(request.POST)
         if form.is_valid():
@@ -30,11 +28,11 @@ def course_new(request):
             return redirect('course_detail', pk=post.pk)
     else:
         form = PostForm()
-    return render(request, 'viewcourse/post_edit.html', {'form': form, 'username':username})
+    return render(request, 'viewcourse/post_edit.html', {'form': form})
 
 def comment_new(request, pk):
     c = get_object_or_404(course, pk=pk)
-    username = request.COOKIES.get('username','')
+    username = request.session.get('account_un', None)
     if request.method == "POST":
         form = CommentForm(request.POST)
         if form.is_valid():
@@ -50,7 +48,6 @@ def comment_new(request, pk):
 
 
 def rating(request, pk, profid):
-    username = request.COOKIES.get('username','')
     c = get_object_or_404(course, pk=pk)
     #course_id = course.courseid
     current_professor = c.professors.all().filter(id=profid)
@@ -72,6 +69,16 @@ def rating(request, pk, profid):
         form_easiness = RatingFormEasiness(request.POST)
         form_textbook = RatingFormTextbook(request.POST)
         if form_helpfulness.is_valid() and form_clarity.is_valid() and form_easiness.is_valid() and form_textbook.is_valid():
+
+            #create a key for the user
+            username = request.session.get('account_un', None)
+            key = username + current_professor[0].course.courseid + current_professor[0].full_name
+            #check if the user voted before by searching sessions
+            voted = request.session.get(key, None)
+            if voted:
+                return redirect('course_detail', pk=c.pk)
+            else:
+                request.session[key] = 1
 
             #retrieve radio button selections
             rating_value_helpfulness = form_helpfulness.cleaned_data['rating_field_helpfulness']
@@ -113,32 +120,32 @@ def rating(request, pk, profid):
         'form_textbook':form_textbook,
         'form_easiness':form_easiness,
         'current_professor':current_professor[0],
-        'username':username
     }
     return render(request, 'viewcourse/rating.html', context)
 
 
 def regist(request):
-    username = request.COOKIES.get('username','')
     if request.method == 'POST':
-        form = UserForm(request.POST)
+        form = AccountForm(request.POST)
         if form.is_valid():
             #get form data
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             email = form.cleaned_data['email']
-            #add them to the database
-            account.objects.create(username= username, password=password, email = email)
+            #encrypt the password and add them to the database
+            password = make_password(password, None, 'pbkdf2_sha256')
+            new_account = account.objects.create(username= username, password=password, email = email)
             response = redirect('course_list')
             response.set_cookie('username',username,3600)
+            request.session['account_un'] = new_account.username
+            request.session['aid'] = new_account.id
             return response
     else:
         form = AccountForm()
-    return render(request, 'viewcourse/regist.html',{'form':form, 'username':username})
+    return render(request, 'viewcourse/regist.html',{'form':form})
 
 
 def login(request):
-    username = request.COOKIES.get('username','')
     if request.method == 'POST':
         form = LoginForm(request.POST)
         if form.is_valid():
@@ -146,33 +153,42 @@ def login(request):
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             #compare with forms
-            a = account.objects.filter(username__exact = username, password__exact = password)
+            a = account.objects.get(username=username)
             if a:
-                #success
-                response = redirect('index')
-                #add cookie
-                response.set_cookie('username',username,3600)
-                return response
+                passwd = a.password
+                b = check_password(password, passwd)
+                if b:
+                    #success
+                    response = redirect('course_list')
+                    #add cookie and session
+                    response.set_cookie('username',username,3600)
+                    request.session['account_un'] = a.username
+                    request.session['aid'] = a.id
+                    return response
+                else:
+                    #fail
+                    return redirect('login')
             else:
                 #fail
                 return redirect('login')
     else:
         form = LoginForm()
-    return render(request, 'viewcourse/login.html',{'form':form, 'username':username})
+    return render(request, 'viewcourse/login.html',{'form':form})
 
 
 def index(request):
-    username = request.COOKIES.get('username','')
-    return render(request, 'viewcourse/index.html' ,{'username':username})
+    aid = request.session.get('aid', None)
+    a = account.objects.get(id=aid)
+    return render(request, 'viewcourse/index.html' ,{'a':a})
 
 
 def logout(request):
     response = redirect('login')
-    #clear cookie
+    #clear cookie and session
     response.delete_cookie('username')
+    try:
+        del request.session['account_un']
+        del request.session['aid']
+    except KeyError:
+        pass
     return response
-
-
-def getCookie(request):
-    username = request.COOKIES.get('username', '')
-    return username

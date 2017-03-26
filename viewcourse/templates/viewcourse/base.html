@@ -18,8 +18,8 @@
       <a href="{% url 'course_list' %}" class="brand-logo center">View Courses</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
           <!--<a href="{% url 'index' %}" class="waves-effect waves-light btn">{{username}}</a>-->
-          {% if request.COOKIES.username %}
-          <li><a href="{% url 'index' %}">{{username}}</a></li>
+          {% if request.session.account_un %}
+          <li><a href="{% url 'index' %}">{{request.session.account_un}}</a></li>
           {% else %}
           <li><a href="{%  url 'login' %}">Log In</a></li>
           {% endif  %}
@@ -66,9 +66,6 @@
   $(document).ready(function(){
     $('.carousel.carousel-slider').carousel({fullWidth: true});
    });
-
-
-
-
+   
 </script>
 </html>
