@@ -153,8 +153,9 @@ def login(request):
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             #compare with forms
-            a = account.objects.get(username=username)
-            if a:
+            acc = account.objects.filter(username=username)
+            if acc:
+                a = acc[0]
                 passwd = a.password
                 b = check_password(password, passwd)
                 if b:
