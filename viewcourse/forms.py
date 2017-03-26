@@ -16,6 +16,7 @@ class CommentForm(forms.ModelForm):
 
 class AccountForm(forms.ModelForm):
 
+    password = CharField(widget=PasswordInput())
     class Meta:
         model = account
         fields = ('username', 'password', 'email')

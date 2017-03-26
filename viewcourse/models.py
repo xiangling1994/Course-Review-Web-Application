@@ -1,7 +1,7 @@
 from django.db import models
-import hashlib
 
 class course(models.Model):
+    university = models.CharField(max_length=30)
     subject = models.CharField(max_length=30)
     courseid = models.CharField(max_length=10)
     grade = models.CharField(max_length=10)
@@ -25,6 +25,7 @@ class professor(models.Model):
 
     def publish(self):
         self.save()
+
     def __str__(self):
         return self.full_name
 
@@ -46,7 +47,7 @@ class comment(models.Model):
 class account(models.Model):
     username = models.CharField(max_length=20)
     password = models.CharField(max_length=100)
-    email = models.EmailField(max_length=30, default='', unique=True)
+    email = models.EmailField(max_length=30, unique=True)
 
     def __str__(self):
         return self.username
