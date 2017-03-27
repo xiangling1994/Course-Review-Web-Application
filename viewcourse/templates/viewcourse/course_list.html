@@ -4,11 +4,19 @@
     <div class="row">
       <div class="col m6">
 
+
+    <form id="searchform"  method="get" accept-charset="utf-8">
+          <input class="searchfield" id="search_handle" name="search_handle" type="text" maxlength="100" placeholder="Enter a Course ID Number">
+        </i><button class="searchbutton" type="submit" name="action">
+            <i class="fa fa-search"></i>
+          Search</button>
+        </form>
+
         <h5>Course List:</h5>
-        <p style="padding-top:5px;"></p>
         {% for course in courses %}
-          <!--<p>Subject: {{ addcourse.subject }}</p>-->
-          <p><a href="{% url 'course_detail' pk=course.pk %}">{{ course.courseid }}</a></p>
+         <ul class="collection with-header">
+              <li class="collection-item"><div>{{ course.courseid }}<a href="{% url 'course_detail' pk=course.pk %}" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+         </ul>
         {% endfor %}
       </div>
       <div class="col m6">

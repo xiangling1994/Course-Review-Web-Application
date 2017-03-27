@@ -43,3 +43,7 @@ class RatingFormEasiness(forms.Form):
 class RatingFormTextbook(forms.Form):
     CHOICES = (('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'))
     rating_field_textbook = forms.ChoiceField(widget=forms.RadioSelect, choices=CHOICES)
+
+
+class SearchForm(forms.Form):
+    search_handle = forms.CharField(label='Search Handle', max_length=100)

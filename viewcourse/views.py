@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 
 from .models import course, comment, account, professor
-from .forms import PostForm, CommentForm, AccountForm, LoginForm, RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook
+from .forms import PostForm, CommentForm, AccountForm, LoginForm, RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook, SearchForm
 from django.shortcuts import render, get_object_or_404
 from datetime import timedelta as tdelta
 from django.utils import timezone
@@ -13,6 +13,19 @@ from django.contrib.auth.hashers import make_password, check_password
 # Create your views here.
 def course_list(request):
     courses = course.objects.order_by('courseid')
+    if request.method == 'GET':
+        render_search = SearchForm(request.GET)
+        if render_search.is_valid():
+            input = render_search.cleaned_data['search_handle']
+            input =input.lower()
+            courses  = course.objects.all()
+            displaycourse=[]
+            for x in courses:
+                if input in x.courseid.lower():
+                    displaycourse.append(x)
+            courses = displaycourse
+        else:
+            courses = course.objects.order_by('courseid')
     return render(request, 'viewcourse/course_list.html', {'courses':courses})
 
 def course_detail(request, pk):
