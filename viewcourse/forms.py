@@ -47,3 +47,6 @@ class RatingFormTextbook(forms.Form):
 
 class SearchForm(forms.Form):
     search_handle = forms.CharField(label='Search Handle', max_length=100)
+
+class DeleteForm(forms.Form):
+    delete_handle = forms.CharField(label='Delete Handle', max_length=100)

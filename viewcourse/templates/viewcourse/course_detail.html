@@ -17,10 +17,21 @@
         <h5>Comments: </h5>
         <p style="padding-top:5px;"></p>
         {% for comment in detail.comments.all %}
+
         <div class="comment">
           <div class="date">{{ comment.published_date }}</div>
           <strong>{{ comment.user }}</strong>
-          <p>{{ comment.commenttext|linebreaks }}</p>
+          <p>{{ comment.commenttext|linebreaks }}
+
+
+          {% if username == comment.user %}
+              <form action="" method="get">
+                 <p style="padding-top:0px;">
+                 <input id="delete_handle" type="hidden" name="delete_handle" maxlength="100" required value="{{ comment.id }}">
+                     <button  type="submit" name="action">delete</button></p>
+                    </form>
+            {% endif %}
+
           <hr>
         </div>
         {% empty %}
