@@ -32,15 +32,10 @@ def course_list(request):
 def course_detail(request, pk):
     username = request.session.get('account_un', None)
     detail = get_object_or_404(course, pk=pk)
-
     if request.method == 'GET':
-
         render_delete = DeleteForm(request.GET)
-
         if render_delete.is_valid():
-
             comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
-
     return render(request, 'viewcourse/course_detail.html', {'detail':detail, 'username': username})
 
 
@@ -160,8 +155,6 @@ def regist(request):
             #encrypt the password and add them to the database
             password = make_password(password, None, 'pbkdf2_sha256')
             new_account = account.objects.create(username= username, password=password, email = email)
-            print new_account
-
             response = redirect('course_list')
             response.set_cookie('username',username,3600)
             request.session['account_un'] = new_account.username
