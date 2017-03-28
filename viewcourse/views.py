@@ -30,13 +30,12 @@ def course_list(request):
 
 
 def course_detail(request, pk):
-    username = request.session.get('account_un', None)
     detail = get_object_or_404(course, pk=pk)
     if request.method == 'GET':
         render_delete = DeleteForm(request.GET)
         if render_delete.is_valid():
             comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
-    return render(request, 'viewcourse/course_detail.html', {'detail':detail, 'username': username})
+    return render(request, 'viewcourse/course_detail.html', {'detail':detail})
 
 
 def course_new(request):
@@ -50,9 +49,9 @@ def course_new(request):
         form = PostForm()
     return render(request, 'viewcourse/post_edit.html', {'form': form})
 
+
 def comment_new(request, pk):
     c = get_object_or_404(course, pk=pk)
-    username = request.session.get('account_un', None)
     if request.method == "POST":
         form = CommentForm(request.POST)
         if form.is_valid():
@@ -64,7 +63,7 @@ def comment_new(request, pk):
             return redirect('course_detail', pk=c.pk)
     else:
         form = CommentForm()
-    return render(request, 'viewcourse/new_comment.html', {'form': form, 'username':username})
+    return render(request, 'viewcourse/new_comment.html', {'form': form})
 
 
 def rating(request, pk, profid):
