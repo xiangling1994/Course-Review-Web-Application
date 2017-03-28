@@ -51,6 +51,7 @@ def course_new(request):
 
 
 def comment_new(request, pk):
+    username = request.session.get('account_un', None)
     c = get_object_or_404(course, pk=pk)
     if request.method == "POST":
         form = CommentForm(request.POST)
