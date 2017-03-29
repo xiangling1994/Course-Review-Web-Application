@@ -198,9 +198,19 @@ def login(request):
 
 
 def index(request):
+    user_comment = comment.objects.all()
+    username = request.session.get('account_un', None)
+    if request.method == 'GET':
+        render_delete = DeleteForm(request.GET)
+        if render_delete.is_valid():
+            comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
+    my_comments = []
+    for x in user_comment:
+        if x.user == username:
+            my_comments.append(x)
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
-    return render(request, 'viewcourse/index.html' ,{'a':a})
+    return render(request, 'viewcourse/index.html' ,{'a':a,'my_comments': my_comments})
 
 
 def logout(request):
