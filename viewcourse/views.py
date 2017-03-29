@@ -23,6 +23,7 @@ def course_list(request):
 
 
     if request.method == 'GET':
+
         render_search = SearchForm(request.GET)
         university_pick = request.GET.get('university', None)
 
@@ -43,8 +44,16 @@ def course_list(request):
                 for x in displaycourse:
                     if x.university == university_pick:
                         courses.append(x)
+        elif university_pick == "All":
+            courses = course.objects.order_by('courseid')
         else:
             courses = course.objects.order_by('courseid')
+            displaycourse = []
+            for x in courses:
+                if university_pick  in x.university:
+                    displaycourse.append(x)
+            courses = displaycourse
+
     return render(request, 'viewcourse/course_list.html', {'courses':courses,'university': university})
 
 
