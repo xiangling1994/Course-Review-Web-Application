@@ -1,31 +1,29 @@
 {% extends 'viewcourse/base.html' %}
 
 {% block content %}
-    <div class="row">
-      <div class="col m6">
+  <div class="row">
+    <div class="col m4">
 
 
     <form id="searchform"  method="get" accept-charset="utf-8">
-          <input class="searchfield" id="search_handle" name="search_handle" type="text" maxlength="100" placeholder="Enter a Course ID Number">
-          <button  type="submit" name="action" class="center waves-effect waves-light btn">Search</button>
-        </form>
+      <input class="searchfield" id="search_handle" name="search_handle" type="text" maxlength="100" placeholder="Enter a Course ID Number">
+      <button  type="submit" name="action" class="center waves-effect waves-light btn">Search</button>
+    </form>
 
-        <p style="padding-top:5px;"></p>
+    <p style="padding-top:5px;"></p>
 
-        <h5>Course List:</h5>
+    <h5>Course List:</h5>
+      <ul class="collection with-header">
         {% for course in courses %}
-         <ul class="collection with-header">
-              <li class="collection-item">
-                <div>
-                  {{ course.courseid }}<a href="{% url 'course_detail' pk=course.pk %}" class="secondary-content"><i class="material-icons">send</i></a>
-                </div>
-
-              </li>
-         </ul>
-         <p style="padding-top:5px;"></p>
+          <li class="collection-item">
+            <div>
+              {{ course.courseid }}<a href="{% url 'course_detail' pk=course.pk %}" class="secondary-content"><i class="material-icons">send</i></a>
+            </div>
+          </li>
         {% endfor %}
-      </div>
-      <div class="col m6">
-      </div>
+      </ul>
     </div>
+    <div class="col m6">
+    </div>
+  </div>
 {% endblock content %}
