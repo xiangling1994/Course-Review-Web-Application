@@ -50,3 +50,4 @@ class SearchForm(forms.Form):
 
 class DeleteForm(forms.Form):
     delete_handle = forms.CharField(label='Delete Handle', max_length=100)
+

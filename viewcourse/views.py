@@ -13,8 +13,20 @@ from django.contrib.auth.hashers import make_password, check_password
 # Create your views here.
 def course_list(request):
     courses = course.objects.order_by('courseid')
+    university = ["All"]
+    all_courses = course.objects.all()
+
+
+    for x in all_courses:
+        if x.university not in university:
+            university.append(x.university)
+
+
     if request.method == 'GET':
         render_search = SearchForm(request.GET)
+        university_pick = request.GET.get('university', None)
+
+
         if render_search.is_valid():
             input = render_search.cleaned_data['search_handle']
             input =input.lower()
@@ -23,10 +35,17 @@ def course_list(request):
             for x in courses:
                 if input in x.courseid.lower():
                     displaycourse.append(x)
-            courses = displaycourse
+
+            if university_pick == "All":
+                courses = displaycourse
+            else:
+                courses = []
+                for x in displaycourse:
+                    if x.university == university_pick:
+                        courses.append(x)
         else:
             courses = course.objects.order_by('courseid')
-    return render(request, 'viewcourse/course_list.html', {'courses':courses})
+    return render(request, 'viewcourse/course_list.html', {'courses':courses,'university': university})
 
 
 def course_detail(request, pk):
