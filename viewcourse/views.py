@@ -14,8 +14,9 @@ from django.contrib.auth.hashers import make_password, check_password
 
 # Create your views here.
 def course_list(request):
-    courses = course.objects.order_by('courseid')
-    university = ["All"]
+    courses = None
+    university = ['University']
+    subject = ['Subject']
     all_courses = course.objects.all()
 
 
@@ -28,35 +29,61 @@ def course_list(request):
 
         render_search = SearchForm(request.GET)
         university_pick = request.GET.get('university', None)
+        subject_pick = request.GET.get('subject', None)
 
+        if university_pick is not None:
+            if render_search.is_valid():
+                input = render_search.cleaned_data['search_handle']
+                input = input.lower()
+                courses  = course.objects.all()
+                displaycourse=[]
+                for x in courses:
+                    if input in x.courseid.lower():
+                        displaycourse.append(x)
 
-        if render_search.is_valid():
-            input = render_search.cleaned_data['search_handle']
-            input =input.lower()
-            courses  = course.objects.all()
-            displaycourse=[]
-            for x in courses:
-                if input in x.courseid.lower():
-                    displaycourse.append(x)
-
-            if university_pick == "All":
-                courses = displaycourse
+                if university_pick == 'University':
+                    courses = displaycourse
+                else:
+                    courses = []
+                    for x in displaycourse:
+                        if x.university == university_pick:
+                            courses.append(x)
+                    selected_courses = []
+                    for a in all_courses:
+                        if a.university == university_pick:
+                            selected_courses.append(a)
+                    for b in selected_courses:
+                        if b.subject not in subject:
+                            subject.append(b.subject)
+            elif university_pick == 'University':
+                courses = None
             else:
-                courses = []
-                for x in displaycourse:
-                    if x.university == university_pick:
-                        courses.append(x)
-        elif university_pick == "All":
-            courses = course.objects.order_by('courseid')
-        else:
-            courses = course.objects.order_by('courseid')
-            displaycourse = []
-            for x in courses:
-                if university_pick  in x.university:
-                    displaycourse.append(x)
-            courses = displaycourse
-
-    return render(request, 'viewcourse/course_list.html', {'courses':courses,'university': university})
+                selected_courses = []
+                for a in all_courses:
+                    if a.university == university_pick:
+                        selected_courses.append(a)
+                for b in selected_courses:
+                    if b.subject not in subject:
+                        subject.append(b.subject)
+                courses = course.objects.order_by('courseid')
+                displaycourse = []
+                for x in courses:
+                    if university_pick in x.university:
+                        displaycourse.append(x)
+                courses = displaycourse
+                if subject_pick != 'Subject':
+                    courses = []
+                    for y in displaycourse:
+                        if subject_pick in y.subject:
+                            courses.append(y)
+    context = {
+        'courses':courses,
+        'university': university,
+        'subject': subject,
+        'university_pick': university_pick,
+        'subject_pick': subject_pick,
+    }
+    return render(request, 'viewcourse/course_list.html', context)
 
 
 def course_detail(request, pk):
@@ -227,16 +254,6 @@ def login(request):
 
 
 def index(request):
-    user_comment = comment.objects.all()
-    username = request.session.get('account_un', None)
-    if request.method == 'GET':
-        render_delete = DeleteForm(request.GET)
-        if render_delete.is_valid():
-            comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
-    my_comments = []
-    for x in user_comment:
-        if x.user == username:
-            my_comments.append(x)
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
 
