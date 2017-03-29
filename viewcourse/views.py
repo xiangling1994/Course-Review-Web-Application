@@ -52,7 +52,7 @@ def course_list(request):
             courses = course.objects.order_by('courseid')
             displaycourse = []
             for x in courses:
-                if university_pick  in x.university:
+                if university_pick == x.university:
                     displaycourse.append(x)
             courses = displaycourse
 
