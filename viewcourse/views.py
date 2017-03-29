@@ -2,7 +2,9 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 
 from .models import course, comment, account, professor
-from .forms import PostForm, CommentForm, AccountForm, LoginForm, RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook, SearchForm, DeleteForm
+from .forms import PostForm, CommentForm, AccountForm, LoginForm
+from .forms import RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook
+from .forms import SearchForm, DeleteForm, ChangePasswordForm
 from django.shortcuts import render, get_object_or_404
 from datetime import timedelta as tdelta
 from django.utils import timezone
@@ -59,10 +61,6 @@ def course_list(request):
 
 def course_detail(request, pk):
     detail = get_object_or_404(course, pk=pk)
-    if request.method == 'GET':
-        render_delete = DeleteForm(request.GET)
-        if render_delete.is_valid():
-            comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
     return render(request, 'viewcourse/course_detail.html', {'detail':detail})
 
 
@@ -178,6 +176,9 @@ def regist(request):
         if form.is_valid():
             #get form data
             username = form.cleaned_data['username']
+            aobject = account.objects.filter(username = username)
+            if aobject is None:
+                return redirect('regist')
             password = form.cleaned_data['password']
             email = form.cleaned_data['email']
             #encrypt the password and add them to the database
@@ -190,7 +191,7 @@ def regist(request):
             return response
     else:
         form = AccountForm()
-    return render(request, 'viewcourse/regist.html',{'form':form})
+    return render(request, 'viewcourse/regist.html', {'form':form})
 
 
 def login(request):
@@ -222,7 +223,7 @@ def login(request):
                 return redirect('login')
     else:
         form = LoginForm()
-    return render(request, 'viewcourse/login.html',{'form':form})
+    return render(request, 'viewcourse/login.html', {'form':form})
 
 
 def index(request):
@@ -238,7 +239,15 @@ def index(request):
             my_comments.append(x)
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
-    return render(request, 'viewcourse/index.html' ,{'a':a,'my_comments': my_comments})
+
+    comments = comment.objects.all()
+    user_comments = comments.filter(user=a.username)
+    if request.method == 'GET':
+        render_delete = DeleteForm(request.GET)
+        if render_delete.is_valid():
+            comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
+    return render(request, 'viewcourse/index.html', {'a':a, 'user_comments':user_comments})
+
 
 
 def logout(request):
@@ -251,3 +260,21 @@ def logout(request):
     except KeyError:
         pass
     return response
+
+
+def change_password(request):
+    aid = request.session.get('aid', None)
+    a = account.objects.get(id=aid)
+    if request.method == 'POST':
+        form = ChangePasswordForm(request.POST)
+        if form.is_valid():
+            password = form.cleaned_data['password']
+            a.password = make_password(password, None, 'pbkdf2_sha256')
+            a.save()
+            return redirect('index')
+        else:
+            return redirect('index')
+    else:
+        form = LoginForm()
+
+    return render(request, 'viewcourse/change_password.html', {'form':form})

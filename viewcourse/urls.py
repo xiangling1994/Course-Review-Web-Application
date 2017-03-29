@@ -6,6 +6,7 @@ urlpatterns = [
     url(r'^login/$', views.login, name = 'login'),
     url(r'^regist/$', views.regist, name = 'regist'),
     url(r'^index/$', views.index, name = 'index'),
+    url(r'^change_password', views.change_password, name='change_password'),
     url(r'^logout/$', views.logout, name = 'logout'),
     url(r'^list', views.course_list, name='course_list'),
     url(r'^course/(?P<pk>[0-9]+)/$', views.course_detail, name='course_detail'),

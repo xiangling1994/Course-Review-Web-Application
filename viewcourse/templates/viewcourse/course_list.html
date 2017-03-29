@@ -2,17 +2,15 @@
 
 {% block content %}
 
+  <div class="row">
+    <div class="col m4">
 
-
-
-
-    <div class="row">
-      <div class="col m6">
 
 
 
 
     <form id="searchform"  method="get" accept-charset="utf-8">
+
             <select class="form-control" id="university" name="university" required>
             {% for school in university %}
             <option  value="{{ school }}">{{ school }}</option>
@@ -26,18 +24,19 @@
 
         <h5>Course List:</h5>
 
+
+    <p style="padding-top:5px;"></p>
+      <h5>Course List:</h5>
          <ul class="collection with-header">
              {% for course in courses %}
               <li class="collection-item">
                 <div>
                   {{ course.courseid }}<a href="{% url 'course_detail' pk=course.pk %}" class="secondary-content"><i class="material-icons">send</i></a>
                 </div>
-
               </li>
              {% endfor %}
          </ul>
          <p style="padding-top:5px;"></p>
-
       </div>
       <div class="col m6">
       </div>

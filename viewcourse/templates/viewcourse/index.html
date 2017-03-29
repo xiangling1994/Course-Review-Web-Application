@@ -8,37 +8,39 @@
         <p style="padding-top:5px;"></p>
         <h5>User Name: {{a.username}}</h5>
         <p style="padding-top:5px;"></p>
-          <p>User Email: {{a.email}}</p>
+        <p>User Email: {{a.email}}</p>
         <p style="padding-top:5px;"></p>
         <a href="{% url 'course_list' %}" class="waves-effect waves-light btn">Home page</a>
+        <p style="padding-top:5px;"></p>
+        <a href="{% url 'change_password' %}" class="waves-effect waves-light btn">Change Password</a>
         <p style="padding-top:5px;"></p>
         <a href="{% url 'logout' %}" class="waves-effect waves-light btn">Log out</a>
 
 
       </div>
-     <div class="col m6">
 
-        <h4>My Comments</h4>
-
-         {% for comment in my_comments %}
-
+      <div class="col m6">
+        <h4>Your Comments</h4>
+        <p style="padding-top:5px;"></p>
+        {% for comment in user_comments %}
         <div class="comment">
-        <p>To: {{ comment.course.courseid }} of {{ comment.course.university }}</p>
           <div class="date">{{ comment.published_date }}</div>
-          <p>{{ comment.commenttext|linebreaks }}
-              <form action="" method="get">
-                 <p style="padding-top:0px;">
-                 <input id="delete_handle" type="hidden" name="delete_handle" maxlength="100" required value="{{ comment.id }}">
-                 <button  type="submit" name="action" class="center waves-effect waves-light btn">delete</button>
-                </p>
-              </form>
+          <strong>{{ comment.user }}</strong>
+          <form action="" method="get">
+             <input id="delete_handle" type="hidden" name="delete_handle" maxlength="100" required value="{{ comment.id }}">
+             <button type="submit" name="action" class="right waves-effect waves-light btn">delete</button>
+          </form>
+          <p>{{ comment.commenttext|linebreaks }}</p>
+
           <hr>
         </div>
         {% empty %}
-        <p>No comments here yet :(</p>
-        <p style="padding-top:5px;"></p>
+        <p>You have no comments:(</p>
         {% endfor %}
 
-     </div>
+
+
+      </div>
+
     </div>
 {% endblock content %}
