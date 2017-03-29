@@ -14,50 +14,43 @@ from django.contrib.auth.hashers import make_password, check_password
 
 # Create your views here.
 def course_list(request):
+    #initial courses
     courses = None
     university = ['University']
     subject = ['Subject']
+    #retrieve all the course objects
     all_courses = course.objects.all()
 
-
+    #collect all the universities' names
     for x in all_courses:
         if x.university not in university:
             university.append(x.university)
 
-
     if request.method == 'GET':
-
+        #get selector content
         render_search = SearchForm(request.GET)
         university_pick = request.GET.get('university', None)
         subject_pick = request.GET.get('subject', None)
-
-        if university_pick is not None:
-            if render_search.is_valid():
-                input = render_search.cleaned_data['search_handle']
-                input = input.lower()
-                courses  = course.objects.all()
-                displaycourse=[]
-                for x in courses:
-                    if input in x.courseid.lower():
-                        displaycourse.append(x)
-
-                if university_pick == 'University':
-                    courses = displaycourse
-                else:
-                    courses = []
-                    for x in displaycourse:
-                        if x.university == university_pick:
-                            courses.append(x)
-                    selected_courses = []
-                    for a in all_courses:
-                        if a.university == university_pick:
-                            selected_courses.append(a)
-                    for b in selected_courses:
-                        if b.subject not in subject:
-                            subject.append(b.subject)
-            elif university_pick == 'University':
-                courses = None
+        #if all the fields are filled
+        if render_search.is_valid():
+            #search the courseid
+            input = render_search.cleaned_data['search_handle']
+            input = input.lower()
+            courses  = course.objects.all()
+            displaycourse=[]
+            for x in courses:
+                if input in x.courseid.lower():
+                    displaycourse.append(x)
+            #if there is no university selection, list the search result
+            if university_pick == 'University':
+                courses = displaycourse
+            #if there is university selection, choose the course of that university
             else:
+                courses = []
+                for x in displaycourse:
+                    if x.university == university_pick:
+                        courses.append(x)
+                #collect all the subjects of that university
                 selected_courses = []
                 for a in all_courses:
                     if a.university == university_pick:
@@ -65,17 +58,31 @@ def course_list(request):
                 for b in selected_courses:
                     if b.subject not in subject:
                         subject.append(b.subject)
-                courses = course.objects.order_by('courseid')
-                displaycourse = []
-                for x in courses:
-                    if university_pick in x.university:
-                        displaycourse.append(x)
-                courses = displaycourse
-                if subject_pick != 'Subject':
-                    courses = []
-                    for y in displaycourse:
-                        if subject_pick in y.subject:
-                            courses.append(y)
+        elif university_pick == 'University':
+            #if there is no university selection, show nothing
+            courses = None
+        else:
+            #if there is only university selection, collect the subjects
+            selected_courses = []
+            for a in all_courses:
+                if a.university == university_pick:
+                    selected_courses.append(a)
+            for b in selected_courses:
+                if b.subject not in subject:
+                    subject.append(b.subject)
+            #show all the courses if there is no subject selection
+            courses = course.objects.order_by('courseid')
+            displaycourse = []
+            for x in courses:
+                if university_pick == x.university:
+                    displaycourse.append(x)
+            courses = displaycourse
+            if subject_pick != 'Subject':
+                #show the courses of that subject if there is subject selection
+                courses = []
+                for y in displaycourse:
+                    if subject_pick in y.subject:
+                        courses.append(y)
     context = {
         'courses':courses,
         'university': university,
@@ -253,6 +260,7 @@ def login(request):
     return render(request, 'viewcourse/login.html', {'form':form})
 
 
+#profile page
 def index(request):
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
@@ -264,7 +272,6 @@ def index(request):
         if render_delete.is_valid():
             comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
     return render(request, 'viewcourse/index.html', {'a':a, 'user_comments':user_comments})
-
 
 
 def logout(request):
