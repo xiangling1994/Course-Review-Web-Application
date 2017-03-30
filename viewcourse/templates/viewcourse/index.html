@@ -24,6 +24,7 @@
         <p style="padding-top:5px;"></p>
         {% for comment in user_comments %}
         <div class="comment">
+          <p>To: {{ comment.course.courseid }} of {{ comment.course.university }}</p>
           <div class="date">{{ comment.published_date }}</div>
           <strong>{{ comment.user }}</strong>
           <form action="" method="get">

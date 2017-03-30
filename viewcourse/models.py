@@ -51,3 +51,15 @@ class account(models.Model):
 
     def __str__(self):
         return self.username
+
+
+class vote(models.Model):
+    account = models.ForeignKey(account, related_name='votes')
+    prof = models.CharField(max_length=20)
+    cid = models.CharField(max_length=10)
+
+    def publish(self):
+        self.save()
+
+    def __str__(self):
+        return self.prof

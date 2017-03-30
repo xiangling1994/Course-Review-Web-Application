@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import course, comment, professor, account
+from .models import course, comment, professor, account, vote
 # Register your models here.
 
 class CommentInline(admin.TabularInline):
@@ -24,7 +24,13 @@ class CourseAdmin(admin.ModelAdmin):
     ordering = ('courseid',)
     search_fields = ['courseid']
 
+
+class VoteInline(admin.TabularInline):
+    model = vote
+    extra = 1
+
 class AccountAdmin(admin.ModelAdmin):
+    inlines = [VoteInline]
     ordering = ('username',)
     search_fields = ['username']
 

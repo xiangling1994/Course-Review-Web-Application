@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 
-from .models import course, comment, account, professor
+from .models import course, comment, account, professor, vote
 from .forms import PostForm, CommentForm, AccountForm, LoginForm
 from .forms import RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook
 from .forms import SearchForm, DeleteForm, ChangePasswordForm
@@ -20,7 +20,6 @@ def course_list(request):
     subject = ['Subject']
     #retrieve all the course objects
     all_courses = course.objects.all()
-
     #collect all the universities' names
     for x in all_courses:
         if x.university not in university:
@@ -150,15 +149,18 @@ def rating(request, pk, profid):
         form_textbook = RatingFormTextbook(request.POST)
         if form_helpfulness.is_valid() and form_clarity.is_valid() and form_easiness.is_valid() and form_textbook.is_valid():
 
-            #create a key for the user
-            username = request.session.get('account_un', None)
-            key = username + current_professor[0].course.courseid + current_professor[0].full_name
-            #check if the user voted before by searching sessions
-            voted = request.session.get(key, None)
-            if voted:
-                return redirect('course_detail', pk=c.pk)
+            aid = request.session.get('aid', None)
+            a = account.objects.get(id=aid)
+            account_votes = a.votes.all()
+
+            if account_votes:
+                for v in account_votes:
+                    if v.prof == current_professor[0].full_name and v.cid == c.courseid:
+                        return redirect('course_detail', pk=c.pk)
+                    else:
+                        vo = vote.objects.create(account = a, prof=current_professor[0], cid = c.courseid)
             else:
-                request.session[key] = 1
+                vo = vote.objects.create(account = a, prof=current_professor[0], cid = c.courseid)
 
             #retrieve radio button selections
             rating_value_helpfulness = form_helpfulness.cleaned_data['rating_field_helpfulness']
