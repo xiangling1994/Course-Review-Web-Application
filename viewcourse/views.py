@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 
-from .models import course, comment, account, professor, vote
+from .models import course, comment, account, professor, vote, judge
 from .forms import PostForm, CommentForm, AccountForm, LoginForm
 from .forms import RatingFormHelpfulness, RatingFormClarity, RatingFormEasiness, RatingFormTextbook
 from .forms import SearchForm, DeleteForm, ChangePasswordForm
@@ -94,7 +94,53 @@ def course_list(request):
 
 def course_detail(request, pk):
     detail = get_object_or_404(course, pk=pk)
+    comments = detail.comments.all()
+
     return render(request, 'viewcourse/course_detail.html', {'detail':detail})
+
+
+def agree(request, pk, cid):
+    aid = request.session.get('aid', None)
+    a = account.objects.get(id=aid)
+    account_judges = a.judges.all()
+
+    detail = get_object_or_404(course, pk=pk)
+    course_comment = detail.comments.all()
+    c = course_comment.get(id = cid)
+
+    if account_judges:
+        for aj in account_judges:
+            if aj.commentid == c.id:
+                return redirect('course_detail', pk=pk)
+    naj = judge.objects.create(account = a, user = c.user, commentid = c.id)
+
+    a = c.agree
+    c.agree = a+1
+    c.save()
+    response = redirect('course_detail', pk = pk)
+    return response
+
+
+def disagree(request, pk, cid):
+    aid = request.session.get('aid', None)
+    a = account.objects.get(id=aid)
+    account_judges = a.judges.all()
+
+    detail = get_object_or_404(course, pk=pk)
+    course_comment = detail.comments.all()
+    c = course_comment.get(id = cid)
+
+    if account_judges:
+        for aj in account_judges:
+            if aj.commentid == c.id:
+                return redirect('course_detail', pk=pk)
+    naj = judge.objects.create(account = a, user = c.user, commentid = c.id)
+
+    d = c.disagree
+    c.disagree = d+1
+    c.save()
+    response = redirect('course_detail', pk = pk)
+    return response
 
 
 def course_new(request):
@@ -153,14 +199,14 @@ def rating(request, pk, profid):
             a = account.objects.get(id=aid)
             account_votes = a.votes.all()
 
+            #restict users to vote once by checking the vote model
             if account_votes:
                 for v in account_votes:
                     if v.prof == current_professor[0].full_name and v.cid == c.courseid:
                         return redirect('course_detail', pk=c.pk)
-                    else:
-                        vo = vote.objects.create(account = a, prof=current_professor[0], cid = c.courseid)
+                new_vote = vote.objects.create(account = a, prof=current_professor[0], cid = c.courseid)
             else:
-                vo = vote.objects.create(account = a, prof=current_professor[0], cid = c.courseid)
+                new_vote = vote.objects.create(account = a, prof=current_professor[0], cid = c.courseid)
 
             #retrieve radio button selections
             rating_value_helpfulness = form_helpfulness.cleaned_data['rating_field_helpfulness']

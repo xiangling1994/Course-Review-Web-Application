@@ -57,7 +57,8 @@
     <p style="padding-top:5px;"></p>
     <div class="comment">
       <div class="date right">{{ comment.published_date }}</div>
-      <strong>{{ comment.user }}</strong>
+      <strong>{{ comment.user }}&nbsp&nbsp&nbsp</strong><a class="material-icons" href="{% url 'agree' pk=detail.pk cid=comment.id %}">thumb_up</a>&nbsp{{ comment.agree }}
+      &nbsp&nbsp&nbsp<a class="material-icons" href="{% url 'disagree' pk=detail.pk cid=comment.id %}">thumb_down</a>&nbsp{{ comment.disagree }}
       <p>{{ comment.commenttext|linebreaks }}</p>
       <hr>
     </div>
