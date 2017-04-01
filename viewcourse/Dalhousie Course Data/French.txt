@@ -1,0 +1,200 @@
+FREN 0011 Language Requirement 
+Mopoho R
+FREN 1007 Basic French, Pt. 1 
+Black I
+Milicevic J
+FREN 1008 Basic French, Pt. 2 
+FREN 1008 Basic French, Pt. 2 
+FREN 1045X Intermediate French 
+Simedoh V
+Black I
+Black I
+FREN 1045Y Intermediate French 
+Simedoh V
+Black I
+Black I
+FREN 1050X Fr. for Former Immersion Stdnt 
+Aissaoui D
+FREN 1050Y Fr. for Former Immersion Stdnt 
+Aissaoui D
+FREN 1994 Independent Study 
+Mopoho R
+FREN 1994 Independent Study 
+Mopoho R
+FREN 2002 Spoken French 
+Black I
+Oore I
+FREN 2002 Spoken French 
+Black I
+FREN 2020 Introduction to Linguistics 
+Mopoho R
+FREN 2022 Language and Culture 
+Simedoh V
+FREN 2045X Intensive Grammar 
+Frigerio V
+FREN 2045Y Intensive Grammar 
+Frigerio V
+FREN 2201 Intro to French Literature 
+Masse V
+FREN 2201 Intro to French Literature 
+Aissaoui D
+FREN 2202 Intro to French Literature 
+Oore I
+FREN 2202 Intro to French Literature 
+Frigerio V
+FREN 2994 Independent Study 
+Mopoho R
+FREN 2995 Independent Study 
+Mopoho R
+FREN 3000 Advanced Oral French Workshop 
+Black I
+FREN 3017 Differential Linguistics 
+Mopoho R
+FREN 3021 Syntax/Syntaxe 
+Milicevic J
+FREN 3045X Written Expression I 
+Masse V
+FREN 3045Y Written Expression I 
+Masse V
+FREN 3125 French-Speaking World 
+Mopoho R
+FREN 3150 Aspects de la francophonie 
+Simedoh V
+FREN 3300 Medieval French Literature 
+Masse V
+FREN 3600 18th French Century Lit 
+Aissaoui D
+FREN 3900 French-Canadian Literature 
+Oore I
+FREN 3994 Independent Study 
+Mopoho R
+FREN 3994 Independent Study 
+Mopoho R
+FREN 4014 Language and Society 
+Mopoho R
+FREN 4017 Traduction Generale 
+Frigerio V
+FREN 4046 Advanced Composition 
+Aissaoui D
+FREN 4300 Adv Medieval French Literature 
+Masse V
+FREN 4600 Enlightment:Form & Philosophy 
+Aissaoui D
+FREN 4904 Quebec Women Writers 
+Oore I
+FREN 4933 Honours Seminar/Essay 
+Frigerio V
+FREN 4994 Independent Research 
+Mopoho R
+FREN 4995 Independent Research 
+Mopoho R
+FREN 4999X Independent Research 
+Mopoho R
+FREN 4999Y Independent Research 
+Mopoho R
+FREN 5002X Research Methods 
+Masse V
+FREN 5002Y Research Methods 
+Masse V
+FREN 5016 Science of Translating 
+Mopoho R
+FREN 5127 Paraphrase. 
+Milicevic J
+FREN 5405 16th c. Lit. Seminar 
+Masse V
+FREN 5600 18th C Epistolary Novel 
+Aissaoui D
+FREN 5700 Romantic Revolution 
+Frigerio V
+FREN 5878 Postcolonial Theory 
+Simedoh V
+FREN 5995 Independent Research 
+Mopoho R
+FREN 5996 Independent Studies 
+Mopoho R
+FREN 5998 Independent Research 
+Elson C
+FREN 5999 Independent Research 
+Mopoho R
+FREN 9000 Master's Thesis 
+FREN 9000 Master's Thesis 
+FREN 9530 Doctoral Thesis 
+FREN 9530 Doctoral Thesis 
+FREN 2994 Independent Study 
+Mopoho R
+FREN 2995 Independent Study 
+Mopoho R
+FREN 3000 Advanced Oral French Workshop 
+Black I
+FREN 3017 Differential Linguistics 
+Mopoho R
+FREN 3021 Syntax/Syntaxe 
+Milicevic J
+FREN 3045X Written Expression I 
+Masse V
+FREN 3045Y Written Expression I 
+Masse V
+FREN 3125 French-Speaking World 
+Mopoho R
+FREN 3150 Aspects de la francophonie 
+Simedoh V
+FREN 3300 Medieval French Literature 
+Masse V
+FREN 3600 18th French Century Lit 
+Aissaoui D
+FREN 3900 French-Canadian Literature 
+Oore I
+FREN 3994 Independent Study 
+Mopoho R
+FREN 3994 Independent Study 
+Mopoho R
+FREN 4014 Language and Society 
+Mopoho R
+FREN 4017 Traduction Generale 
+Frigerio V
+FREN 4046 Advanced Composition 
+Aissaoui D
+FREN 4300 Adv Medieval French Literature 
+Masse V
+FREN 4600 Enlightment:Form & Philosophy 
+Aissaoui D
+FREN 4904 Quebec Women Writers 
+Oore I
+FREN 4933 Honours Seminar/Essay 
+Frigerio V
+FREN 4994 Independent Research 
+Mopoho R
+FREN 4995 Independent Research 
+Mopoho R
+FREN 4999X Independent Research 
+Mopoho R
+FREN 4999Y Independent Research 
+Mopoho R
+FREN 5002X Research Methods 
+Masse V
+FREN 5002Y Research Methods 
+Masse V
+FREN 5016 Science of Translating 
+Mopoho R
+FREN 5127 Paraphrase. 
+Milicevic J
+FREN 5405 16th c. Lit. Seminar 
+Masse V
+FREN 5600 18th C Epistolary Novel 
+Aissaoui D
+FREN 5700 Romantic Revolution 
+Frigerio V
+FREN 5878 Postcolonial Theory 
+Simedoh V
+FREN 5995 Independent Research 
+Mopoho R
+FREN 5996 Independent Studies 
+Mopoho R
+FREN 5998 Independent Research 
+Elson C
+FREN 5999 Independent Research 
+Mopoho R
+FREN 9000 Master's Thesis 
+FREN 9000 Master's Thesis 
+FREN 9530 Doctoral Thesis 
+FREN 9530 Doctoral Thesis 

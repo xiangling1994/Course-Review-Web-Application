@@ -1,0 +1,30 @@
+INFX 1606 Intro to Web Site Creation 
+INFX 1606 Intro to Web Site Creation 
+INFX 1615 Concepts in Computing 
+Blouin C
+INFX 1616 Applications of Computing 
+MacKay B
+INFX 2601 Info Security 
+INFX 2670 Intro to Server Side Scripting 
+INFX 2690 Integrated Studies 1 
+Fleming J
+INFX 2691 Introductory Comm Outreach Pro 
+Fleming J
+INFX 2691 Introductory Comm Outreach Pro 
+Bodorik P
+INFX 3600 Inter Comm Outreach Project I 
+Fleming J
+INFX 3600 Inter Comm Outreach Project I 
+Bodorik P
+INFX 3601 Inter Comm Outreach Project II 
+Fleming J
+INFX 3601 Inter Comm Outreach Project II 
+Bodorik P
+INFX 4600 Senior Comm Outreach Project I 
+Fleming J
+INFX 4600 Senior Comm Outreach Project I 
+Bodorik P
+INFX 4601 Senior Com Outreach Project II 
+Fleming J
+INFX 4601 Senior Com Outreach Project II 
+Bodorik P

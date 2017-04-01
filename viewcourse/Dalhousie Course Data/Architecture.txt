@@ -1,0 +1,121 @@
+ARCH 1000X Introduction to Architecture 
+ARCH 1000Y Introduction to Architecture 
+Henry P
+ARCH 1200X Scie of the Built Environment 
+Pitcairn D
+ARCH 1200Y Scie of the Built Environment 
+Pitcairn D
+ARCH 2000 Visual Thinking A 
+Kam K
+ARCH 2001 Visual Thinking B 
+Kam K
+ARCH 2025 Design Drawing 
+Tondino L
+ARCH 3001 Design 
+ARCH 3002 Design 
+ARCH 3104 Found in Arch Hist & Theory 
+Bonnemaison S
+Bonnemaison S
+ARCH 3105 Arch Hist & Theory-20th Cen 
+Macy C
+Macy C
+ARCH 3207 Building Technology 
+ARCH 3208 Building Technology 
+ARCH 3301 Professional Practice 
+Fitzgerald S
+ARCH 3302 Professional Practice 
+ARCH 3501 Representation 
+ARCH 3502 Representation 
+ARCH 4005 Design 
+ARCH 4111 Arch Hist & Theo-19th Cen 
+Bonnemaison S
+ARCH 4212 Building Systems Integration 
+Forren J
+ARCH 4304 Professional Practice 
+Nycum B
+ARCH 4502 Representation 
+Parcell S
+ARCH 5004 Urban Systems Studio 
+Venart C
+Fitzgerald S
+ARCH 5012 Urban Program Studio 
+Parcell S
+ARCH 5104 Urban Systems 
+Macy C
+ARCH 5106 International Development 
+Kawar R
+ARCH 5198 Humanities Seminar 
+Dainese E
+ARCH 5211 The Construction Detail 
+ARCH 5219 Conservation Technology 
+Parsons A
+ARCH 5298 Technology Seminar 
+Forren J
+Jannasch E
+ARCH 5308 Prof. Practice - Work term 
+Lilley B
+ARCH 5310 Work Term Continuation 
+Lilley B
+ARCH 5310 Work Term Continuation 
+Lilley B
+ARCH 5311 Professional Practice. 
+Nycum B
+ARCH 6510 Arch'l Documentation 
+Venart C
+Fitzgerald S
+ARCH 6513 Representation Seminar 
+ARCH 8892 Professional Practice-Workterm 
+Nycum B
+ARCH 9009 MArch Thesis Continuation 
+Bonnemaison S
+ARCH 9009 MArch Thesis Continuation 
+Bonnemaison S
+ARCH 9011 MEDS Thesis 
+Cavanagh E
+ARCH 9012 MArch Thesis I 
+ARCH 9013 MArch Thesis II 
+Bonnemaison S
+ARCH 4304 Professional Practice 
+Nycum B
+ARCH 4502 Representation 
+Parcell S
+ARCH 5004 Urban Systems Studio 
+Venart C
+Fitzgerald S
+ARCH 5012 Urban Program Studio 
+Parcell S
+ARCH 5104 Urban Systems 
+Macy C
+ARCH 5106 International Development 
+Kawar R
+ARCH 5198 Humanities Seminar 
+Dainese E
+ARCH 5211 The Construction Detail 
+ARCH 5219 Conservation Technology 
+Parsons A
+ARCH 5298 Technology Seminar 
+Forren J
+Jannasch E
+ARCH 5308 Prof. Practice - Work term 
+Lilley B
+ARCH 5310 Work Term Continuation 
+Lilley B
+ARCH 5310 Work Term Continuation 
+Lilley B
+ARCH 5311 Professional Practice. 
+Nycum B
+ARCH 6510 Arch'l Documentation 
+Venart C
+Fitzgerald S
+ARCH 6513 Representation Seminar 
+ARCH 8892 Professional Practice-Workterm 
+Nycum B
+ARCH 9009 MArch Thesis Continuation 
+Bonnemaison S
+ARCH 9009 MArch Thesis Continuation 
+Bonnemaison S
+ARCH 9011 MEDS Thesis 
+Cavanagh E
+ARCH 9012 MArch Thesis I 
+ARCH 9013 MArch Thesis II 
+Bonnemaison S

@@ -1,0 +1,5 @@
+GENE 2000 Genetics I 
+McLean N
+GENE 3000 Intro to Molecular Genetics 
+GENE 4000 Molecular App to Animal Prod 
+GENE 4003 Biotechnology 

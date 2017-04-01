@@ -1,0 +1,208 @@
+OCEA 1000X Conversations w/ Ocea Scientis 
+Buchwald C
+Buchwald C
+Buchwald C
+Buchwald C
+OCEA 1000Y Conversations w/ Ocea Scientis 
+Buchwald C
+Buchwald C
+Buchwald C
+Buchwald C
+OCEA 2001 The Blue Planet I 
+Hill P
+OCEA 2002 The Blue Planet II 
+Hill P
+OCEA 2020 Tools & Concepts in Ocean Scie 
+OCEA 2021 Tools & Concept in Ocea Sci II 
+OCEA 2800 Climate Change 
+Lesins G
+OCEA 3001 Intro to Physical Oceanography 
+Kelley D
+OCEA 3002 Intro to Chemical Oceanography 
+Thomas H
+OCEA 3004 The Last Billion Years 
+Kienast S
+OCEA 3685 Gulf of Eilat Ecosystem 
+Staicer C
+OCEA 4000 Oceans and Global Change 
+Thomas H
+OCEA 4110 Geological Oceanography 
+Kienast S
+OCEA 4120 Physical Oceanography 
+Kelley D
+OCEA 4130 Chemical Oceanography 
+Wallace D
+OCEA 4140 Biological Oceanography 
+Algar C
+OCEA 4160 Fisheries Oceanography 
+Taggart C
+OCEA 4200X Honours Research 
+Metaxas A
+OCEA 4200Y Honours Research 
+Metaxas A
+OCEA 4210 Time Series Analysis 
+Dowd M
+OCEA 4220 Numerical Modelling 
+Sheng J
+OCEA 4230 Biology of Phytoplankton 
+MacIntyre H
+OCEA 4311 Fluid Dynamics I 
+Barclay D
+OCEA 4370 Deep Sea Biology 
+Metaxas A
+OCEA 4380 Marine Modelling 
+Fennel K
+OCEA 4401 Marine Management I 
+Filgueira R
+OCEA 4402 Marine Management II 
+Filgueira R
+OCEA 4411 Atmospheric Dynamics I 
+Folkins I
+OCEA 4412 Atmospheric Dynamics II 
+OCEA 4470 Intro to Seismic Imaging 
+Nedimovic M
+OCEA 4520 Intro to Atmospheric Sc 
+OCEA 4541 Synoptic Meteorology I 
+Titus M
+Titus M
+OCEA 4550 Synoptic Meteorology II 
+Titus M
+OCEA 4595 Atmospheric Chemistry 
+Martin R
+OCEA 4665 Hacking the Blue Planet 
+Bertrand E
+OCEA 5001 Graduate Seminar 
+Metaxas A
+OCEA 5001 Graduate Seminar 
+Metaxas A
+OCEA 5110 Geological Oceanography 
+Kienast S
+OCEA 5120 Physical Oceanography 
+Kelley D
+OCEA 5130 Chemical Oceanography 
+Wallace D
+OCEA 5140 Biological Oceanography 
+Algar C
+OCEA 5160 Fisheries Oceanography 
+Taggart C
+OCEA 5210 Time Series Analysis 
+Dowd M
+OCEA 5220 Num Modelling of Atmsph & Ocea 
+Sheng J
+OCEA 5230 Biology of Phytoplankton 
+OCEA 5241 Special Topics in Oceanography 
+OCEA 5285 Marine Biogeochemical Process 
+Thomas H
+OCEA 5311 Fluid Dynamics I 
+Barclay D
+OCEA 5370 Deep Sea Biology 
+Metaxas A
+OCEA 5380 Marine Modelling 
+Fennel K
+OCEA 5411 Atmospheric Dynamics I 
+Folkins I
+OCEA 5412 Atmospheric Dynamics II 
+OCEA 5470 Intro to Seismic Imaging 
+OCEA 5520 Intro to Atmospheric Science 
+OCEA 5541 Synoptic Meteorology I 
+Titus M
+Titus M
+OCEA 5550 Synoptic Meteorology II 
+Titus M
+OCEA 5570 Radiative Transfer 
+OCEA 5595 Atmospheric Chemistry 
+Martin R
+OCEA 5665 Hacking the Blue Planet 
+Bertrand E
+OCEA 5680 Ecosystem Modelling 
+Gentleman W
+OCEA 9000 Master's Thesis 
+Kelley D
+OCEA 9000 Master's Thesis 
+Kelley D
+OCEA 9530 Doctoral Thesis 
+Kelley D
+OCEA 9530 Doctoral Thesis 
+Kelley D
+OCEA 4220 Numerical Modelling 
+Sheng J
+OCEA 4230 Biology of Phytoplankton 
+MacIntyre H
+OCEA 4311 Fluid Dynamics I 
+Barclay D
+OCEA 4370 Deep Sea Biology 
+Metaxas A
+OCEA 4380 Marine Modelling 
+Fennel K
+OCEA 4401 Marine Management I 
+Filgueira R
+OCEA 4402 Marine Management II 
+Filgueira R
+OCEA 4411 Atmospheric Dynamics I 
+Folkins I
+OCEA 4412 Atmospheric Dynamics II 
+OCEA 4470 Intro to Seismic Imaging 
+Nedimovic M
+OCEA 4520 Intro to Atmospheric Sc 
+OCEA 4541 Synoptic Meteorology I 
+Titus M
+Titus M
+OCEA 4550 Synoptic Meteorology II 
+Titus M
+OCEA 4595 Atmospheric Chemistry 
+Martin R
+OCEA 4665 Hacking the Blue Planet 
+Bertrand E
+OCEA 5001 Graduate Seminar 
+Metaxas A
+OCEA 5001 Graduate Seminar 
+Metaxas A
+OCEA 5110 Geological Oceanography 
+Kienast S
+OCEA 5120 Physical Oceanography 
+Kelley D
+OCEA 5130 Chemical Oceanography 
+Wallace D
+OCEA 5140 Biological Oceanography 
+Algar C
+OCEA 5160 Fisheries Oceanography 
+Taggart C
+OCEA 5210 Time Series Analysis 
+Dowd M
+OCEA 5220 Num Modelling of Atmsph & Ocea 
+Sheng J
+OCEA 5230 Biology of Phytoplankton 
+OCEA 5241 Special Topics in Oceanography 
+OCEA 5285 Marine Biogeochemical Process 
+Thomas H
+OCEA 5311 Fluid Dynamics I 
+Barclay D
+OCEA 5370 Deep Sea Biology 
+Metaxas A
+OCEA 5380 Marine Modelling 
+Fennel K
+OCEA 5411 Atmospheric Dynamics I 
+Folkins I
+OCEA 5412 Atmospheric Dynamics II 
+OCEA 5470 Intro to Seismic Imaging 
+OCEA 5520 Intro to Atmospheric Science 
+OCEA 5541 Synoptic Meteorology I 
+Titus M
+Titus M
+OCEA 5550 Synoptic Meteorology II 
+Titus M
+OCEA 5570 Radiative Transfer 
+OCEA 5595 Atmospheric Chemistry 
+Martin R
+OCEA 5665 Hacking the Blue Planet 
+Bertrand E
+OCEA 5680 Ecosystem Modelling 
+Gentleman W
+OCEA 9000 Master's Thesis 
+Kelley D
+OCEA 9000 Master's Thesis 
+Kelley D
+OCEA 9530 Doctoral Thesis 
+Kelley D
+OCEA 9530 Doctoral Thesis 
+Kelley D

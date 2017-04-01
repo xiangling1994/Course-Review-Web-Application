@@ -1,0 +1,191 @@
+ERTH 1030 Intro Physical Geography 
+Arnott A
+Arnott A
+Arnott A
+ERTH 1030 Intro Physical Geography 
+Plug L
+Plug L
+Plug L
+Plug L
+Plug L
+ERTH 1060 Natural Disasters 
+Gosse J
+ERTH 1080 Geology I 
+Ryan A
+Arnott A
+Ryan A
+Ryan A
+Ryan A
+ERTH 1080 Geology I 
+Coutand I
+Young M
+Young M
+ERTH 1091 Geology II 
+Ryan A
+ERTH 2001 Mineralogy 
+Cox R
+Cox R
+Cox R
+ERTH 2002 Introduction to Petrology 
+Cox R
+Cox R
+Cox R
+ERTH 2110 Field Methods 
+Young M
+Young M
+ERTH 2203 Sediments & Sediment Rocks 
+Ryan A
+Ryan A
+ERTH 2205 Introduction to Paleontology 
+Sherwood O
+Sherwood O
+ERTH 2270 Intro to Applied Geophysics. 
+Nedimovic M
+Nedimovic M
+Nedimovic M
+ERTH 2380 Geochemistry 
+Cox R
+Cox R
+ERTH 2410 Environ Iss. in Erth Scie. 
+Ryan A
+ERTH 2420 Dinosaurs 
+Mohamed S
+ERTH 3010 Igneous Petrology 
+Fedortchouk Y
+Fedortchouk Y
+ERTH 3020 Metamorphic Petrology 
+Brenan J
+Cox R
+ERTH 3140 Structural Geology 
+Grujic D
+Grujic D
+Grujic D
+ERTH 3302 Quaternary Sediment.Environ. 
+Gosse J
+Gosse J
+ERTH 3303 Stratigraphy 
+Wach G
+Wach G
+Wach G
+ERTH 3440 Geomorphology 
+Plug L
+ERTH 3500 Geoscience Info Management 
+ERTH 3601 Global Biogeochemical Cycles 
+Sterling S
+Sterling S
+ERTH 3701 Fundamentals of Hydrology 
+Sterling S
+Sterling S
+ERTH 4100X Research Project 
+Grujic D
+ERTH 4100Y Research Project 
+Grujic D
+ERTH 4110 Geological Oceanography 
+Kienast S
+ERTH 4131 Adv. Petroleum Geoscience 
+Wach G
+ERTH 4153 Petroleum Geology 
+Wach G
+Wach G
+ERTH 4157 Petroleum Geoscience Field Met 
+Wach G
+ERTH 4200X Honours Thesis 
+Grujic D
+ERTH 4200Y Honours Thesis 
+Grujic D
+ERTH 4350 Tectonics 
+Grujic D
+ERTH 4470 Intro Seismic Imaging 
+Nedimovic M
+ERTH 4510 Directed Readings 
+ERTH 4511 Directed Readings 
+ERTH 4520 GIS Applicatns Enviro & Geo 
+ERTH 4530 Environmental Remote Sensing 
+ERTH 4850 Geographic Info Scie. Res. Pro 
+ERTH 5010 Advanced Petrology 
+ERTH 5131 Adv Petroleum Geoscience 
+Wach G
+ERTH 5350 Tectonics 
+Grujic D
+ERTH 5470 Intro to Seismic Imaging 
+Nedimovic M
+ERTH 5520 GIS Applicatns Enviro & Geo 
+ERTH 5530 Environmental Remote Sensing 
+ERTH 6250 Directed Studies 
+ERTH 6300X Research Skills in Earth Sci 
+Nedimovic M
+ERTH 6300Y Research Skills in Earth Sci 
+Nedimovic M
+ERTH 6350 Research Topics in Earth Sci 
+Grujic D
+ERTH 8891 Co-op Work Term I 
+ERTH 8891 Co-op Work Term I 
+ERTH 8892 Co-op Work Term II 
+ERTH 8892 Co-op Work Term II 
+ERTH 8893 Co-op Work Term III 
+ERTH 8893 Co-op Work Term III 
+ERTH 9000 Master's Thesis 
+ERTH 9000 Master's Thesis 
+ERTH 9530 Doctoral Thesis 
+ERTH 9530 Doctoral Thesis 
+ERTH 3440 Geomorphology 
+Plug L
+ERTH 3500 Geoscience Info Management 
+ERTH 3601 Global Biogeochemical Cycles 
+Sterling S
+Sterling S
+ERTH 3701 Fundamentals of Hydrology 
+Sterling S
+Sterling S
+ERTH 4100X Research Project 
+Grujic D
+ERTH 4100Y Research Project 
+Grujic D
+ERTH 4110 Geological Oceanography 
+Kienast S
+ERTH 4131 Adv. Petroleum Geoscience 
+Wach G
+ERTH 4153 Petroleum Geology 
+Wach G
+Wach G
+ERTH 4157 Petroleum Geoscience Field Met 
+Wach G
+ERTH 4200X Honours Thesis 
+Grujic D
+ERTH 4200Y Honours Thesis 
+Grujic D
+ERTH 4350 Tectonics 
+Grujic D
+ERTH 4470 Intro Seismic Imaging 
+Nedimovic M
+ERTH 4510 Directed Readings 
+ERTH 4511 Directed Readings 
+ERTH 4520 GIS Applicatns Enviro & Geo 
+ERTH 4530 Environmental Remote Sensing 
+ERTH 4850 Geographic Info Scie. Res. Pro 
+ERTH 5010 Advanced Petrology 
+ERTH 5131 Adv Petroleum Geoscience 
+Wach G
+ERTH 5350 Tectonics 
+Grujic D
+ERTH 5470 Intro to Seismic Imaging 
+Nedimovic M
+ERTH 5520 GIS Applicatns Enviro & Geo 
+ERTH 5530 Environmental Remote Sensing 
+ERTH 6250 Directed Studies 
+ERTH 6300X Research Skills in Earth Sci 
+Nedimovic M
+ERTH 6300Y Research Skills in Earth Sci 
+Nedimovic M
+ERTH 6350 Research Topics in Earth Sci 
+Grujic D
+ERTH 8891 Co-op Work Term I 
+ERTH 8891 Co-op Work Term I 
+ERTH 8892 Co-op Work Term II 
+ERTH 8892 Co-op Work Term II 
+ERTH 8893 Co-op Work Term III 
+ERTH 8893 Co-op Work Term III 
+ERTH 9000 Master's Thesis 
+ERTH 9000 Master's Thesis 
+ERTH 9530 Doctoral Thesis 
+ERTH 9530 Doctoral Thesis 

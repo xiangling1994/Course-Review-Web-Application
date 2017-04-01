@@ -1,0 +1,99 @@
+PHYL 1000X Human Physiology 
+Penney C
+PHYL 1000Y Human Physiology 
+Penney C
+PHYL 1010X Human Physiology 
+Penney C
+PHYL 1010Y Human Physiology 
+Penney C
+PHYL 1400 Human Physiology 
+Cowley E
+Cowley E
+PHYL 2041 Human Neurophysiology 
+French A
+PHYL 2044 Human Systems Physiology 
+Morgunov N
+PHYL 2570 Cellular Neurophysiology 
+PHYL 3120 Exercise Physiology 
+Beaudoin M
+PHYL 3320 Human Cell Physiology. 
+Linsdell P
+PHYL 3420 Sensory Physiology 
+Barnes S
+PHYL 3520 Core Concepts in Med Physiolog 
+Morgunov N
+PHYL 3600 Directed Project in Physiology 
+Krueger S
+PHYL 3600 Directed Project in Physiology 
+Krueger S
+PHYL 3620 Human Physiololgy Lab 
+Beaudoin M
+PHYL 4000 Synaptic Function, Plasticity 
+PHYL 4324 Endocrine Physiology 
+Murphy P
+PHYL 4328X Directed Project in Physiology 
+PHYL 4328Y Directed Project in Physiology 
+PHYL 4504 Respiratory Physiology 
+Cowley E
+PHYL 5504 Advanced Respiration 
+Cowley E
+PHYL 5508 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5508 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5509 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5509 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5510 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5510 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5513 Endocrine Physiology 
+Anini Y
+PHYL 5517X Phys. & Bio. Graduate Seminar 
+Chappe V
+PHYL 5517Y Phys. & Bio. Graduate Seminar 
+Chappe V
+PHYL 5519 Moleclr Physiol of Ion Channls 
+Linsdell P
+PHYL 5608 Directed Readings-Physiology 
+PHYL 9000 Master's Thesis 
+Chappe V
+PHYL 9000 Master's Thesis 
+Chappe V
+PHYL 9530 Doctoral Thesis 
+Chappe V
+PHYL 9530 Doctoral Thesis 
+Chappe V
+PHYL 5504 Advanced Respiration 
+Cowley E
+PHYL 5508 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5508 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5509 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5509 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5510 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5510 Directed Read-Phyl & Biop 
+Chappe V
+PHYL 5513 Endocrine Physiology 
+Anini Y
+PHYL 5517X Phys. & Bio. Graduate Seminar 
+Chappe V
+PHYL 5517Y Phys. & Bio. Graduate Seminar 
+Chappe V
+PHYL 5519 Moleclr Physiol of Ion Channls 
+Linsdell P
+PHYL 5608 Directed Readings-Physiology 
+PHYL 9000 Master's Thesis 
+Chappe V
+PHYL 9000 Master's Thesis 
+Chappe V
+PHYL 9530 Doctoral Thesis 
+Chappe V
+PHYL 9530 Doctoral Thesis 
+Chappe V

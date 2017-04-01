@@ -1,0 +1,250 @@
+POLI 1060 Political worlds: Themes & Con 
+Turnbull L
+POLI 1065 Political Worlds: Global Domai 
+Black D
+POLI 1103X Intro to Government & Politics 
+Firmini M
+POLI 1103Y Intro to Government & Politics 
+Firmini M
+POLI 1500 Globalizations 
+POLI 2210 Unity and Diversity 
+Firmini M
+POLI 2215 Canadian Aboriginal Politics 
+Firmini M
+POLI 2220 Structures of Cana Parliam Gov 
+Turnbull L
+POLI 2301 Comp Pol: I Developed Democrac 
+Finbow R
+POLI 2302 Comp Poli II: Developing World 
+Arthur P
+POLI 2410 Political Thought 1651-1778 
+Fierlbeck K
+POLI 2420 Political Thought 1789-1900 
+Firmini M
+POLI 2520 World Politics 
+Bow B
+POLI 2530 Foreign Policy in Thry & Pract 
+Seligman S
+POLI 3206 Const Law and Politics in Ca 
+POLI 3208 Cdn. Provincial Politics 
+Hayden A
+POLI 3233 Canada in the Global Economy 
+Finbow R
+POLI 3250 Canadian Public Admin. 
+Turnbull L
+POLI 3315 African Politics 
+Arthur P
+POLI 3321 Politics of European Union 
+Zaiotti R
+POLI 3360 Politics in Latin America 
+Finbow R
+POLI 3365 Politics of the Middle East 
+Seligman S
+POLI 3378 U.S.Const Gov't & Polit. 
+POLI 3385 Politics of the Environment 
+Hayden A
+POLI 3405 Canadian Polit.Thought 
+Firmini M
+POLI 3426 Sex and the State 
+POLI 3427 Sexualization /West Poli Thght 
+POLI 3492 Political Inquiry I 
+Hayden A
+POLI 3493 Political Inquiry II 
+POLI 3496 Philosophy of Social Science 
+Hymers M
+POLI 3505 Human Rights:  Foundations 
+Seligman S
+POLI 3520 Building Democracy & Peace 
+POLI 3532 Model UN 
+Seligman S
+POLI 3535 Wealth, Power Poverty Globl S. 
+Arthur P
+POLI 3560 Iss. Global Security & Devl. 
+POLI 3569 Canadian Foreign Policy 
+POLI 3574 American Foreign Policy 
+Seligman S
+POLI 3576 Defence Policy in Canada 
+Seligman S
+POLI 3581 Diplomacy & Negotiation 
+Bow B
+POLI 3596 Explorng Glbl Conflct&Violence 
+POLI 3601X Readings in Political Science 
+Black D
+POLI 3601Y Readings in Political Science 
+Black D
+POLI 3602 Readings in Political Science 
+Black D
+POLI 3602 Readings in Political Science 
+Black D
+POLI 3603 Readings in Political Science 
+Black D
+POLI 3603 Readings in Political Science 
+Black D
+POLI 3820 Special Topics Political Scie. 
+Leving Y
+POLI 4207 Can Pol: Themes & Theories 
+Turnbull L
+POLI 4240 Policy Formulation in Canada 
+Quigley K
+POLI 4260 The Politics of Health Care 
+Fierlbeck K
+POLI 4302 Governance&Admin Dev Countries 
+Arthur P
+POLI 4340 Approaches to Development 
+Black D
+POLI 4380 Politics of Climate Change 
+Hayden A
+POLI 4390 NGOs & Government Services 
+Denike M
+POLI 4390 NGOs & Government Services 
+Denike M
+POLI 4523 Intl Rel Theo1:Ord,Confl,chg 
+Bow B
+POLI 4590 Politics of the Sea II 
+Williamson H
+POLI 4600X Honours Essay & Seminar 
+Bow B
+POLI 4600Y Honours Essay & Seminar 
+Bow B
+POLI 5100 Research Methods and Design 
+Fierlbeck K
+POLI 5207 Adv. Seminar in Cdn. Politics 
+Good K
+POLI 5240 Policy Formation in Canada 
+Quigley K
+POLI 5260 The Politics of Health Care 
+Fierlbeck K
+POLI 5301 Comparative Theory 
+Finbow R
+POLI 5302 Governance&Admin Dev Countries 
+Arthur P
+POLI 5340 Approaches to Development 
+Black D
+POLI 5380 Politics of Climate Change 
+Hayden A
+POLI 5523 IR Theory 1 
+Bow B
+POLI 5589 Politics of the Sea 
+Williamson H
+POLI 5601 Readings in Political Science 
+Fierlbeck K
+POLI 5601X Readings in Political Science 
+Fierlbeck K
+POLI 5601Y Readings in Political Science 
+Fierlbeck K
+POLI 5602 Readings in Political Science 
+Fierlbeck K
+POLI 9000 Master's Thesis 
+Fierlbeck K
+POLI 9000 Master's Thesis 
+Fierlbeck K
+POLI 9530 Doctoral Thesis 
+Fierlbeck K
+POLI 9530 Doctoral Thesis 
+Fierlbeck K
+POLI 3360 Politics in Latin America 
+Finbow R
+POLI 3365 Politics of the Middle East 
+Seligman S
+POLI 3378 U.S.Const Gov't & Polit. 
+POLI 3385 Politics of the Environment 
+Hayden A
+POLI 3405 Canadian Polit.Thought 
+Firmini M
+POLI 3426 Sex and the State 
+POLI 3427 Sexualization /West Poli Thght 
+POLI 3492 Political Inquiry I 
+Hayden A
+POLI 3493 Political Inquiry II 
+POLI 3496 Philosophy of Social Science 
+Hymers M
+POLI 3505 Human Rights:  Foundations 
+Seligman S
+POLI 3520 Building Democracy & Peace 
+POLI 3532 Model UN 
+Seligman S
+POLI 3535 Wealth, Power Poverty Globl S. 
+Arthur P
+POLI 3560 Iss. Global Security & Devl. 
+POLI 3569 Canadian Foreign Policy 
+POLI 3574 American Foreign Policy 
+Seligman S
+POLI 3576 Defence Policy in Canada 
+Seligman S
+POLI 3581 Diplomacy & Negotiation 
+Bow B
+POLI 3596 Explorng Glbl Conflct&Violence 
+POLI 3601X Readings in Political Science 
+Black D
+POLI 3601Y Readings in Political Science 
+Black D
+POLI 3602 Readings in Political Science 
+Black D
+POLI 3602 Readings in Political Science 
+Black D
+POLI 3603 Readings in Political Science 
+Black D
+POLI 3603 Readings in Political Science 
+Black D
+POLI 3820 Special Topics Political Scie. 
+Leving Y
+POLI 4207 Can Pol: Themes & Theories 
+Turnbull L
+POLI 4240 Policy Formulation in Canada 
+Quigley K
+POLI 4260 The Politics of Health Care 
+Fierlbeck K
+POLI 4302 Governance&Admin Dev Countries 
+Arthur P
+POLI 4340 Approaches to Development 
+Black D
+POLI 4380 Politics of Climate Change 
+Hayden A
+POLI 4390 NGOs & Government Services 
+Denike M
+POLI 4390 NGOs & Government Services 
+Denike M
+POLI 4523 Intl Rel Theo1:Ord,Confl,chg 
+Bow B
+POLI 4590 Politics of the Sea II 
+Williamson H
+POLI 4600X Honours Essay & Seminar 
+Bow B
+POLI 4600Y Honours Essay & Seminar 
+Bow B
+POLI 5100 Research Methods and Design 
+Fierlbeck K
+POLI 5207 Adv. Seminar in Cdn. Politics 
+Good K
+POLI 5240 Policy Formation in Canada 
+Quigley K
+POLI 5260 The Politics of Health Care 
+Fierlbeck K
+POLI 5301 Comparative Theory 
+Finbow R
+POLI 5302 Governance&Admin Dev Countries 
+Arthur P
+POLI 5340 Approaches to Development 
+Black D
+POLI 5380 Politics of Climate Change 
+Hayden A
+POLI 5523 IR Theory 1 
+Bow B
+POLI 5589 Politics of the Sea 
+Williamson H
+POLI 5601 Readings in Political Science 
+Fierlbeck K
+POLI 5601X Readings in Political Science 
+Fierlbeck K
+POLI 5601Y Readings in Political Science 
+Fierlbeck K
+POLI 5602 Readings in Political Science 
+Fierlbeck K
+POLI 9000 Master's Thesis 
+Fierlbeck K
+POLI 9000 Master's Thesis 
+Fierlbeck K
+POLI 9530 Doctoral Thesis 
+Fierlbeck K
+POLI 9530 Doctoral Thesis 
+Fierlbeck K

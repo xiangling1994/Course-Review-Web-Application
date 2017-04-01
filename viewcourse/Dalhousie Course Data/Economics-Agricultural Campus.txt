@@ -1,0 +1,43 @@
+ECOA 0100 Introductory Microeconomics 
+Dunlop D
+ECOA 1000 Principles of Microeconomics 
+Dunlop D
+ECOA 1000 Principles of Microeconomics 
+Dunlop D
+ECOA 1001 Principles of Macroeconomics 
+Grant K
+ECOA 1002 Intro to Economic Reasoning 
+Grant H
+ECOA 2000 Intermediate Microeconomics 
+Grant K
+Grant K
+ECOA 2001 Intermediate Macroeconomics 
+Grant K
+ECOA 2003 Agricultural Futures & Options 
+Grant K
+ECOA 3000 Mathematical Economics 
+Clark S
+Clark S
+ECOA 3002 Agricultural & Food Policy I 
+Grant H
+Grant H
+ECOA 3003 Mathematical Programming 
+Yiridoe E
+Yiridoe E
+ECOA 3004 Agricultural Markets & Prices 
+Grant K
+ECOA 3006 Statistics for Econ & Business 
+Clark S
+Clark S
+ECOA 3008 Environmental Economics (A) 
+Clark S
+ECOA 4000 Advanced Microeconomics 
+Clark S
+Clark S
+ECOA 4004 Trade 
+Dunlop D
+ECOA 4005 Advanced Macroeconomics 
+Grant K
+ECOA 4006 Intermediate Econometrics 
+Clark S
+Clark S

@@ -1,0 +1,50 @@
+DMUT 1000 Fundamentals of Sonography I 
+Chauder S
+Chauder S
+DMUT 1010 Prin & Inst Diag Med Ultrsnd I 
+Lushman E
+DMUT 1020 Fundamentals of Sonography II 
+Chauder S
+Chauder S
+DMUT 2000 Sono of Abdomen&Super Struct I 
+Gilby J
+Gilby J
+DMUT 2010 Sonography in Gynecology 
+Chauder S
+DMUT 2020 Princ&Inst Diag Med Ultrsnd II 
+Lushman E
+DMUT 2030 Sono of Abdomen&Sup Struct II 
+Gilby J
+Gilby J
+DMUT 2040 Sonography in Obstretics I 
+Chauder S
+DMUT 3000 Sonography in Obstetrics II 
+Lushman E
+Lushman E
+DMUT 3010 Songrph Abdomn/Super Struc III 
+Gilby J
+Gilby J
+DMUT 3200 Abdominal Imaging 
+Gilby J
+DMUT 3210 Obstetrical Imaging 
+Lushman E
+DMUT 3220 Gynecological Imaging 
+Chauder S
+DMUT 3230 Superficial Structure Imaging 
+Gilby J
+DMUT 3240 Appl Ultrasnd Instrumentation 
+Lushman E
+DMUT 4000 Spec Prac Diag Med Ultras I 
+Williams J
+DMUT 4000 Spec Prac Diag Med Ultras I 
+DMUT 4000 Spec Prac Diag Med Ultras I 
+DMUT 4010 Vascular Ultrasound 
+Gilby J
+DMUT 4020 Cardiac Ultrasound 
+Lushman E
+DMUT 4100 Spec Prac Diag Med Ultras II 
+Gilby J
+Chauder S
+DMUT 4100 Spec Prac Diag Med Ultras II 
+Gilby J
+Chauder S

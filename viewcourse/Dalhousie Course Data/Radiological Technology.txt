@@ -1,0 +1,53 @@
+RADT 1000 Skeletal Radiography 
+MacLeod C
+MacLeod C
+MacLeod C
+MacLeod C
+RADT 1010 Imaging Fundamentals 
+Lea S
+Lea S
+RADT 1020 Skeletal & Systems Radiography 
+Gunn C
+Gunn C
+Gunn C
+Gunn C
+RADT 2000 Adv Skeletal & Sys Radiography 
+Munroe A
+Munroe A
+Munroe A
+Munroe A
+RADT 2010 Imaging Equipment 
+Munroe A
+Munroe A
+RADT 2020 Adaption Radiography 
+MacLeod C
+MacLeod C
+MacLeod C
+MacLeod C
+RADT 3000 Applied Path Radiological Tech 
+MacLeod C
+MacLeod C
+MacLeod C
+RADT 3210 CT & Interventional Imaging 
+Gunn C
+RADT 3220 Fluoroscipic Img & Spec Proc 
+Munroe A
+RADT 3240 General/Adpt Radiography 
+MacLeod C
+RADT 4000 Spec Prac Radiolog Technology 
+RADT 4000 Spec Prac Radiolog Technology 
+Williams J
+RADT 4000 Spec Prac Radiolog Technology 
+RADT 4000X Spec Prac Radiolog Technology 
+RADT 4000Y Spec Prac Radiolog Technology 
+RADT 4100 Spec Prac Radiolog Tech II 
+RADT 4100 Spec Prac Radiolog Tech II 
+RADT 4200 Pediatric Radiology 
+Munroe A
+RADT 4200 Pediatric Radiology 
+Munroe A
+RADT 4210 Prof Skill Development in RADT 
+RADT 4220 Professional Practice in RADT 
+Gunn C
+RADT 4220 Professional Practice in RADT 
+Gunn C

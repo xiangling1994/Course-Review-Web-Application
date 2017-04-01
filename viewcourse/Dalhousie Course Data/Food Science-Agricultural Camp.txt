@@ -1,0 +1,15 @@
+FOOD 1000 Food Safety and Quality 
+FOOD 3001 Functional Foods-Nutraceutical 
+Rupasinghe V
+McNeil P
+FOOD 4000 Directed Studies Food-Biop Sci 
+Rupasinghe V
+FOOD 4000 Directed Studies Food-Biop Sci 
+Rupasinghe V
+FOOD 4001 Food Quality and Safety (A) 
+Pitts N
+FOOD 4002 Advanced Food Chemistry (A) 
+Pitts N
+FOOD 4003 Impact of Food on Health 
+Hoyle J
+FOOD 4004 Dir. Studies in Nutriscience 

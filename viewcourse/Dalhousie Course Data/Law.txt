@@ -1,0 +1,557 @@
+LAWS 1000X Contracts&Jud Decision Making 
+Chung H
+Devlin R
+Penney J
+Doelle M
+Meyers J
+LAWS 1000Y Contracts&Jud Decision Making 
+Chung H
+Devlin R
+Penney J
+Doelle M
+Meyers J
+LAWS 1001X Criminal Justice 
+Shapiro J
+Shapiro J
+MacKay L
+Coughlan S
+Coughlan S
+LAWS 1001Y Criminal Justice 
+Shapiro J
+Shapiro J
+MacKay L
+Coughlan S
+Coughlan S
+LAWS 1002 Orientation to Law 
+LAWS 1003X Fundamentals of Public Law 
+Llewellyn J
+MacKay A
+Erdman J
+LAWS 1003Y Fundamentals of Public Law 
+Llewellyn J
+MacKay A
+Erdman J
+LAWS 1004X Legal Research and Writing 
+Shapiro J
+LAWS 1004Y Legal Research and Writing 
+Shapiro J
+LAWS 1005X Property in Hist. Context 
+Baxter J
+Baxter J
+Puthucherril T
+LAWS 1005Y Property in Hist. Context 
+Baxter J
+Baxter J
+Puthucherril T
+LAWS 1006X Tort Law 
+Black V
+Gibson E
+Meyers J
+Chewter C
+Lafferty L
+LAWS 1006Y Tort Law 
+Black V
+Gibson E
+Meyers J
+Chewter C
+Lafferty L
+LAWS 2000 Administrative Law 
+Wildeman S
+LAWS 2000 Administrative Law 
+Wildeman S
+LAWS 2001 Maritime Law & Practice 
+Chircop A
+LAWS 2002 Business Associations 
+Deturbide M
+LAWS 2002 Business Associations 
+Rotman L
+LAWS 2002X Business Associations 
+Miedema R
+LAWS 2002Y Business Associations 
+Miedema R
+LAWS 2003 Clinical Law 
+Franey D
+LAWS 2003 Clinical Law 
+Franey D
+LAWS 2005 Conflict of Laws 
+Black V
+LAWS 2008 Evidence 
+Currie R
+LAWS 2008 Evidence 
+Covan M
+Thompson D
+LAWS 2010 Insurance Law 
+Lafferty L
+LAWS 2012 International Law 
+Currie R
+LAWS 2013 Judicial Remedies 
+Saunders P
+LAWS 2014 Labour Law 
+Archibald B
+LAWS 2015 Planning Law 
+Montgomery A
+LAWS 2019 Law and Technology 
+Penney J
+LAWS 2020 Fisheries Law 
+Jan S
+LAWS 2022 Law of the Sea 
+Puthucherril T
+LAWS 2029 Taxation I 
+Jackson C
+LAWS 2029 Taxation I 
+Brooks K
+LAWS 2031 Torts II 
+Merrick J
+LAWS 2033 Equity & Trusts 
+Woodman F
+LAWS 2039 Laskin Moot 
+Lazare J
+LAWS 2040 Civil Trial Practice 
+LAWS 2041 Coastal Zone Management 
+Fanning L
+LAWS 2045 Criminal Law Problems 
+MacDonald R
+LAWS 2045 Criminal Law Problems 
+Coughlan S
+LAWS 2046 Criminal Trial Practice 
+LAWS 2048 Employment Law 
+Archibald B
+LAWS 2051 International Environmntl Law 
+VanderZwaag D
+LAWS 2061X Civil Procedure 
+Shapiro J
+Chewter C
+LAWS 2061Y Civil Procedure 
+Shapiro J
+Chewter C
+LAWS 2062 Constitutional Law 
+Meyers J
+LAWS 2062 Constitutional Law 
+LAWS 2062X Constitutional Law 
+Metallic N
+LAWS 2062Y Constitutional Law 
+Metallic N
+LAWS 2074 International Human Rghts 
+Llewellyn J
+LAWS 2075 Legislation 
+Johnson G
+LAWS 2079 Oil and Gas 
+Watt D
+LAWS 2081 Bankruptcy & Insolvency 
+Hill T
+LAWS 2087 General Jurisprudence 
+Wildeman S
+LAWS 2091 Criminal Procedure 
+Kaiser H
+LAWS 2092 Criminal Clinic 
+LAWS 2096 Entertainment Law 
+Gosine M
+LAWS 2097 Immigration Law 
+MacIntosh C
+LAWS 2099 Legal Profession 
+LAWS 2099 Legal Profession 
+LAWS 2103 Jessup Moot 
+Currie R
+LAWS 2104 Environmental Law I 
+Dunning M
+LAWS 2106 Taxation of Corporations 
+Loomer G
+LAWS 2107 Gale Cup Moot 
+Scott M
+LAWS 2110 Family Law I 
+Thompson D
+LAWS 2110 Family Law I 
+Chewter C
+LAWS 2112 Financial Iss. in Family Law 
+McVey P
+LAWS 2113 Alt. Dispute Res. Processes 
+Acharya N
+LAWS 2115 Health Care Ethics and Law 
+Downie J
+LAWS 2120 Aboriginal Peoples 
+Metallic N
+LAWS 2121 Law of Succession 
+Garson D
+LAWS 2123 Canadian Legal History 
+Lahey W
+LAWS 2127 Mental Disability Law: Civil 
+Kaiser H
+LAWS 2128 Mental Disability Law: Civil 
+Kaiser H
+LAWS 2129 Corporate Transactions 
+Pryde B
+LAWS 2132 Health Law 
+Erdman J
+LAWS 2133 Environmental Law II 
+Doelle M
+LAWS 2135 Independent Research 
+Hughes E
+LAWS 2135 Independent Research 
+Hughes E
+LAWS 2138 Securities Regulation 
+LAWS 2144 Securities Law Moot 
+Rotman L
+LAWS 2145 Sale of Goods 
+Jackson C
+LAWS 2160 Ind. Rsch - Sup Court NS 
+Hughes E
+LAWS 2160 Ind. Rsch - Sup Court NS 
+Hughes E
+LAWS 2167 Health Law Placement 
+Erdman J
+LAWS 2167 Health Law Placement 
+Erdman J
+LAWS 2168 Internet and Media Law 
+Fraser D
+LAWS 2169 Competition Law 
+Goodman A
+LAWS 2171 Sopinka Moot 
+Casey B
+LAWS 2172 Advanced Legal Research 
+Matthewman A
+LAWS 2175 Family Law Placement 
+Thompson D
+LAWS 2175 Family Law Placement 
+Thompson D
+LAWS 2177 Labour Arbitration Moot 
+Archibald B
+LAWS 2178 Intellectual Property Law 
+Penney J
+LAWS 2188 Restorative Justce Theo & Pra 
+Llewellyn J
+LAWS 2189 Crown Law 
+McManus M
+LAWS 2192 Adv. Negligence Med. Malprac. 
+Gibson E
+LAWS 2193X Hlth Law & Policy: Current Iss 
+Black M
+LAWS 2193Y Hlth Law & Policy: Current Iss 
+Black M
+LAWS 2197 International Criminal Law 
+Currie R
+LAWS 2201X Second Year Moot 
+Chewter C
+LAWS 2201Y Second Year Moot 
+Chewter C
+LAWS 2204 Secured Transactions 
+Loomer G
+LAWS 2205 Int Humanitar Lw/Armed Cnflct 
+Saweczko K
+LAWS 2206 Kawaskimhon Aboriginal Moot 
+Metallic N
+LAWS 2207 Gender, Sexuality & Law 
+LAWS 2211 Law of Intl. Trade & Shipping 
+Dodson E
+LAWS 2212 Law of Intl Trade & Shipping 
+Dodson E
+LAWS 2214 Energy Law 
+LAWS 2215 European Union Law 
+Power V
+LAWS 2216 Current Issues Corporate Law 
+Rotman L
+LAWS 2216 Current Issues Corporate Law 
+Brooks K
+LAWS 2218 Construction Law 
+Gibson K
+LAWS 2220 Privacy Law. 
+Kindred K
+LAWS 2221 Public Health Law 
+Gibson E
+LAWS 2223 Elder Law 
+Woodman F
+LAWS 2224 Elder law 
+Woodman F
+LAWS 2225 Environmental Law Placement 
+Doelle M
+LAWS 2226X Journal of Legal Studies 
+Chewter C
+LAWS 2226Y Journal of Legal Studies 
+Chewter C
+LAWS 2230 Science and the Law 
+Anderson G
+LAWS 2232 Real Estate Transactions 
+Cassidy D
+LAWS 2237 Sopinka Competition 
+Casey B
+LAWS 2238 Public Law Placement 
+Chewter C
+LAWS 2238 Public Law Placement 
+Chewter C
+LAWS 2245 Bowman National Tax Moot 
+Brooks K
+LAWS 2250 Willms & Schier Env Law Moot. 
+Lemkow A
+LAWS 2251 African Nova Scotians & Law 
+Williams M
+LAWS 2252 Fiduciary Law/Business Context 
+Rotman L
+LAWS 2253 Class Act. Law & Proc. in Can. 
+Wallace D
+LAWS 2259X Dal Law Journal Ed. Assistant 
+Black V
+LAWS 2259Y Dal Law Journal Ed. Assistant 
+Black V
+LAWS 2264 Cross-Border Litigation 
+Currie R
+LAWS 2267 Tax Policy 
+Brooks K
+LAWS 2269 Taxation II: Int'l Law 
+Brooks K
+LAWS 2270 Indigenous Governance 
+LAWS 2500X Introduction to Law 
+Darling D
+LAWS 2500Y Introduction to Law 
+Darling D
+LAWS 3000X Graduate Seminar 
+Devlin R
+LAWS 3000Y Graduate Seminar 
+Devlin R
+LAWS 5001 Directed Readings in Law I 
+LAWS 5001 Directed Readings in Law I 
+LAWS 9000 Master's Thesis 
+LAWS 9000 Master's Thesis 
+LAWS 9530 Doctoral Thesis 
+LAWS 9530 Doctoral Thesis 
+LAWS 2003 Clinical Law 
+Franey D
+LAWS 2003 Clinical Law 
+Franey D
+LAWS 2005 Conflict of Laws 
+Black V
+LAWS 2008 Evidence 
+Currie R
+LAWS 2008 Evidence 
+Covan M
+Thompson D
+LAWS 2010 Insurance Law 
+Lafferty L
+LAWS 2012 International Law 
+Currie R
+LAWS 2013 Judicial Remedies 
+Saunders P
+LAWS 2014 Labour Law 
+Archibald B
+LAWS 2015 Planning Law 
+Montgomery A
+LAWS 2019 Law and Technology 
+Penney J
+LAWS 2020 Fisheries Law 
+Jan S
+LAWS 2022 Law of the Sea 
+Puthucherril T
+LAWS 2029 Taxation I 
+Jackson C
+LAWS 2029 Taxation I 
+Brooks K
+LAWS 2031 Torts II 
+Merrick J
+LAWS 2033 Equity & Trusts 
+Woodman F
+LAWS 2039 Laskin Moot 
+Lazare J
+LAWS 2040 Civil Trial Practice 
+LAWS 2041 Coastal Zone Management 
+Fanning L
+LAWS 2045 Criminal Law Problems 
+MacDonald R
+LAWS 2045 Criminal Law Problems 
+Coughlan S
+LAWS 2046 Criminal Trial Practice 
+LAWS 2048 Employment Law 
+Archibald B
+LAWS 2051 International Environmntl Law 
+VanderZwaag D
+LAWS 2061X Civil Procedure 
+Shapiro J
+Chewter C
+LAWS 2061Y Civil Procedure 
+Shapiro J
+Chewter C
+LAWS 2062 Constitutional Law 
+Meyers J
+LAWS 2062 Constitutional Law 
+LAWS 2062X Constitutional Law 
+Metallic N
+LAWS 2062Y Constitutional Law 
+Metallic N
+LAWS 2074 International Human Rghts 
+Llewellyn J
+LAWS 2075 Legislation 
+Johnson G
+LAWS 2079 Oil and Gas 
+Watt D
+LAWS 2081 Bankruptcy & Insolvency 
+Hill T
+LAWS 2087 General Jurisprudence 
+Wildeman S
+LAWS 2091 Criminal Procedure 
+Kaiser H
+LAWS 2092 Criminal Clinic 
+LAWS 2096 Entertainment Law 
+Gosine M
+LAWS 2097 Immigration Law 
+MacIntosh C
+LAWS 2099 Legal Profession 
+LAWS 2099 Legal Profession 
+LAWS 2103 Jessup Moot 
+Currie R
+LAWS 2104 Environmental Law I 
+Dunning M
+LAWS 2106 Taxation of Corporations 
+Loomer G
+LAWS 2107 Gale Cup Moot 
+Scott M
+LAWS 2110 Family Law I 
+Thompson D
+LAWS 2110 Family Law I 
+Chewter C
+LAWS 2112 Financial Iss. in Family Law 
+McVey P
+LAWS 2113 Alt. Dispute Res. Processes 
+Acharya N
+LAWS 2115 Health Care Ethics and Law 
+Downie J
+LAWS 2120 Aboriginal Peoples 
+Metallic N
+LAWS 2121 Law of Succession 
+Garson D
+LAWS 2123 Canadian Legal History 
+Lahey W
+LAWS 2127 Mental Disability Law: Civil 
+Kaiser H
+LAWS 2128 Mental Disability Law: Civil 
+Kaiser H
+LAWS 2129 Corporate Transactions 
+Pryde B
+LAWS 2132 Health Law 
+Erdman J
+LAWS 2133 Environmental Law II 
+Doelle M
+LAWS 2135 Independent Research 
+Hughes E
+LAWS 2135 Independent Research 
+Hughes E
+LAWS 2138 Securities Regulation 
+LAWS 2144 Securities Law Moot 
+Rotman L
+LAWS 2145 Sale of Goods 
+Jackson C
+LAWS 2160 Ind. Rsch - Sup Court NS 
+Hughes E
+LAWS 2160 Ind. Rsch - Sup Court NS 
+Hughes E
+LAWS 2167 Health Law Placement 
+Erdman J
+LAWS 2167 Health Law Placement 
+Erdman J
+LAWS 2168 Internet and Media Law 
+Fraser D
+LAWS 2169 Competition Law 
+Goodman A
+LAWS 2171 Sopinka Moot 
+Casey B
+LAWS 2172 Advanced Legal Research 
+Matthewman A
+LAWS 2175 Family Law Placement 
+Thompson D
+LAWS 2175 Family Law Placement 
+Thompson D
+LAWS 2177 Labour Arbitration Moot 
+Archibald B
+LAWS 2178 Intellectual Property Law 
+Penney J
+LAWS 2188 Restorative Justce Theo & Pra 
+Llewellyn J
+LAWS 2189 Crown Law 
+McManus M
+LAWS 2192 Adv. Negligence Med. Malprac. 
+Gibson E
+LAWS 2193X Hlth Law & Policy: Current Iss 
+Black M
+LAWS 2193Y Hlth Law & Policy: Current Iss 
+Black M
+LAWS 2197 International Criminal Law 
+Currie R
+LAWS 2201X Second Year Moot 
+Chewter C
+LAWS 2201Y Second Year Moot 
+Chewter C
+LAWS 2204 Secured Transactions 
+Loomer G
+LAWS 2205 Int Humanitar Lw/Armed Cnflct 
+Saweczko K
+LAWS 2206 Kawaskimhon Aboriginal Moot 
+Metallic N
+LAWS 2207 Gender, Sexuality & Law 
+LAWS 2211 Law of Intl. Trade & Shipping 
+Dodson E
+LAWS 2212 Law of Intl Trade & Shipping 
+Dodson E
+LAWS 2214 Energy Law 
+LAWS 2215 European Union Law 
+Power V
+LAWS 2216 Current Issues Corporate Law 
+Rotman L
+LAWS 2216 Current Issues Corporate Law 
+Brooks K
+LAWS 2218 Construction Law 
+Gibson K
+LAWS 2220 Privacy Law. 
+Kindred K
+LAWS 2221 Public Health Law 
+Gibson E
+LAWS 2223 Elder Law 
+Woodman F
+LAWS 2224 Elder law 
+Woodman F
+LAWS 2225 Environmental Law Placement 
+Doelle M
+LAWS 2226X Journal of Legal Studies 
+Chewter C
+LAWS 2226Y Journal of Legal Studies 
+Chewter C
+LAWS 2230 Science and the Law 
+Anderson G
+LAWS 2232 Real Estate Transactions 
+Cassidy D
+LAWS 2237 Sopinka Competition 
+Casey B
+LAWS 2238 Public Law Placement 
+Chewter C
+LAWS 2238 Public Law Placement 
+Chewter C
+LAWS 2245 Bowman National Tax Moot 
+Brooks K
+LAWS 2250 Willms & Schier Env Law Moot. 
+Lemkow A
+LAWS 2251 African Nova Scotians & Law 
+Williams M
+LAWS 2252 Fiduciary Law/Business Context 
+Rotman L
+LAWS 2253 Class Act. Law & Proc. in Can. 
+Wallace D
+LAWS 2259X Dal Law Journal Ed. Assistant 
+Black V
+LAWS 2259Y Dal Law Journal Ed. Assistant 
+Black V
+LAWS 2264 Cross-Border Litigation 
+Currie R
+LAWS 2267 Tax Policy 
+Brooks K
+LAWS 2269 Taxation II: Int'l Law 
+Brooks K
+LAWS 2270 Indigenous Governance 
+LAWS 2500X Introduction to Law 
+Darling D
+LAWS 2500Y Introduction to Law 
+Darling D
+LAWS 3000X Graduate Seminar 
+Devlin R
+LAWS 3000Y Graduate Seminar 
+Devlin R
+LAWS 5001 Directed Readings in Law I 
+LAWS 5001 Directed Readings in Law I 
+LAWS 9000 Master's Thesis 
+LAWS 9000 Master's Thesis 
+LAWS 9530 Doctoral Thesis 
+LAWS 9530 Doctoral Thesis 

@@ -1,0 +1,429 @@
+MATH 1000 Differential & Integral Calc I 
+Noble R
+Surovell A
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+MATH 1000 Differential & Integral Calc I 
+Dilcher K
+MATH 1000X Differential & Integral Calc I 
+Stevens P
+MATH 1000Y Differential & Integral Calc I 
+Stevens P
+MATH 1010 Differential & Integral CalcII 
+Fraser A
+MATH 1010 Differential & Integral CalcII 
+Noble R
+Noble R
+Surovell A
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+Noble R
+MATH 1060 Intro Stat Science & Health Sc 
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+MATH 1060 Intro Stat Science & Health Sc 
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+Sarhan A
+MATH 1115 Mathematics for Commerce 
+MATH 1115 Mathematics for Commerce 
+MATH 1215 Life Sciences Calculus 
+Pronk D
+MATH 1280 Engineering Math I 
+Phillips W
+Phillips W
+Phillips W
+Phillips W
+Phillips W
+Phillips W
+Phillips W
+Phillips W
+Phillips W
+MATH 1280 Engineering Math I 
+Coley A
+Coley A
+MATH 1290 Engineering Math II 
+Yao Y
+Yao Y
+Yao Y
+Yao Y
+Yao Y
+Yao Y
+Yao Y
+Yao Y
+Yao Y
+MATH 1500X The Calculus 
+Kolokolnikov T
+MATH 1500Y The Calculus 
+Kolokolnikov T
+MATH 2001 Intermediate Calculus I 
+Kolokolnikov T
+MATH 2002 Intermediate Calculus II 
+Milson R
+MATH 2030 Matrix Theory/Linear Algebra I 
+Selinger P
+Selinger P
+Selinger P
+Selinger P
+Selinger P
+Selinger P
+Selinger P
+Selinger P
+Selinger P
+MATH 2030 Matrix Theory/Linear Algebra I 
+Johnson K
+Johnson K
+Johnson K
+Johnson K
+Johnson K
+Johnson K
+MATH 2040 Matrix Theo/Linear Algebra II 
+Johnson K
+MATH 2051 Problems in Geometry 
+Pronk D
+MATH 2060 Intro Probability & Statistics 
+Sarhan A
+MATH 2060 Intro Probability & Statistics 
+MATH 2080 Stat Meth Data-Analys Infernce 
+Dowd M
+MATH 2080 Stat Meth Data-Analys Infernce 
+Herbinger C
+MATH 2112 Discrete Structures I 
+MATH 2112 Discrete Structures I 
+Selinger P
+MATH 2113 Discrete Structures II 
+MATH 2120 Methods for ODE 
+Iron D
+MATH 2135 Linear Algebra 
+Selinger P
+MATH 2300 Mathematical Modelling 
+Brown J
+MATH 2505 Introductory Analysis 
+Milson R
+MATH 2600 Theory of Interest 
+MATH 3031 Abstract Algebra I 
+Faridi S
+MATH 3032 Topics in Abstract Algebra 
+Faridi S
+MATH 3070 Theory of Numbers 
+Noble R
+MATH 3080 Intro Complex Variables 
+Dilcher K
+MATH 3120 Differential Equations II 
+Smirnov R
+MATH 3260 Applied Differential Equations 
+Iron D
+MATH 3300 Optimization 
+MATH 3330 Applied Graph Theory 
+Janssen J
+MATH 3340 Regression Analysis 
+Smith B
+MATH 3350 Design of Experiments 
+MATH 3360 Probability 
+Gu H
+MATH 3460 Intermediate Stat Theory 
+Gu H
+MATH 3501 Intermediate Analysis I 
+Fraser A
+MATH 3502 Intermediate Analysis II 
+Fraser A
+MATH 3700 Mathematics for Economists 
+Tumennasan N
+MATH 3790 Problem Solving 
+Bayeh M
+MATH 3800 Financial Economics 
+Xu K
+MATH 3900 Financial Mathematics 
+Rumsey J
+MATH 4010 Measure Thry & Integration 
+Taylor K
+MATH 4020 Analytic Function Theory 
+Fraser A
+MATH 4045 Advanced Algebra I 
+Faridi S
+MATH 4055 Advanced Algebra II 
+Faridi S
+MATH 4066 Advanced Statistical Theory I 
+Smith B
+MATH 4116 Cryptography 
+Selinger P
+MATH 4135 Intro to Category Theory 
+Pronk D
+MATH 4165 Mathematical Methods/Physics 
+Smirnov R
+MATH 4220 Intro Partial Diff Equations 
+Kolokolnikov T
+MATH 4330 Topics in Graph Theory 
+Brown J
+MATH 4340 Discrete Random Structures 
+Janssen J
+MATH 4410 Cosmology 
+Coley A
+MATH 4540 Applied Analysis 
+Coley A
+MATH 4650 General Relativity 
+Coley A
+MATH 4950 Honours Research Project 
+Pronk D
+MATH 4950 Honours Research Project 
+Pronk D
+MATH 5010 Measure & Integration 
+Taylor K
+MATH 5020 Analytic Function Theory 
+Fraser A
+MATH 5045 Advanced Algebra I 
+Faridi S
+MATH 5055 Advanced Algebra II 
+Faridi S
+MATH 5066 Advanced Statistical Theory I 
+Smith B
+MATH 5135 Intro to Category Theory 
+Pronk D
+MATH 5165 Math. Methods in Physics 
+Smirnov R
+MATH 5220 Intro-Partial Diff Equations 
+Kolokolnikov T
+MATH 5330 Topics in Graph Theory 
+Brown J
+MATH 5340 Discrete Random Structures 
+Janssen J
+MATH 5410 Cosmology 
+Coley A
+MATH 5540 Applied Analysis 
+Coley A
+MATH 5650 General Relativity 
+Coley A
+MATH 7030X Category Theory Seminar 
+Pare R
+MATH 7030Y Category Theory Seminar 
+Pare R
+MATH 7060X Relativity Seminar 
+Coley A
+MATH 7060Y Relativity Seminar 
+Coley A
+MATH 7190X Analysis Seminar 
+Dilcher K
+MATH 7190Y Analysis Seminar 
+Dilcher K
+MATH 8891 Co-Op Work Term I 
+Smirnov R
+MATH 8891 Co-Op Work Term I 
+Smirnov R
+MATH 8892 Co-Op Work Term II 
+Smirnov R
+MATH 8892 Co-Op Work Term II 
+Smirnov R
+MATH 8893 Co-Op Work Term III 
+Smirnov R
+MATH 8893 Co-Op Work Term III 
+Smirnov R
+MATH 9000 Master's Thesis 
+Iron D
+MATH 9000 Master's Thesis 
+Iron D
+MATH 9520 Comprehensive Examinations 
+Iron D
+MATH 9520 Comprehensive Examinations 
+Iron D
+MATH 9530 Doctoral Thesis 
+Iron D
+MATH 9530 Doctoral Thesis 
+Iron D
+MATH 2040 Matrix Theo/Linear Algebra II 
+Johnson K
+MATH 2051 Problems in Geometry 
+Pronk D
+MATH 2060 Intro Probability & Statistics 
+Sarhan A
+MATH 2060 Intro Probability & Statistics 
+MATH 2080 Stat Meth Data-Analys Infernce 
+Dowd M
+MATH 2080 Stat Meth Data-Analys Infernce 
+Herbinger C
+MATH 2112 Discrete Structures I 
+MATH 2112 Discrete Structures I 
+Selinger P
+MATH 2113 Discrete Structures II 
+MATH 2120 Methods for ODE 
+Iron D
+MATH 2135 Linear Algebra 
+Selinger P
+MATH 2300 Mathematical Modelling 
+Brown J
+MATH 2505 Introductory Analysis 
+Milson R
+MATH 2600 Theory of Interest 
+MATH 3031 Abstract Algebra I 
+Faridi S
+MATH 3032 Topics in Abstract Algebra 
+Faridi S
+MATH 3070 Theory of Numbers 
+Noble R
+MATH 3080 Intro Complex Variables 
+Dilcher K
+MATH 3120 Differential Equations II 
+Smirnov R
+MATH 3260 Applied Differential Equations 
+Iron D
+MATH 3300 Optimization 
+MATH 3330 Applied Graph Theory 
+Janssen J
+MATH 3340 Regression Analysis 
+Smith B
+MATH 3350 Design of Experiments 
+MATH 3360 Probability 
+Gu H
+MATH 3460 Intermediate Stat Theory 
+Gu H
+MATH 3501 Intermediate Analysis I 
+Fraser A
+MATH 3502 Intermediate Analysis II 
+Fraser A
+MATH 3700 Mathematics for Economists 
+Tumennasan N
+MATH 3790 Problem Solving 
+Bayeh M
+MATH 3800 Financial Economics 
+Xu K
+MATH 3900 Financial Mathematics 
+Rumsey J
+MATH 4010 Measure Thry & Integration 
+Taylor K
+MATH 4020 Analytic Function Theory 
+Fraser A
+MATH 4045 Advanced Algebra I 
+Faridi S
+MATH 4055 Advanced Algebra II 
+Faridi S
+MATH 4066 Advanced Statistical Theory I 
+Smith B
+MATH 4116 Cryptography 
+Selinger P
+MATH 4135 Intro to Category Theory 
+Pronk D
+MATH 4165 Mathematical Methods/Physics 
+Smirnov R
+MATH 4220 Intro Partial Diff Equations 
+Kolokolnikov T
+MATH 4330 Topics in Graph Theory 
+Brown J
+MATH 4340 Discrete Random Structures 
+Janssen J
+MATH 4410 Cosmology 
+Coley A
+MATH 4540 Applied Analysis 
+Coley A
+MATH 4650 General Relativity 
+Coley A
+MATH 4950 Honours Research Project 
+Pronk D
+MATH 4950 Honours Research Project 
+Pronk D
+MATH 5010 Measure & Integration 
+Taylor K
+MATH 5020 Analytic Function Theory 
+Fraser A
+MATH 5045 Advanced Algebra I 
+Faridi S
+MATH 5055 Advanced Algebra II 
+Faridi S
+MATH 5066 Advanced Statistical Theory I 
+Smith B
+MATH 5135 Intro to Category Theory 
+Pronk D
+MATH 5165 Math. Methods in Physics 
+Smirnov R
+MATH 5220 Intro-Partial Diff Equations 
+Kolokolnikov T
+MATH 5330 Topics in Graph Theory 
+Brown J
+MATH 5340 Discrete Random Structures 
+Janssen J
+MATH 5410 Cosmology 
+Coley A
+MATH 5540 Applied Analysis 
+Coley A
+MATH 5650 General Relativity 
+Coley A
+MATH 7030X Category Theory Seminar 
+Pare R
+MATH 7030Y Category Theory Seminar 
+Pare R
+MATH 7060X Relativity Seminar 
+Coley A
+MATH 7060Y Relativity Seminar 
+Coley A
+MATH 7190X Analysis Seminar 
+Dilcher K
+MATH 7190Y Analysis Seminar 
+Dilcher K
+MATH 8891 Co-Op Work Term I 
+Smirnov R
+MATH 8891 Co-Op Work Term I 
+Smirnov R
+MATH 8892 Co-Op Work Term II 
+Smirnov R
+MATH 8892 Co-Op Work Term II 
+Smirnov R
+MATH 8893 Co-Op Work Term III 
+Smirnov R
+MATH 8893 Co-Op Work Term III 
+Smirnov R
+MATH 9000 Master's Thesis 
+Iron D
+MATH 9000 Master's Thesis 
+Iron D
+MATH 9520 Comprehensive Examinations 
+Iron D
+MATH 9520 Comprehensive Examinations 
+Iron D
+MATH 9530 Doctoral Thesis 
+Iron D
+MATH 9530 Doctoral Thesis 
+Iron D

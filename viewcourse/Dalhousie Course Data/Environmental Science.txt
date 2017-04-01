@@ -1,0 +1,84 @@
+ENVS 1100 Foundations of Env Science 
+Gass S
+Gass S
+Gass S
+Gass S
+Gass S
+Gass S
+Gass S
+ENVS 1200 Environmental Challenges 
+Gass S
+Gass S
+Gass S
+Gass S
+Gass S
+Gass S
+Gass S
+ENVS 2100 Environmental Informatics 
+ENVS 2310 Energy and the Environment 
+Rotermund H
+ENVS 2410 Env Issues in Earth Sciences 
+Ryan A
+ENVS 3000 Environmental Sci. Internship 
+ENVS 3000 Environmental Sci. Internship 
+ENVS 3200 Intro to Environmental Law 
+ENVS 3200 Intro to Environmental Law 
+ENVS 3225 Plants in the Human Landscape 
+Rajaselvam R
+Rajaselvam R
+ENVS 3226 Economic Botany, Plnts & Civl. 
+Rajaselvam R
+Rajaselvam R
+ENVS 3400 Environment and Human Health 
+Rainham D
+Rainham D
+ENVS 3500 Geoscience Information Mgmt. 
+ENVS 3501 Envi Problem Solving I 
+Wright T
+ENVS 3502 Env Problem Solving II 
+Wright T
+ENVS 3601 Global Biogeochemical Cycles 
+Sterling S
+Sterling S
+ENVS 3701 Fundamentals of Hydrology 
+Sterling S
+Sterling S
+ENVS 3801 Dir. Readings in Env. Science 
+Gass S
+ENVS 3801 Dir. Readings in Env. Science 
+Gass S
+ENVS 4001 Environmental Impact Assess. 
+Lane P
+Lane P
+ENVS 4003 Coral Reefs & Environmental Ch 
+Gass S
+ENVS 4004 Pathways to Sustainable Energy 
+ENVS 4850 Geographic Info Scie Res Proj 
+ENVS 4901 Honours Thesis Part A 
+Wright T
+ENVS 4902 Honours Thesis Part B 
+Wright T
+ENVS 4902 Honours Thesis Part B 
+Wright T
+ENVS 8891 Co-op Work Term I 
+ENVS 8891 Co-op Work Term I 
+ENVS 8892 Co-op Work Term II. 
+ENVS 8892 Co-op Work Term II. 
+ENVS 8893 Co-op Work Term III 
+ENVS 8893 Co-op Work Term III 
+ENVS 4003 Coral Reefs & Environmental Ch 
+Gass S
+ENVS 4004 Pathways to Sustainable Energy 
+ENVS 4850 Geographic Info Scie Res Proj 
+ENVS 4901 Honours Thesis Part A 
+Wright T
+ENVS 4902 Honours Thesis Part B 
+Wright T
+ENVS 4902 Honours Thesis Part B 
+Wright T
+ENVS 8891 Co-op Work Term I 
+ENVS 8891 Co-op Work Term I 
+ENVS 8892 Co-op Work Term II. 
+ENVS 8892 Co-op Work Term II. 
+ENVS 8893 Co-op Work Term III 
+ENVS 8893 Co-op Work Term III 

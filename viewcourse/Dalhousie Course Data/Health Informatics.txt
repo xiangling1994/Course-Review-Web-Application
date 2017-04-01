@@ -1,0 +1,32 @@
+HINF 6000 Intro Health Informatics 
+Abidi S
+HINF 6020 Research Methods 
+Abidi S
+HINF 6030 HI Statistics 
+Stewart S
+HINF 6101 HI Flow and Use 
+Abidi S
+HINF 6102 HI Flow and Standards 
+Stewart S
+HINF 6110 HI Systems & Issues 
+Abidi S
+HINF 6120 Clinical Care Fundamentals 
+Zitner D
+HINF 6210 Data Mining for HI 
+Abidi S
+HINF 6220 Networks and Web for HI 
+Abusharekh A
+HINF 6230 Knowledge Management for HI 
+Abidi S
+HINF 6901 Directed Studies 
+Abidi S
+HINF 6901 Directed Studies 
+Abidi S
+HINF 7000 Internship 
+Abidi S
+HINF 7000 Internship 
+Abidi S
+HINF 9000 Graduate Thesis 
+Abidi S
+HINF 9000 Graduate Thesis 
+Abidi S

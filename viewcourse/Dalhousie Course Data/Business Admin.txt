@@ -1,0 +1,219 @@
+BUSI 5003X Pers,Profess Effectiveness I 
+BUSI 5003Y Pers,Profess Effectiveness I 
+Baechler J
+BUSI 5004X Pers,Profess Effectiveness II 
+Baechler J
+BUSI 5004Y Pers. & Prof. Effectiveness II 
+Baechler J
+BUSI 5100 Organizational Design 
+Sharaput M
+BUSI 5103 Business Accounting 
+BUSI 5120 Public Policy 
+Quigley K
+BUSI 5201 Financial Management 
+Nason R
+Nason R
+BUSI 5305 Managing People 
+Sundararajan B
+BUSI 5401 Marketing Management 
+Aghakhani H
+BUSI 5503 Quantitative Decision Making 
+MacLean L
+BUSI 5511 Management Information Systems 
+Sullivan G
+BUSI 5512 Leveraging Technology 
+Lee K
+Lee K
+BUSI 5551 Operations Management 
+Ulku M
+Ulku M
+BUSI 5703 Business Economics 
+Cyrus T
+BUSI 5801 International Business 
+McLarney C
+BUSI 5902 Starting Lean 
+Kilfoil M
+BUSI 5902 Starting Lean 
+Kilfoil M
+BUSI 6000 Strategy & Competitiveness 
+Baltazar R
+BUSI 6002 New Venture Creation 
+Roach D
+BUSI 6005 Strategy Implementation 
+Foster K
+BUSI 6006 Managing the Family Entrprs 
+James A
+BUSI 6006 Managing the Family Entrprs 
+James A
+BUSI 6007 Innovation Management 
+Roach D
+BUSI 6009 Business & Government 
+Roy J
+BUSI 6019 Managing Bus Gov Relations 
+Stuewe D
+BUSI 6044 Patterns for Sust Ind Devl 
+Adams M
+BUSI 6050 Corporate Governance 
+Chowdhury S
+BUSI 6101 External Auditing 
+Crowell T
+BUSI 6102 Taxation 
+Cumming L
+BUSI 6106 Cost Management 
+Power J
+BUSI 6108 Adv. Financial Accounting I 
+Cumming L
+BUSI 6109 Adv. Financial Accounting II 
+BUSI 6110 Adv. Financial Accounting III 
+Crowell T
+BUSI 6207 Advanced Corp Finance 
+Nason R
+BUSI 6207 Advanced Corp Finance 
+Fooladi I
+BUSI 6220 Risk and Derivatives 
+Zhao Y
+BUSI 6230 Investment & Money Management 
+Fooladi I
+BUSI 6230 Investment & Money Management 
+Sy O
+BUSI 6240 Financial Statement Analysis 
+Power J
+BUSI 6255 Global Markets & Institutions 
+Hebb G
+BUSI 6300 Risk Mgmt. Financial Instit. 
+Nason R
+BUSI 6313 Organizational Change 
+Barker J
+BUSI 6315 Intercultural &Internat. Mgmt 
+Ng E
+Ng E
+BUSI 6326 Management Skill Development 
+Barker J
+BUSI 6350 Authentic Leadership 21st C. 
+Barker J
+BUSI 6408 Transport Modes 
+Lynch D
+BUSI 6410 Advanced Marketing 
+McHugh E
+BUSI 6412 Consumer Behavior 
+Deval H
+BUSI 6414 Global Marketing 
+Carvalho S
+BUSI 6450 Marketing Strategy Seminar 
+Cunningham M
+BUSI 6511 Business Process Integrat ERP 
+Bliemel M
+BUSI 6513 Business Analytics 
+Bliemel M
+BUSI 6516 Data Management 
+Whalen R
+BUSI 6525 User Experience 
+BUSI 6555 Supply Chain Management 
+Ulku M
+BUSI 6802 Strat Mngnt Internatn'l Oper. 
+Crumley E
+BUSI 6900 Corporate Responsibility 
+Dawkins C
+BUSI 6941 Applied Topics in Business I 
+BUSI 6942 Applied Topics in Business II 
+BUSI 6951 Research,Reading & Conf. 
+Baechler J
+BUSI 6951 Research,Reading & Conf. 
+Baechler J
+BUSI 6952 Research, Reading & Conf 
+Baechler J
+BUSI 6952 Research, Reading & Conf 
+Baechler J
+BUSI 6960 Internship 
+BUSI 6960 Internship 
+BUSI 7000 Corporate Residency 
+Baechler J
+BUSI 6005 Strategy Implementation 
+Foster K
+BUSI 6006 Managing the Family Entrprs 
+James A
+BUSI 6006 Managing the Family Entrprs 
+James A
+BUSI 6007 Innovation Management 
+Roach D
+BUSI 6009 Business & Government 
+Roy J
+BUSI 6019 Managing Bus Gov Relations 
+Stuewe D
+BUSI 6044 Patterns for Sust Ind Devl 
+Adams M
+BUSI 6050 Corporate Governance 
+Chowdhury S
+BUSI 6101 External Auditing 
+Crowell T
+BUSI 6102 Taxation 
+Cumming L
+BUSI 6106 Cost Management 
+Power J
+BUSI 6108 Adv. Financial Accounting I 
+Cumming L
+BUSI 6109 Adv. Financial Accounting II 
+BUSI 6110 Adv. Financial Accounting III 
+Crowell T
+BUSI 6207 Advanced Corp Finance 
+Nason R
+BUSI 6207 Advanced Corp Finance 
+Fooladi I
+BUSI 6220 Risk and Derivatives 
+Zhao Y
+BUSI 6230 Investment & Money Management 
+Fooladi I
+BUSI 6230 Investment & Money Management 
+Sy O
+BUSI 6240 Financial Statement Analysis 
+Power J
+BUSI 6255 Global Markets & Institutions 
+Hebb G
+BUSI 6300 Risk Mgmt. Financial Instit. 
+Nason R
+BUSI 6313 Organizational Change 
+Barker J
+BUSI 6315 Intercultural &Internat. Mgmt 
+Ng E
+Ng E
+BUSI 6326 Management Skill Development 
+Barker J
+BUSI 6350 Authentic Leadership 21st C. 
+Barker J
+BUSI 6408 Transport Modes 
+Lynch D
+BUSI 6410 Advanced Marketing 
+McHugh E
+BUSI 6412 Consumer Behavior 
+Deval H
+BUSI 6414 Global Marketing 
+Carvalho S
+BUSI 6450 Marketing Strategy Seminar 
+Cunningham M
+BUSI 6511 Business Process Integrat ERP 
+Bliemel M
+BUSI 6513 Business Analytics 
+Bliemel M
+BUSI 6516 Data Management 
+Whalen R
+BUSI 6525 User Experience 
+BUSI 6555 Supply Chain Management 
+Ulku M
+BUSI 6802 Strat Mngnt Internatn'l Oper. 
+Crumley E
+BUSI 6900 Corporate Responsibility 
+Dawkins C
+BUSI 6941 Applied Topics in Business I 
+BUSI 6942 Applied Topics in Business II 
+BUSI 6951 Research,Reading & Conf. 
+Baechler J
+BUSI 6951 Research,Reading & Conf. 
+Baechler J
+BUSI 6952 Research, Reading & Conf 
+Baechler J
+BUSI 6952 Research, Reading & Conf 
+Baechler J
+BUSI 6960 Internship 
+BUSI 6960 Internship 
+BUSI 7000 Corporate Residency 
+Baechler J

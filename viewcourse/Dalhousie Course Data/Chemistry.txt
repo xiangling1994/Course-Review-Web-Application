@@ -1,0 +1,284 @@
+CHEM 1011 Concepts in Chemistry I 
+Crane A
+Crane A
+Crane A
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+CHEM 1012 Concepts in Chemistry II 
+Crane A
+Crane A
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+CHEM 1021 Engineering Chemistry I 
+Crane A
+Crane A
+Crane A
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+CHEM 1022 Engineering Chemistry II 
+Crane A
+Crane A
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+MacDonald J
+CHEM 1410 Intro Chem Related Human Hlth 
+CHEM 2101 Introductory Inorganic Chem 
+Whalen J
+Whalen J
+Whalen J
+Whalen J
+CHEM 2201 Introductory Analytical Chem 
+Wentzell P
+Chisholm R
+Chisholm R
+Chisholm R
+Chisholm R
+Chisholm R
+CHEM 2301 Intro to Physical Chemistry I 
+Johnson E
+CHEM 2304 Intro. Physical Chem II 
+Zhang P
+CHEM 2401 Organic Chemistry I 
+Thompson A
+CHEM 2402 Organic Chemistry II 
+Cozens F
+CHEM 2442 Organic Chemistry 
+White R
+CHEM 3103 Intermediate Inorganic Chem. 
+Turculet L
+Whalen J
+Whalen J
+Whalen J
+Whalen J
+CHEM 3203 Advanced Analytical lab 
+Chisholm R
+Chisholm R
+CHEM 3301 Quantum Mech Chemical Bond 
+Zwanziger J
+CHEM 3305 Materials Science 
+Obrovac M
+CHEM 3401 Intermediate Organic Chem 
+Speed A
+CHEM 3404 Phys Org Chem & Spec 
+Cozens F
+CHEM 3601 Chemistry of Living Systems 
+White R
+CHEM 3801 Experiential Learning Chem 
+Wentzell P
+CHEM 3801 Experiential Learning Chem 
+Wentzell P
+CHEM 4102 Adv. Transition Metal Chem. 
+Stradiotto M
+CHEM 4205 Chemometrics 
+Wentzell P
+CHEM 4301 Theory of Chemical Bonding 
+Johnson E
+CHEM 4302 Introd Surface Science 
+Zhang P
+CHEM 4401 Synthesis in Organic Chem 
+Speed A
+CHEM 4402 Organ.Struct Determination 
+Schepp N
+CHEM 4595 Atmospheric Chemistry 
+Martin R
+CHEM 4801 Research Project Chemistry I 
+Cozens F
+CHEM 4801 Research Project Chemistry I 
+Cozens F
+CHEM 4801X Research Project Chemistry I 
+Cozens F
+CHEM 4801Y Research Project Chemistry I 
+Cozens F
+CHEM 4802 Research Project Chemistry II 
+Cozens F
+CHEM 4802 Research Project Chemistry II 
+Cozens F
+CHEM 4802X Research Project Chemistry II 
+Cozens F
+CHEM 4802Y Research Project Chemistry II 
+Cozens F
+CHEM 4901X Honours Research Project 
+Cozens F
+CHEM 4901Y Honours Research Project 
+Cozens F
+CHEM 5102 Organotransition Metal Chem 
+Stradiotto M
+CHEM 5120 Advanced Organmtlc Chem 
+Stradiotto M
+CHEM 5205 Chemometrics 
+Wentzell P
+CHEM 5301 Theory Chemical Bonding 
+Johnson E
+CHEM 5302 Introd Surface Science 
+Zhang P
+CHEM 5401 Synthesis Organic Chem 
+Speed A
+CHEM 5402 Organ.Structure Determin. 
+Schepp N
+CHEM 5509 Grad Student Seminar I 
+Stradiotto M
+CHEM 5509 Grad Student Seminar I 
+Stradiotto M
+CHEM 6509 Grad Student Seminar II 
+Stradiotto M
+CHEM 6509 Grad Student Seminar II 
+Stradiotto M
+CHEM 8891 Co-op Work Term I 
+Zhang P
+CHEM 8891 Co-op Work Term I 
+Zhang P
+CHEM 8892 Co-op Work Term II 
+Zhang P
+CHEM 8892 Co-op Work Term II 
+Zhang P
+CHEM 8893 Co-op Work Term III 
+Zhang P
+CHEM 8893 Co-op Work Term III 
+Zhang P
+CHEM 8895 Co-op Work Term V 
+Zhang P
+CHEM 8895 Co-op Work Term V 
+Zhang P
+CHEM 9000 Master's Thesis 
+Stradiotto M
+CHEM 9000 Master's Thesis 
+Stradiotto M
+CHEM 9530 Doctoral Thesis 
+Stradiotto M
+CHEM 9530 Doctoral Thesis 
+Stradiotto M
+CHEM 3801 Experiential Learning Chem 
+Wentzell P
+CHEM 4102 Adv. Transition Metal Chem. 
+Stradiotto M
+CHEM 4205 Chemometrics 
+Wentzell P
+CHEM 4301 Theory of Chemical Bonding 
+Johnson E
+CHEM 4302 Introd Surface Science 
+Zhang P
+CHEM 4401 Synthesis in Organic Chem 
+Speed A
+CHEM 4402 Organ.Struct Determination 
+Schepp N
+CHEM 4595 Atmospheric Chemistry 
+Martin R
+CHEM 4801 Research Project Chemistry I 
+Cozens F
+CHEM 4801 Research Project Chemistry I 
+Cozens F
+CHEM 4801X Research Project Chemistry I 
+Cozens F
+CHEM 4801Y Research Project Chemistry I 
+Cozens F
+CHEM 4802 Research Project Chemistry II 
+Cozens F
+CHEM 4802 Research Project Chemistry II 
+Cozens F
+CHEM 4802X Research Project Chemistry II 
+Cozens F
+CHEM 4802Y Research Project Chemistry II 
+Cozens F
+CHEM 4901X Honours Research Project 
+Cozens F
+CHEM 4901Y Honours Research Project 
+Cozens F
+CHEM 5102 Organotransition Metal Chem 
+Stradiotto M
+CHEM 5120 Advanced Organmtlc Chem 
+Stradiotto M
+CHEM 5205 Chemometrics 
+Wentzell P
+CHEM 5301 Theory Chemical Bonding 
+Johnson E
+CHEM 5302 Introd Surface Science 
+Zhang P
+CHEM 5401 Synthesis Organic Chem 
+Speed A
+CHEM 5402 Organ.Structure Determin. 
+Schepp N
+CHEM 5509 Grad Student Seminar I 
+Stradiotto M
+CHEM 5509 Grad Student Seminar I 
+Stradiotto M
+CHEM 6509 Grad Student Seminar II 
+Stradiotto M
+CHEM 6509 Grad Student Seminar II 
+Stradiotto M
+CHEM 8891 Co-op Work Term I 
+Zhang P
+CHEM 8891 Co-op Work Term I 
+Zhang P
+CHEM 8892 Co-op Work Term II 
+Zhang P
+CHEM 8892 Co-op Work Term II 
+Zhang P
+CHEM 8893 Co-op Work Term III 
+Zhang P
+CHEM 8893 Co-op Work Term III 
+Zhang P
+CHEM 8895 Co-op Work Term V 
+Zhang P
+CHEM 8895 Co-op Work Term V 
+Zhang P
+CHEM 9000 Master's Thesis 
+Stradiotto M
+CHEM 9000 Master's Thesis 
+Stradiotto M
+CHEM 9530 Doctoral Thesis 
+Stradiotto M
+CHEM 9530 Doctoral Thesis 
+Stradiotto M

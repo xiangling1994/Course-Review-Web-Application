@@ -1,0 +1,77 @@
+BIOA 0101 Plant Pathology 
+Prithiviraj B
+BIOA 0102 Plant Physiology & Stress Mgmt 
+Percival D
+Fergus F
+BIOA 0103 Weed Science 
+White S
+BIOA 0200 Entomology 
+Smith K
+Smith K
+BIOA 1002 Biology I 
+Olson A
+Olson A
+Prithiviraj K
+Prithiviraj K
+Prithiviraj K
+Prithiviraj K
+Prithiviraj K
+Prithiviraj K
+Prithiviraj K
+BIOA 1003 Biology II 
+Olson A
+Olson A
+Mellish D
+Mellish D
+Prithiviraj K
+Prithiviraj K
+Mellish D
+Mellish D
+Prithiviraj K
+BIOA 1030 Biology for Engineers 
+Georgallas A
+BIOA 2000 Cell Biology 
+BIOA 2002 Plant Physiology 
+Percival D
+BIOA 2004 Structural Botany 
+Olson A
+BIOA 2005 Principles of Plant Pathology 
+Prithiviraj B
+BIOA 2006 Mammalian Physiology 
+MacLaren L
+Gray J
+Gray J
+Gray J
+BIOA 2008 Plant Diversity 
+Olson A
+BIOA 3000 General Entomology 
+Cutler G
+Smith K
+BIOA 3001 Ecology 
+BIOA 3002 Weed Science 
+White S
+BIOA 3003 Comparative Vertebrate Anatomy 
+Gray J
+Gray J
+Gray J
+BIOA 3005 Physiology of Aquatic Animals 
+Duston J
+BIOA 3006 Aquatic Ecology 
+BIOA 3008 Growth, Reprod and Lactation 
+Barrett D
+BIOA 4000 Avian Biology 
+Rathgeber B
+Rathgeber B
+BIOA 4002 Conservation Biology 
+BIOA 4003 Plant-Microbe Interactions 
+Prithiviraj B
+BIOA 4004 Animal Adaptation and Stress 
+MacLaren L
+BIOA 4000 Avian Biology 
+Rathgeber B
+Rathgeber B
+BIOA 4002 Conservation Biology 
+BIOA 4003 Plant-Microbe Interactions 
+Prithiviraj B
+BIOA 4004 Animal Adaptation and Stress 
+MacLaren L

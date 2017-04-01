@@ -1,0 +1,707 @@
+MUSC 0122X Ensemble I 
+MUSC 0122Y Ensemble I 
+MUSC 0222X Ensemble II 
+MUSC 0222Y Ensemble II 
+MUSC 0322X Ensemble III 
+MUSC 0322Y Ensemble III 
+MUSC 0422X Ensemble IV 
+MUSC 0422Y Ensemble IV 
+MUSC 0522X Ensemble (Advanced) 
+MUSC 0522Y Ensemble (Advanced) 
+MUSC 1081 Voice Clinic for Theatre II 
+MUSC 1101X Voice I 
+Swanston M
+applied instructor
+applied instructor
+MUSC 1101Y Voice I 
+Swanston M
+applied instructor
+applied instructor
+MUSC 1102X Guitar I 
+Reach D
+applied instructor
+MUSC 1102Y Guitar I 
+Reach D
+applied instructor
+MUSC 1103X Piano I 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 1103Y Piano I 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 1104X Organ  I 
+MUSC 1104Y Organ  I 
+MUSC 1105X Violin I 
+applied instructor
+MUSC 1105Y Violin I 
+applied instructor
+MUSC 1106X Viola I 
+applied instructor
+MUSC 1106Y Viola I 
+applied instructor
+MUSC 1107X Cello  I 
+applied instructor
+MUSC 1107Y Cello  I 
+applied instructor
+MUSC 1108X Double Bass I 
+applied instructor
+MUSC 1108Y Double Bass I 
+applied instructor
+MUSC 1109X Flute I 
+applied instructor
+MUSC 1109Y Flute I 
+applied instructor
+MUSC 1110X Oboe I 
+applied instructor
+MUSC 1110Y Oboe I 
+applied instructor
+MUSC 1111X Clarinet I 
+applied instructor
+MUSC 1111Y Clarinet I 
+applied instructor
+MUSC 1112X Bassoon I 
+applied instructor
+MUSC 1112Y Bassoon I 
+applied instructor
+MUSC 1113X Saxophone  I 
+Mitchell C
+applied instructor
+MUSC 1113Y Saxophone  I 
+Mitchell C
+applied instructor
+MUSC 1114X French Horn  I 
+applied instructor
+MUSC 1114Y French Horn  I 
+applied instructor
+MUSC 1115X Trumpet  I 
+applied instructor
+MUSC 1115Y Trumpet  I 
+applied instructor
+MUSC 1116X Trombone  I 
+applied instructor
+MUSC 1116Y Trombone  I 
+applied instructor
+MUSC 1117X Tuba I 
+applied instructor
+MUSC 1117Y Tuba I 
+applied instructor
+MUSC 1118X Percussion I 
+applied instructor
+MUSC 1118Y Percussion I 
+applied instructor
+MUSC 1201 Music Theory I 
+Blais J
+MUSC 1222 Music Theory II 
+Bain J
+MUSC 1270X Aural Skills I 
+MUSC 1270Y Aural Skills I 
+MUSC 1271X Keyboard Skills I 
+MUSC 1271Y Keyboard Skills I 
+MUSC 2007X Guitar: History & Techniques 
+Reach D
+MUSC 2007Y Guitar: History & Techniques 
+Reach D
+MUSC 2008X Modern Guitar 
+Reach D
+MUSC 2008Y Modern Guitar 
+Reach D
+MUSC 2016 Topics in Music and Cinema 
+Joubert E
+MUSC 2018 Popular Music Until 1960 
+Baur S
+MUSC 2019 Rock'n Roll Era & Beyond 
+Baur S
+MUSC 2020 The History of Jazz 
+MUSC 2022X The Art & Science of Drumming 
+MUSC 2022Y The Art & Science of Drumming 
+MUSC 2101X Voice II 
+Swanston M
+applied instructor
+applied instructor
+MUSC 2101Y Voice II 
+Swanston M
+applied instructor
+applied instructor
+MUSC 2102X Guitar II 
+Reach D
+applied instructor
+MUSC 2102Y Guitar II 
+Reach D
+applied instructor
+MUSC 2103X Piano II 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 2103Y Piano II 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 2104X Organ II 
+MUSC 2104Y Organ II 
+MUSC 2105X Violin  II 
+applied instructor
+MUSC 2105Y Violin  II 
+applied instructor
+MUSC 2106X Viola II 
+Kavalo K
+applied instructor
+MUSC 2106Y Viola II 
+Kavalo K
+applied instructor
+MUSC 2107X Cello II 
+applied instructor
+MUSC 2107Y Cello II 
+applied instructor
+MUSC 2108X Double Bass II 
+applied instructor
+MUSC 2108Y Double Bass II 
+applied instructor
+MUSC 2109X Flute II 
+applied instructor
+MUSC 2109Y Flute II 
+applied instructor
+MUSC 2110X Oboe  II 
+applied instructor
+MUSC 2110Y Oboe  II 
+applied instructor
+MUSC 2111X Clarinet  II 
+applied instructor
+MUSC 2111Y Clarinet  II 
+applied instructor
+MUSC 2112X Bassoon  II 
+applied instructor
+MUSC 2112Y Bassoon  II 
+applied instructor
+MUSC 2113X Saxophone  II 
+Mitchell C
+applied instructor
+MUSC 2113Y Saxophone  II 
+Mitchell C
+applied instructor
+MUSC 2114X French  Horn  II 
+applied instructor
+MUSC 2114Y French  Horn  II 
+applied instructor
+MUSC 2115X Trumpet II 
+applied instructor
+MUSC 2115Y Trumpet II 
+applied instructor
+MUSC 2116X Trombone II 
+applied instructor
+MUSC 2116Y Trombone II 
+applied instructor
+MUSC 2117X Tuba  II 
+applied instructor
+MUSC 2117Y Tuba  II 
+applied instructor
+MUSC 2118X Percussion II 
+applied instructor
+MUSC 2118Y Percussion II 
+applied instructor
+MUSC 2210 Introduction to Composition. 
+Blais J
+MUSC 2221 Music Theory III 
+Bain J
+MUSC 2222 Music Theory IV 
+Bain J
+MUSC 2270X Aural Skills II 
+MUSC 2270Y Aural Skills II 
+MUSC 2271X Keyboard Skills II 
+MUSC 2271Y Keyboard Skills II 
+MUSC 2354 Hist of Western Music to 1750 
+Baur S
+MUSC 2355 Hist West Musc 1750-Present 
+Joubert E
+MUSC 3060 Intro to Music & Sound Tech 
+MUSC 3061 Electroacoustic Music 
+MUSC 3101X Voice III 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3101Y Voice III 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3102X Guitar  III 
+Reach D
+applied instructor
+MUSC 3102Y Guitar  III 
+Reach D
+applied instructor
+MUSC 3103X Piano III 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3103Y Piano III 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3104X Organ  III 
+MUSC 3104Y Organ  III 
+MUSC 3105X Violin III 
+applied instructor
+MUSC 3105Y Violin III 
+applied instructor
+MUSC 3106X Viola III 
+applied instructor
+MUSC 3106Y Viola III 
+applied instructor
+MUSC 3107X Cello  III 
+applied instructor
+MUSC 3107Y Cello  III 
+applied instructor
+MUSC 3108X Double Bass III 
+applied instructor
+MUSC 3108Y Double Bass III 
+applied instructor
+MUSC 3109X Flute III 
+applied instructor
+MUSC 3109Y Flute III 
+applied instructor
+MUSC 3110X Oboe III 
+applied instructor
+MUSC 3110Y Oboe III 
+applied instructor
+MUSC 3111X Clarinet  III 
+applied instructor
+MUSC 3111Y Clarinet  III 
+applied instructor
+MUSC 3112X Bassoon  III 
+applied instructor
+MUSC 3112Y Bassoon  III 
+applied instructor
+MUSC 3113X Saxophone III 
+Mitchell C
+applied instructor
+MUSC 3113Y Saxophone III 
+Mitchell C
+applied instructor
+MUSC 3114X French Horn III 
+applied instructor
+MUSC 3114Y French Horn III 
+applied instructor
+MUSC 3115X Trumpet III 
+applied instructor
+MUSC 3115Y Trumpet III 
+applied instructor
+MUSC 3116X Trombone III 
+applied instructor
+MUSC 3116Y Trombone III 
+applied instructor
+MUSC 3117X Tuba III 
+applied instructor
+MUSC 3117Y Tuba III 
+applied instructor
+MUSC 3118X Percussion III 
+applied instructor
+MUSC 3118Y Percussion III 
+applied instructor
+MUSC 3161 Choral Techniques 
+MUSC 3176 Principles of Vocal Pedagogy 
+MUSC 3177 Vocal Literature. 
+MUSC 3199 Half-Recital. 
+MUSC 3199 Half-Recital. 
+MUSC 3199X Half-Recital 
+MUSC 3199Y Half-Recital 
+MUSC 3210X Composition I 
+Blais J
+MUSC 3210Y Composition I 
+Blais J
+MUSC 3221 Form & Analysis 
+Bain J
+MUSC 3284 Tonal Counterpoint 
+Blais J
+MUSC 3308X Mod Guitar Adv Fretbd & Harmny 
+MUSC 3308Y Mod Guitar Adv Fretbd & Harmny 
+MUSC 3660 Intro to Musc & Sound Tech 
+MUSC 3661 Electroacoustic Music 
+MUSC 3701X Voice III (Performance) 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3701Y Voice III (Performance) 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3702X Guitar III (Performance) 
+Reach D
+applied instructor
+MUSC 3702Y Guitar III (Performance) 
+Reach D
+applied instructor
+MUSC 3703X Piano III (Performance) 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3703Y Piano III (Performance) 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3704X Organ III (Performance) 
+MUSC 3704Y Organ III (Performance) 
+MUSC 3705X Violin III (Performance) 
+applied instructor
+MUSC 3705Y Violin III (Performance) 
+applied instructor
+MUSC 3706X Viola III (Performance) 
+applied instructor
+MUSC 3706Y Viola III (Performance) 
+applied instructor
+MUSC 3707X Cello III (Performance) 
+applied instructor
+MUSC 3707Y Cello III (Performance) 
+applied instructor
+MUSC 3708X Double Bass III (Performance) 
+applied instructor
+MUSC 3708Y Double Bass III (Performance) 
+applied instructor
+MUSC 3709X Flute III (Performance) 
+applied instructor
+MUSC 3709Y Flute III (Performance) 
+applied instructor
+MUSC 3710X Oboe III (Performance) 
+applied instructor
+MUSC 1105Y Violin I 
+applied instructor
+MUSC 1106X Viola I 
+applied instructor
+MUSC 1106Y Viola I 
+applied instructor
+MUSC 1107X Cello  I 
+applied instructor
+MUSC 1107Y Cello  I 
+applied instructor
+MUSC 1108X Double Bass I 
+applied instructor
+MUSC 1108Y Double Bass I 
+applied instructor
+MUSC 1109X Flute I 
+applied instructor
+MUSC 1109Y Flute I 
+applied instructor
+MUSC 1110X Oboe I 
+applied instructor
+MUSC 1110Y Oboe I 
+applied instructor
+MUSC 1111X Clarinet I 
+applied instructor
+MUSC 1111Y Clarinet I 
+applied instructor
+MUSC 1112X Bassoon I 
+applied instructor
+MUSC 1112Y Bassoon I 
+applied instructor
+MUSC 1113X Saxophone  I 
+Mitchell C
+applied instructor
+MUSC 1113Y Saxophone  I 
+Mitchell C
+applied instructor
+MUSC 1114X French Horn  I 
+applied instructor
+MUSC 1114Y French Horn  I 
+applied instructor
+MUSC 1115X Trumpet  I 
+applied instructor
+MUSC 1115Y Trumpet  I 
+applied instructor
+MUSC 1116X Trombone  I 
+applied instructor
+MUSC 1116Y Trombone  I 
+applied instructor
+MUSC 1117X Tuba I 
+applied instructor
+MUSC 1117Y Tuba I 
+applied instructor
+MUSC 1118X Percussion I 
+applied instructor
+MUSC 1118Y Percussion I 
+applied instructor
+MUSC 1201 Music Theory I 
+Blais J
+MUSC 1222 Music Theory II 
+Bain J
+MUSC 1270X Aural Skills I 
+MUSC 1270Y Aural Skills I 
+MUSC 1271X Keyboard Skills I 
+MUSC 1271Y Keyboard Skills I 
+MUSC 2007X Guitar: History & Techniques 
+Reach D
+MUSC 2007Y Guitar: History & Techniques 
+Reach D
+MUSC 2008X Modern Guitar 
+Reach D
+MUSC 2008Y Modern Guitar 
+Reach D
+MUSC 2016 Topics in Music and Cinema 
+Joubert E
+MUSC 2018 Popular Music Until 1960 
+Baur S
+MUSC 2019 Rock'n Roll Era & Beyond 
+Baur S
+MUSC 2020 The History of Jazz 
+MUSC 2022X The Art & Science of Drumming 
+MUSC 2022Y The Art & Science of Drumming 
+MUSC 2101X Voice II 
+Swanston M
+applied instructor
+applied instructor
+MUSC 2101Y Voice II 
+Swanston M
+applied instructor
+applied instructor
+MUSC 2102X Guitar II 
+Reach D
+applied instructor
+MUSC 2102Y Guitar II 
+Reach D
+applied instructor
+MUSC 2103X Piano II 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 2103Y Piano II 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 2104X Organ II 
+MUSC 2104Y Organ II 
+MUSC 2105X Violin  II 
+applied instructor
+MUSC 2105Y Violin  II 
+applied instructor
+MUSC 2106X Viola II 
+Kavalo K
+applied instructor
+MUSC 2106Y Viola II 
+Kavalo K
+applied instructor
+MUSC 2107X Cello II 
+applied instructor
+MUSC 2107Y Cello II 
+applied instructor
+MUSC 2108X Double Bass II 
+applied instructor
+MUSC 2108Y Double Bass II 
+applied instructor
+MUSC 2109X Flute II 
+applied instructor
+MUSC 2109Y Flute II 
+applied instructor
+MUSC 2110X Oboe  II 
+applied instructor
+MUSC 2110Y Oboe  II 
+applied instructor
+MUSC 2111X Clarinet  II 
+applied instructor
+MUSC 2111Y Clarinet  II 
+applied instructor
+MUSC 2112X Bassoon  II 
+applied instructor
+MUSC 2112Y Bassoon  II 
+applied instructor
+MUSC 2113X Saxophone  II 
+Mitchell C
+applied instructor
+MUSC 2113Y Saxophone  II 
+Mitchell C
+applied instructor
+MUSC 2114X French  Horn  II 
+applied instructor
+MUSC 2114Y French  Horn  II 
+applied instructor
+MUSC 2115X Trumpet II 
+applied instructor
+MUSC 2115Y Trumpet II 
+applied instructor
+MUSC 2116X Trombone II 
+applied instructor
+MUSC 2116Y Trombone II 
+applied instructor
+MUSC 2117X Tuba  II 
+applied instructor
+MUSC 2117Y Tuba  II 
+applied instructor
+MUSC 2118X Percussion II 
+applied instructor
+MUSC 2118Y Percussion II 
+applied instructor
+MUSC 2210 Introduction to Composition. 
+Blais J
+MUSC 2221 Music Theory III 
+Bain J
+MUSC 2222 Music Theory IV 
+Bain J
+MUSC 2270X Aural Skills II 
+MUSC 2270Y Aural Skills II 
+MUSC 2271X Keyboard Skills II 
+MUSC 2271Y Keyboard Skills II 
+MUSC 2354 Hist of Western Music to 1750 
+Baur S
+MUSC 2355 Hist West Musc 1750-Present 
+Joubert E
+MUSC 3060 Intro to Music & Sound Tech 
+MUSC 3061 Electroacoustic Music 
+MUSC 3101X Voice III 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3101Y Voice III 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3102X Guitar  III 
+Reach D
+applied instructor
+MUSC 3102Y Guitar  III 
+Reach D
+applied instructor
+MUSC 3103X Piano III 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3103Y Piano III 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3104X Organ  III 
+MUSC 3104Y Organ  III 
+MUSC 3105X Violin III 
+applied instructor
+MUSC 3105Y Violin III 
+applied instructor
+MUSC 3106X Viola III 
+applied instructor
+MUSC 3106Y Viola III 
+applied instructor
+MUSC 3107X Cello  III 
+applied instructor
+MUSC 3107Y Cello  III 
+applied instructor
+MUSC 3108X Double Bass III 
+applied instructor
+MUSC 3108Y Double Bass III 
+applied instructor
+MUSC 3109X Flute III 
+applied instructor
+MUSC 3109Y Flute III 
+applied instructor
+MUSC 3110X Oboe III 
+applied instructor
+MUSC 3110Y Oboe III 
+applied instructor
+MUSC 3111X Clarinet  III 
+applied instructor
+MUSC 3111Y Clarinet  III 
+applied instructor
+MUSC 3112X Bassoon  III 
+applied instructor
+MUSC 3112Y Bassoon  III 
+applied instructor
+MUSC 3113X Saxophone III 
+Mitchell C
+applied instructor
+MUSC 3113Y Saxophone III 
+Mitchell C
+applied instructor
+MUSC 3114X French Horn III 
+applied instructor
+MUSC 3114Y French Horn III 
+applied instructor
+MUSC 3115X Trumpet III 
+applied instructor
+MUSC 3115Y Trumpet III 
+applied instructor
+MUSC 3116X Trombone III 
+applied instructor
+MUSC 3116Y Trombone III 
+applied instructor
+MUSC 3117X Tuba III 
+applied instructor
+MUSC 3117Y Tuba III 
+applied instructor
+MUSC 3118X Percussion III 
+applied instructor
+MUSC 3118Y Percussion III 
+applied instructor
+MUSC 3161 Choral Techniques 
+MUSC 3176 Principles of Vocal Pedagogy 
+MUSC 3177 Vocal Literature. 
+MUSC 3199 Half-Recital. 
+MUSC 3199 Half-Recital. 
+MUSC 3199X Half-Recital 
+MUSC 3199Y Half-Recital 
+MUSC 3210X Composition I 
+Blais J
+MUSC 3210Y Composition I 
+Blais J
+MUSC 3221 Form & Analysis 
+Bain J
+MUSC 3284 Tonal Counterpoint 
+Blais J
+MUSC 3308X Mod Guitar Adv Fretbd & Harmny 
+MUSC 3308Y Mod Guitar Adv Fretbd & Harmny 
+MUSC 3660 Intro to Musc & Sound Tech 
+MUSC 3661 Electroacoustic Music 
+MUSC 3701X Voice III (Performance) 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3701Y Voice III (Performance) 
+Swanston M
+applied instructor
+applied instructor
+MUSC 3702X Guitar III (Performance) 
+Reach D
+applied instructor
+MUSC 3702Y Guitar III (Performance) 
+Reach D
+applied instructor
+MUSC 3703X Piano III (Performance) 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3703Y Piano III (Performance) 
+Stodola L
+applied instructor
+Allen P
+applied instructor
+MUSC 3704X Organ III (Performance) 
+MUSC 3704Y Organ III (Performance) 
+MUSC 3705X Violin III (Performance) 
+applied instructor
+MUSC 3705Y Violin III (Performance) 
+applied instructor
+MUSC 3706X Viola III (Performance) 
+applied instructor
+MUSC 3706Y Viola III (Performance) 
+applied instructor
+MUSC 3707X Cello III (Performance) 
+applied instructor
+MUSC 3707Y Cello III (Performance) 
+applied instructor
+MUSC 3708X Double Bass III (Performance) 
+applied instructor
+MUSC 3708Y Double Bass III (Performance) 
+applied instructor
+MUSC 3709X Flute III (Performance) 
+applied instructor
+MUSC 3709Y Flute III (Performance) 
+applied instructor
+MUSC 3710X Oboe III (Performance) 
+applied instructor
