@@ -1,10 +1,10 @@
 from django.db import models
 
 class course(models.Model):
-    university = models.CharField(max_length=30)
+    courseid = models.CharField(max_length=20)
+    coursetitle = models.CharField(max_length=40)
     subject = models.CharField(max_length=30)
-    courseid = models.CharField(max_length=10)
-    grade = models.CharField(max_length=10)
+    university = models.CharField(max_length=30)
 
     def publish(self):
         self.save()

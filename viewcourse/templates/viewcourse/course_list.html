@@ -26,11 +26,24 @@
       </form>
 
   </div>
-  <div class="col m2">
+  <div class="col m4">
+    {% if collection %}
+    <p style="padding-top:5px;"></p>
+    <h5 class = "center">{{collection}}</h5>
+    <ul class="collection with-header">
+    <li class="collection-item">
+    <div>
+    Featured Course Collection<a href="" class="secondary-content"><i class="material-icons">send</i></a>
+    </div>
+    </li>
+    </ul>
+    {% endif  %}
   </div>
       <div class="col m4">
         <p style="padding-top:5px;"></p>
+
           <h5>Course List:</h5>
+
              <ul class="collection with-header">
                  {% for course in courses %}
                   <li class="collection-item">

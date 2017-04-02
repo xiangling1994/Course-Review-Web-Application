@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
+import csv
 
 from .models import course, comment, account, professor, vote, judge
 from .forms import PostForm, CommentForm, AccountForm, LoginForm
@@ -16,6 +17,7 @@ from django.contrib.auth.hashers import make_password, check_password
 def course_list(request):
     #initial courses
     courses = None
+    collection = None
     university = ['University']
     subject = ['Subject']
     #retrieve all the course objects
@@ -69,15 +71,16 @@ def course_list(request):
             for b in selected_courses:
                 if b.subject not in subject:
                     subject.append(b.subject)
-            #show all the courses if there is no subject selection
-            courses = course.objects.order_by('courseid')
-            displaycourse = []
-            for x in courses:
-                if university_pick == x.university:
-                    displaycourse.append(x)
-            courses = displaycourse
+            collection = university_pick
+            #show no courses if there is no subject selection
             if subject_pick != 'Subject':
                 #show the courses of that subject if there is subject selection
+                courses = course.objects.order_by('courseid')
+                displaycourse = []
+                for x in courses:
+                    if university_pick == x.university:
+                        displaycourse.append(x)
+                courses = displaycourse
                 courses = []
                 for y in displaycourse:
                     if subject_pick in y.subject:
@@ -88,6 +91,7 @@ def course_list(request):
         'subject': subject,
         'university_pick': university_pick,
         'subject_pick': subject_pick,
+        'collection': collection
     }
     return render(request, 'viewcourse/course_list.html', context)
 
@@ -319,6 +323,7 @@ def index(request):
         render_delete = DeleteForm(request.GET)
         if render_delete.is_valid():
             comment.objects.filter(id = render_delete.cleaned_data['delete_handle']).delete()
+
     return render(request, 'viewcourse/index.html', {'a':a, 'user_comments':user_comments})
 
 

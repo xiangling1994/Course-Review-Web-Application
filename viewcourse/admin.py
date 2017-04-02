@@ -12,10 +12,10 @@ class ProfessorInline(admin.TabularInline):
 
 class CourseAdmin(admin.ModelAdmin):
     fieldsets = [
-        (None, {'fields': ['university']}),
-        (None, {'fields': ['subject']}),
         (None, {'fields': ['courseid']}),
-        (None, {'fields': ['grade']}),
+        (None, {'fields': ['coursetitle']}),
+        (None, {'fields': ['subject']}),
+        (None, {'fields': ['university']}),
 
     ]
     inlines = [ProfessorInline, CommentInline]
