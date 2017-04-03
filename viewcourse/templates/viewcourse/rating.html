@@ -3,83 +3,83 @@
 {% block content %}
 <div class="row">
 
-       <h5>Rate this professor: {{ current_professor.full_name }}</h5>
+  <h5>Rate this professor: {{ current_professor.full_name }}</h5>
 
- <div class="col m6">
-   <p style="padding-top:5px;"></p>
+  <div class="col m6">
+    <p style="padding-top:5px;"></p>
 
-           <div class="detail">
-               <h6><strong>Helpfulness</strong></h6>
-               <h6><strong>Clarity</strong></h6>
-               <h6><strong>Easiness</strong></h6>
-               <h6><strong>Textbook Use</strong></h6>
-           </div>
+    <div class="detail">
+      <h6><strong>Helpfulness</strong></h6>
+      <h6><strong>Clarity</strong></h6>
+      <h6><strong>Easiness</strong></h6>
+      <h6><strong>Textbook Use</strong></h6>
+    </div>
 
- </div>
+  </div>
 
- <div class="col m6">
+  <div class="col m6">
 
-      <p style="padding-top:5px;"></p>
+    <p style="padding-top:5px;"></p>
 
-         <div class="detail">
+    <div class="detail">
 
-               <form method="POST" class="post-form">{% csrf_token %}
+      <form method="POST" class="post-form">{% csrf_token %}
 
-       <span >
-           {% for radio in form_helpfulness.rating_field_helpfulness %}
-               {{ radio.tag }}
-               <label for="{{ radio.id_for_label }}">
-                   {{ radio.choice_label }}
-               </label>
-           {% endfor %}
-       </span><br/>
+        <span>
+          {% for radio in form_helpfulness.rating_field_helpfulness %}
+            {{ radio.tag }}
+            <label for="{{ radio.id_for_label }}">
+              {{ radio.choice_label }}
+            </label>
+          {% endfor %}
+        </span><br/>
 
-       <span>
-           {% for radio in form_clarity.rating_field_clarity %}
-               {{ radio.tag }}
-               <label for="{{ radio.id_for_label }}">
-                   {{ radio.choice_label }}
-               </label>
-           {% endfor %}
-       </span><br/>
+        <span>
+         {% for radio in form_clarity.rating_field_clarity %}
+          {{ radio.tag }}
+          <label for="{{ radio.id_for_label }}">
+            {{ radio.choice_label }}
+          </label>
+          {% endfor %}
+        </span><br/>
 
-       <span>
-           {% for radio in form_easiness.rating_field_easiness %}
-               {{ radio.tag }}
-               <label for="{{ radio.id_for_label }}">
-                   {{ radio.choice_label }}
-               </label>
-           {% endfor %}
-       </span><br/>
+        <span>
+          {% for radio in form_easiness.rating_field_easiness %}
+            {{ radio.tag }}
+            <label for="{{ radio.id_for_label }}">
+              {{ radio.choice_label }}
+            </label>
+          {% endfor %}
+        </span><br/>
 
-       <span>
-           {% for radio in form_textbook.rating_field_textbook %}
-               {{ radio.tag }}
-               <label for="{{ radio.id_for_label }}">
-                   {{ radio.choice_label }}
-               </label>
-           {% endfor %}
-       </span><br/>
+        <span>
+          {% for radio in form_textbook.rating_field_textbook %}
+            {{ radio.tag }}
+              <label for="{{ radio.id_for_label }}">
+                {{ radio.choice_label }}
+              </label>
+            {% endfor %}
+        </span><br/>
 
-     <br/>
-     {% if request.session.account_un %}
-     <button style="margin-left:70px;" type="submit" class="save btn btn-default">Rate!</button>
-     {% else %}
-     <a class="btn btn-default" href="{% url 'login' %}">Log In and Rate</a>
-     {% endif  %}
-   </form>
+        <br/>
+        {% if request.session.account_un %}
+          <button style="margin-left:70px;" type="submit" class="save btn btn-default">Rate!</button>
+        {% else %}
+          <a class="btn btn-default" href="{% url 'login' %}">Log In and Rate</a>
+        {% endif  %}
+      </form>
 
-          </div>
+    </div>
 
   </div>
              <!--<p>Subject: {{ addcourse.subject }}</p>-->
-             <div class="current_professor">
-             <p>Average Helpfulness: {{ current_professor.helpfulness }}</p>
-             <p>Average Clarity: {{ current_professor.clarity }}</p>
-             <p>Average Easiness: {{ current_professor.easiness }}</p>
-             <p>Average Textbook: {{ current_professor.textbook }}</p>
-             <p>Times Rated: {{ current_professor.ratetimes }}</p>
-              </div>
+   <div class="current_professor">
+     <p>Average Helpfulness: {{ current_professor.helpfulness }}</p>
+     <p>Average Clarity: {{ current_professor.clarity }}</p>
+     <p>Average Easiness: {{ current_professor.easiness }}</p>
+     <p>Average Textbook: {{ current_professor.textbook }}</p>
+     <p>Times Rated: {{ current_professor.ratetimes }}</p>
+  </div>
 
- </div>
+</div>
 {% endblock content %}

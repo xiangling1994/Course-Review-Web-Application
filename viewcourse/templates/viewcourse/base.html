@@ -17,14 +17,14 @@
 
       <a href="{% url 'course_list' %}" class="brand-logo center">View Courses</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <!--<a href="{% url 'index' %}" class="waves-effect waves-light btn">{{username}}</a>-->
+
           {% if request.session.account_un %}
           <li><a href="{% url 'index' %}">{{request.session.account_un}}</a></li>
           {% else %}
           <li><a href="{%  url 'login' %}">Log In</a></li>
           {% endif  %}
+
       </ul>
-      <!--<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>-->
     </div>
   </nav>
 </header>
@@ -38,14 +38,14 @@
 
 
   <footer class="page-footer grey darken-2">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Course Review Web Application</h5>
-              <p class="grey-text text-lighten-4"></p>
-            </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Course Review Web Application</h5>
+          <p class="grey-text text-lighten-4"></p>
         </div>
+      </div>
+    </div>
   </footer>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
