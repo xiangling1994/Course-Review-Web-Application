@@ -96,6 +96,21 @@ def course_list(request):
     return render(request, 'viewcourse/course_list.html', context)
 
 
+def collection(request):
+    uni = request.GET['para']
+    selected_courses = course.objects.filter(university = uni)
+    easy_profs = []
+    helpful_profs = []
+    for a in selected_courses:
+        profs = a.professors.all()
+        for x in profs:
+            if x.easiness >= 4:
+                easy_profs.append(x)
+            if x.helpfulness >= 4:
+                    helpful_profs.append(x)
+    return render(request, 'viewcourse/collection.html', {'easy_profs':easy_profs, 'helpful_profs':helpful_profs})
+
+
 def course_detail(request, pk):
     detail = get_object_or_404(course, pk=pk)
     comments = detail.comments.all()
@@ -225,11 +240,20 @@ def rating(request, pk, profid):
             textbook_average_new = (float(rating_value_textbook) + float(textbook_db_val) * times) / (times + 1)
 
             #save new values to the database
-            professor.objects. filter(course=current_professor[0].course).update(helpfulness=helpfulness_average_new)
-            professor.objects. filter(course=current_professor[0].course).update(clarity=clarity_average_new)
-            professor.objects. filter(course=current_professor[0].course).update(easiness=easiness_average_new)
-            professor.objects. filter(course=current_professor[0].course).update(textbook=textbook_average_new)
-            professor.objects. filter(course=current_professor[0].course).update(ratetimes=times + 1)
+            #professor.objects.filter(course=current_professor[0].course).update(helpfulness=helpfulness_average_new)
+            #professor.objects.filter(course=current_professor[0].course).update(clarity=clarity_average_new)
+            #professor.objects.filter(course=current_professor[0].course).update(easiness=easiness_average_new)
+            #professor.objects.filter(course=current_professor[0].course).update(textbook=textbook_average_new)
+            #professor.objects.filter(course=current_professor[0].course).update(ratetimes=times + 1)
+
+            cp = current_professor[0]
+
+            cp.helpfulness = helpfulness_average_new
+            cp.clarity = clarity_average_new
+            cp.easiness = easiness_average_new
+            cp.textbook = textbook_average_new
+            cp.ratetimes = times + 1
+
 
             #compute criteria average
             criteria_average = (helpfulness_average_new + clarity_average_new + easiness_average_new + textbook_average_new) / 4.0
@@ -238,7 +262,9 @@ def rating(request, pk, profid):
             overall_rating_new = criteria_average
 
             #save new overall rating value to the database
-            professor.objects. filter(course=current_professor[0].course).update(rating=overall_rating_new)
+            #professor.objects.filter(course=current_professor[0].course).update(rating=overall_rating_new)
+            cp.rating = overall_rating_new
+            cp.save()
 
             return redirect('course_detail', pk=c.pk)
     else:

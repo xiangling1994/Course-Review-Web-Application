@@ -10,7 +10,6 @@
           <p>{{ detail.university }}</p>
           <p>{{ detail.subject }}</p>
           <p>{{ detail.courseid }}</p>
-          <p>Average Grade: {{ detail.grade }}</p>
         </div>
       </div>
       <div class="row" style="margin-top:100px;">
@@ -18,9 +17,9 @@
 
             <h5>Professors:</h5>
             <p style="padding-top:5px;"></p>
-    		    {% for professor in detail.professors.all %}
+    		    {% for prof in detail.professors.all %}
             <div class="detail">
-              <p><a href="{% url 'rating' pk=detail.pk profid=professor.id %}">{{ professor.full_name }}</a></p>
+              <p><a href="{% url 'rating' pk=detail.pk profid=prof.id %}">{{ prof.full_name }}</a></p>
             </div>
     		    {% empty %}
     		    <p>The list of professors is unknown :(</p>
@@ -32,9 +31,9 @@
 
             <h5>Rating:</h5>
             <p style="padding-top:5px;"></p>
-    		    {% for professor in detail.professors.all %}
+    		    {% for prof in detail.professors.all %}
             <div class="detail">
-              <p>{{ professor.rating }}</p>
+              <p>{{ prof.rating }}</p>
             </div>
     		    {% empty %}
     		    <p>The list of ratings is unknown :(</p>

@@ -1,0 +1,39 @@
+{% extends 'viewcourse/base.html' %}
+
+{% block content %}
+    <div class="row">
+      <div class="col m4">
+        <p style="padding-top:5px;"></p>
+
+          <h5>Eazy Credit Hours:</h5>
+
+             <ul class="collection with-header">
+                 {% for prof in easy_profs %}
+                  <li class="collection-item">
+                    <div>
+                      {{ prof.course.courseid }}&nbsp&nbsp&nbsp{{ prof.full_name }}<a href="{% url 'course_detail' pk=prof.course.pk %}" class="secondary-content"><i class="material-icons">send</i></a>
+                    </div>
+                  </li>
+                 {% endfor %}
+             </ul>
+             <p style="padding-top:5px;"></p>
+      </div>
+
+      <div class="col m4">
+        <p style="padding-top:5px;"></p>
+
+          <h5>Most Helpful Profs:</h5>
+
+             <ul class="collection with-header">
+                 {% for prof in helpful_profs %}
+                  <li class="collection-item">
+                    <div>
+                      {{ prof.full_name}}&nbsp&nbsp&nbsp{{ prof.course.subject }}<a href="{% url 'course_detail' pk=prof.course.pk %}" class="secondary-content"><i class="material-icons">send</i></a>
+                    </div>
+                  </li>
+                 {% endfor %}
+             </ul>
+             <p style="padding-top:5px;"></p>
+      </div>
+    </div>
+{% endblock content %}

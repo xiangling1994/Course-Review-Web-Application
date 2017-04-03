@@ -10,15 +10,15 @@
       <form id="searchform"  method="get" accept-charset="utf-8">
 
           <select class="form-control" id="university" name="university" required>
-          {% for uni in university %}
-          <option  value="{{ uni }}"{% if uni == university_pick %}selected="selected"{% endif %}>{{ uni }}</option>
-          {% endfor %}
+            {% for uni in university %}
+              <option  value="{{ uni }}"{% if uni == university_pick %}selected="selected"{% endif %}>{{ uni }}</option>
+            {% endfor %}
           </select>
 
           <select class="form-control" id="subject" name="subject">
-          {% for sub in subject %}
-          <option  value="{{ sub }}"{% if sub == subject_pick %}selected="selected"{% endif %}>{{ sub }}</option>
-          {% endfor %}
+            {% for sub in subject %}
+              <option  value="{{ sub }}"{% if sub == subject_pick %}selected="selected"{% endif %}>{{ sub }}</option>
+            {% endfor %}
           </select>
 
           <input class="searchfield" id="search_handle" name="search_handle" type="text" maxlength="100" placeholder="Enter a Course ID Number">
@@ -31,11 +31,11 @@
     <p style="padding-top:5px;"></p>
     <h5 class = "center">{{collection}}</h5>
     <ul class="collection with-header">
-    <li class="collection-item">
-    <div>
-    Featured Course Collection<a href="" class="secondary-content"><i class="material-icons">send</i></a>
-    </div>
-    </li>
+      <li class="collection-item">
+        <div>
+          Featured Course Collection<a href="/collection/?para={{ collection }}" class="secondary-content"><i class="material-icons">send</i></a>
+        </div>
+      </li>
     </ul>
     {% endif  %}
   </div>
