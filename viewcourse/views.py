@@ -14,6 +14,8 @@ from django.contrib.auth.hashers import make_password, check_password
 
 
 # Create your views here.
+
+#view to show the course list which is also the home page
 def course_list(request):
     #initial courses
     courses = None
@@ -96,11 +98,14 @@ def course_list(request):
     return render(request, 'viewcourse/course_list.html', context)
 
 
+#the view for showing the featured courses
 def collection(request):
+    #get the parameter universiity
     uni = request.GET['para']
     selected_courses = course.objects.filter(university = uni)
     easy_profs = []
     helpful_profs = []
+    #search the whole model and find the target courses
     for a in selected_courses:
         profs = a.professors.all()
         for x in profs:
@@ -111,6 +116,7 @@ def collection(request):
     return render(request, 'viewcourse/collection.html', {'easy_profs':easy_profs, 'helpful_profs':helpful_profs})
 
 
+#view to show the course detail
 def course_detail(request, pk):
     detail = get_object_or_404(course, pk=pk)
     comments = detail.comments.all()
@@ -118,6 +124,7 @@ def course_detail(request, pk):
     return render(request, 'viewcourse/course_detail.html', {'detail':detail})
 
 
+#view to agree a comment
 def agree(request, pk, cid):
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
@@ -127,19 +134,22 @@ def agree(request, pk, cid):
     course_comment = detail.comments.all()
     c = course_comment.get(id = cid)
 
+    #check if the user agree before
     if account_judges:
         for aj in account_judges:
             if aj.commentid == c.id:
                 return redirect('course_detail', pk=pk)
+    #add new judge model if the user did not
     naj = judge.objects.create(account = a, user = c.user, commentid = c.id)
 
+    #change the agree model
     a = c.agree
     c.agree = a+1
     c.save()
     response = redirect('course_detail', pk = pk)
     return response
 
-
+#view to disagree a comment
 def disagree(request, pk, cid):
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
@@ -149,12 +159,15 @@ def disagree(request, pk, cid):
     course_comment = detail.comments.all()
     c = course_comment.get(id = cid)
 
+    #check if the user disagree before
     if account_judges:
         for aj in account_judges:
             if aj.commentid == c.id:
                 return redirect('course_detail', pk=pk)
+    #add new judge model if the user did not
     naj = judge.objects.create(account = a, user = c.user, commentid = c.id)
 
+    #change the disagree model
     d = c.disagree
     c.disagree = d+1
     c.save()
@@ -162,7 +175,9 @@ def disagree(request, pk, cid):
     return response
 
 
+#view to add a new course(not be shown in the template)
 def course_new(request):
+    #post the form if it is valid
     if request.method == "POST":
         form = PostForm(request.POST)
         if form.is_valid():
@@ -174,9 +189,11 @@ def course_new(request):
     return render(request, 'viewcourse/post_edit.html', {'form': form})
 
 
+#view to create a new comment
 def comment_new(request, pk):
     username = request.session.get('account_un', None)
     c = get_object_or_404(course, pk=pk)
+    #post the form if it is valid
     if request.method == "POST":
         form = CommentForm(request.POST)
         if form.is_valid():
@@ -191,6 +208,7 @@ def comment_new(request, pk):
     return render(request, 'viewcourse/new_comment.html', {'form': form})
 
 
+#view to rate a prof of a course
 def rating(request, pk, profid):
     c = get_object_or_404(course, pk=pk)
     #course_id = course.courseid
@@ -239,13 +257,9 @@ def rating(request, pk, profid):
             easiness_average_new = (float(rating_value_easiness) + float(easiness_db_val) * times) / (times + 1)
             textbook_average_new = (float(rating_value_textbook) + float(textbook_db_val) * times) / (times + 1)
 
-            #save new values to the database
-            #professor.objects.filter(course=current_professor[0].course).update(helpfulness=helpfulness_average_new)
-            #professor.objects.filter(course=current_professor[0].course).update(clarity=clarity_average_new)
-            #professor.objects.filter(course=current_professor[0].course).update(easiness=easiness_average_new)
-            #professor.objects.filter(course=current_professor[0].course).update(textbook=textbook_average_new)
-            #professor.objects.filter(course=current_professor[0].course).update(ratetimes=times + 1)
 
+
+            #save new values to the database
             cp = current_professor[0]
 
             cp.helpfulness = helpfulness_average_new
@@ -262,7 +276,6 @@ def rating(request, pk, profid):
             overall_rating_new = criteria_average
 
             #save new overall rating value to the database
-            #professor.objects.filter(course=current_professor[0].course).update(rating=overall_rating_new)
             cp.rating = overall_rating_new
             cp.save()
 
@@ -343,6 +356,7 @@ def index(request):
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
 
+    #load the user's comments and add delete function
     comments = comment.objects.all()
     user_comments = comments.filter(user=a.username)
     if request.method == 'GET':
@@ -353,6 +367,7 @@ def index(request):
     return render(request, 'viewcourse/index.html', {'a':a, 'user_comments':user_comments})
 
 
+#view to logout
 def logout(request):
     response = redirect('login')
     #clear cookie and session
@@ -365,9 +380,11 @@ def logout(request):
     return response
 
 
+#view to change password
 def change_password(request):
     aid = request.session.get('aid', None)
     a = account.objects.get(id=aid)
+    #change the user model
     if request.method == 'POST':
         form = ChangePasswordForm(request.POST)
         if form.is_valid():
