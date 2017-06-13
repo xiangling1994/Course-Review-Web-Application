@@ -141,12 +141,9 @@ IMPLEMENTATION DOCUMENTATION
 	
 		TEMPLATES
 		
-		One of the key feature of Django is the possibility of building the front-end upon templates which will reduce the amount
-		code to write. Our application makes use different templates to easily generate HTML code for the front-end. These are the
-		following:
+		One of the key feature of Django is the possibility of building the front-end upon templates which will reduce the amount code to write. Our application makes use different templates to easily generate HTML code for the front-end. These are the following:
 		
-			- base.html: this template is the foundation of all the other templates. it encapsulates the logic for the header, the main 
-						content area and the footer. Other templates extends this template.
+			- base.html: this template is the foundation of all the other templates. it encapsulates the logic for the header, the main content area and the footer. Other templates extends this template.
 			- index.html: this template displays user profile information.
 			- change_password.html: this template displays the information needed for a password change.
 			- login.html: this template displays a form where users provide login information.
