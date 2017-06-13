@@ -1,24 +1,11 @@
-Project ID: CSCI2133-W17-P-03
 Project Title: Course Review Web Application
+
 Team Members:
 	Wenjing Zhu
-		Email: wn676459@dal.ca
-		Banner number: B00629612
-		CSIDs: wzhu
 	Xiang Ling
-		Email:  xn947387@dal.ca
-		Banner number: B00621255
-		CSIDs: xling
 	Arnold Zoundi
-		Email: ar243404@dal.ca
-		Banner number: B00584876	
-		CSIDs: zoundi
-Description: The Course Review Web Application is similar to RateMyProfessor. The difference between these two
-			applications is that RateMyProfessor focuses on professors reviews whereas our project focuses on 
-			courses reviews. Our application currently support all courses taught at Dalhousie University. 
-			However, it can easily be extended to include other universities. The purpose of this application to 
-			provide good, correct, fair and unbiased courses' information and ratings to students. These information 
-			will help students make better choices in terms of courses to match their needs for a specific semester.
+
+Description: The Course Review Web Application is similar to RateMyProfessor. The difference between these two applications is that RateMyProfessor focuses on professors reviews whereas our project focuses on courses reviews. Our application currently support all courses taught at Dalhousie University. However, it can easily be extended to include other universities. The purpose of this application to provide good, correct, fair and unbiased courses' information and ratings to students. These information will help students make better choices in terms of courses to match their needs for a specific semester.
 URL: http://rap-project-dev.us-west-2.elasticbeanstalk.com/
 Repository: https://github.com/CSCI2133RAP/rap_project
 
