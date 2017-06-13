@@ -57,8 +57,12 @@
     <p style="padding-top:5px;"></p>
     <div class="comment">
       <div class="date right">{{ comment.published_date }}</div>
-      <strong>{{ comment.user }}&nbsp&nbsp&nbsp</strong>{% if request.session.account_un %}<a class="material-icons" href="{% url 'agree' pk=detail.pk cid=comment.id %}">thumb_up</a>&nbsp{{ comment.agree }}
-      &nbsp&nbsp&nbsp<a class="material-icons" href="{% url 'disagree' pk=detail.pk cid=comment.id %}">thumb_down</a>&nbsp{{ comment.disagree }}{% else %}(Login to Agree or Disagree this comment){% endif %}
+      <strong>{{ comment.user }}&nbsp&nbsp&nbsp</strong>
+      {% if request.session.account_un %}<a class="material-icons" href="{% url 'agree' pk=detail.pk cid=comment.id %}">thumb_up</a>&nbsp{{ comment.agree }}
+      &nbsp&nbsp&nbsp<a class="material-icons" href="{% url 'disagree' pk=detail.pk cid=comment.id %}">thumb_down</a>&nbsp{{ comment.disagree }}
+      {% else %}<a class="material-icons" href="{% url 'login' %}">thumb_up</a>&nbsp{{ comment.agree }}
+      &nbsp&nbsp&nbsp<a class="material-icons" href="{% url 'login' %}">thumb_down</a>&nbsp{{ comment.disagree }}
+      {% endif %}
       <p>{{ comment.commenttext|linebreaks }}</p>
       <hr>
     </div>
